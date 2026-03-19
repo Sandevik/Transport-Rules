@@ -9,7 +9,7 @@
 - Swedish implementation: Fordonslagen (SFS 2002:574), Trafikverket TSFS
 - https://www.transportstyrelsen.se/sv/vagtrafik/Fordonsregler/Fordonsbesiktning/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

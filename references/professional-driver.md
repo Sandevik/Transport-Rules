@@ -6,7 +6,7 @@
 - SFS 2007:1470 — Lag om yrkesförarkompetens
 - SFS 2007:1471 — Förordning om yrkesförarkompetens
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

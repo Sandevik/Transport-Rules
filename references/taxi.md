@@ -6,7 +6,7 @@
 - Taxitrafikförordning (2012:238)
 - SFS 2012:1156 — Yrkestrafiklag (commercial traffic)
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

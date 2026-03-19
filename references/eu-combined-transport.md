@@ -7,7 +7,7 @@
 - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023PC0525
 - Swedish implementation: Lag (2012:210) om kombinerade transporter
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

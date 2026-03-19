@@ -6,7 +6,7 @@
 - SFS 2012:1156 — Yrkestrafiklag: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/yrkestrafiklag-20121156_sfs-2012-1156/
 - SFS 2012:237 — Yrkestrafikförordning
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

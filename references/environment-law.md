@@ -7,7 +7,7 @@
 - Förordning om miljösanktionsavgifter (SFS 2012:259)
 - https://www.naturvardsverket.se/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 
@@ -29,8 +29,9 @@ While much day-to-day transport environmental compliance is handled by EU regula
 ### Chapter 2 — General Rules of Consideration (Allmänna hänsynsregler)
 
 Every operator must:
-- Apply **best available technology (BAT)** to minimise environmental impact (2 kap. 3 §)
-- Choose the **least harmful alternative** if several options exist (2 kap. 4 §)
+- Apply **best available technology (BAT)** to minimise environmental impact — "vid yrkesmässig verksamhet användas bästa möjliga teknik" (2 kap. 3 §). Applies as soon as there is reason to assume the activity may cause harm ("så snart det finns skäl att anta").
+- **Substitution obligation** — replace hazardous chemicals/organisms with less harmful alternatives where feasible (2 kap. 4 §)
+- **Resource efficiency** — economise on raw materials and energy ("hushålla med råvaror och energi") and prefer renewable sources (2 kap. 5 §)
 - **Stop activities** that cause significant environmental damage (2 kap. 9 §)
 
 These principles apply to transport companies operating vehicle fleets, fuel storage, and maintenance facilities.
@@ -73,12 +74,19 @@ Environmental crimes relevant to transport:
 - **Not dependent on intent or negligence** — strict liability
 - Concurrent with, not a substitute for, criminal prosecution
 
-**Transport-relevant examples:**
-| Violation | Fee range |
-|-----------|----------|
-| Starting miljöfarlig verksamhet without registration | 5 000 – 50 000 SEK |
+**Transport-relevant examples (Förordning 2012:259 om miljösanktionsavgifter):**
+| Violation | Fee |
+|-----------|-----|
+| Starting miljöfarlig verksamhet without registration (anmälan) | 5 000 – 50 000 SEK |
 | Not reporting to tillsynsmyndigheten as required | 1 000 – 50 000 SEK |
 | Failure to perform required environmental measurement | 5 000 – 100 000 SEK |
+| Missing required information document with waste shipment (11 kap. 5 §) | 10 000 SEK |
+| Transporter failing to ensure documentation accompanies waste shipment (11 kap. 3 §) | 10 000 SEK |
+| Delayed notification of changed transport route (11 kap. 1 §) | 2 000 SEK |
+| Delayed submission of treatment/recovery certificates (11 kap. 2 §) | 5 000 SEK |
+| Failed preservation of waste documentation (11 kap. 6 §) | 5 000 SEK |
+
+**Key characteristic:** Miljösanktionsavgifter are strict liability — imposed without regard to intent or negligence. They can be imposed concurrently with criminal prosecution under Chapter 29.
 
 ---
 

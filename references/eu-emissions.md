@@ -10,7 +10,7 @@
 - Naturvårdsverket: https://www.naturvardsverket.se/
 - Transportstyrelsen: https://www.transportstyrelsen.se/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

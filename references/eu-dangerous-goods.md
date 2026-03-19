@@ -8,7 +8,7 @@
 - Myndigheten för samhällsskydd och beredskap (MSB): https://www.msb.se/adr
 - MSBFS 2021:4 — Swedish implementation (MSB föreskrifter om transport av farligt gods)
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

@@ -8,7 +8,7 @@
 - SFS 2004:629 — Lag om trängselskatt (congestion charge)
 - https://www.skatteverket.se/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 
@@ -33,6 +33,8 @@ The SFL governs how taxes are administered, reported, and collected in Sweden. K
 - Signals to customers that the company handles its own tax and social fees
 - Required for subcontractors — a customer using a subcontractor without F-skatt may be held liable for unpaid taxes
 - Apply via Skatteverket
+
+**F-skatt withdrawal (9 kap. 4 §):** Skatteverket may revoke F-skatt approval if the holder: fails to file returns, has unpaid taxes exceeding **half a prisbasbelopp** (approximately 27 000 SEK in 2026), or has misused the approval within two years.
 
 **Checking subcontractor F-skatt:** Always verify via Skatteverket before engaging a subcontractor: https://www.skatteverket.se/
 
@@ -60,14 +62,25 @@ Under SFL, transport companies must retain:
 
 ## 2. Energiskatt — Fuel Tax (SFS 1994:1776)
 
-### Diesel rates (indicative — subject to annual indexation)
+### Diesel rates (SFS 1994:1776, 2 kap. 1 §, verified 2026-03-19 — valid until 2026-07-01)
 
-| Fuel | Energiskatt | CO2-skatt | Total excl. VAT |
-|------|------------|-----------|----------------|
-| Diesel (standard) | ~2 100 SEK/m³ | ~2 800 SEK/m³ | ~4 900 SEK/m³ |
-| HVO100 (renewable diesel) | Reduced/exempt | Reduced | Significantly lower |
+| Fuel type | Energiskatt | CO2-skatt | Total excl. VAT |
+|-----------|------------|-----------|----------------|
+| Marked fuel (with dye, off-road) | 318 kr/m³ | 3 642 kr/m³ | **3 960 kr/m³** |
+| Unmarked, Environmental Class 1 (MK1) | 1 150 kr/m³ | 2 811 kr/m³ | **3 961 kr/m³** |
+| Unmarked, Environmental Class 2 | 1 572 kr/m³ | 2 811 kr/m³ | **4 383 kr/m³** |
+| Unmarked, Environmental Class 3 or unclassified | 1 791 kr/m³ | 2 811 kr/m³ | **4 602 kr/m³** |
 
-**Note:** Exact rates change annually via government budget. Always verify current rates with Skatteverket or the Swedish Energy Markets Inspectorate.
+**Practical conversion:** 1 m³ = 1 000 litres. MK1 (Class 1) total ≈ **3.96 kr/litre** excl. VAT.
+
+### Gaseous fuels (LNG/CNG — from 2026-07-01, 2 kap. 1 §)
+
+| Use | Energiskatt | CO2-skatt | Total |
+|-----|------------|-----------|-------|
+| Motor vehicle/vessel/aircraft | 0 öre/kWh | 31.0 öre/kWh | **31.0 öre/kWh** |
+| Other (heating) | 12.1 öre/kWh | 31.0 öre/kWh | **43.1 öre/kWh** |
+
+**Note:** Rates are adjusted annually via the government budget. Always verify current rates at Riksdagen (SFS 1994:1776) before quoting to clients.
 
 ### Tax refund for yrkestrafik (professional road transport)
 

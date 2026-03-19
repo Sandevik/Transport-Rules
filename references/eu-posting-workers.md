@@ -10,7 +10,7 @@
 - Swedish implementation: Utstationeringslagen (SFS 1999:678)
 - https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1999678-om-utstationering-av-arbetstagare_sfs-1999-678/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

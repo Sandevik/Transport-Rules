@@ -6,7 +6,7 @@
 - EU Regulation 1072/2009 — International road freight transport: https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:32009R1072
 - SFS 1998:786 — Förordning om internationella vägtransporter inom EES (Swedish implementing regulation)
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

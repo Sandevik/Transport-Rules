@@ -6,7 +6,7 @@
 - TSFS regulations and EU Directive 96/53/EG (weights and dimensions)
 - SFS 1972:435 — Lag om överlastavgift (overload fee)
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

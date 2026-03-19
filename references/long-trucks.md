@@ -9,7 +9,7 @@
 - Trafikförordningen (SFS 1998:1276), 4 kap. 17f §
 - https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

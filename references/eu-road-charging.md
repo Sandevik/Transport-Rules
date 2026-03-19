@@ -9,7 +9,7 @@
 - Directive 2019/520/EU — interoperability of electronic road toll systems (EETS recast)
 - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0520
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

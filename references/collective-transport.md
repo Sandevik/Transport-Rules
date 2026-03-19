@@ -8,7 +8,7 @@
 - SFS 1977:67 — Lag om tilläggsavgift i kollektiv persontrafik
 - TSFS 2012:2 — Transportstyrelses föreskrifter om kollektivtrafik (notification and passenger information)
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

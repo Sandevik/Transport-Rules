@@ -7,7 +7,7 @@
 - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L0719
 - Swedish implementation: Trafikförordningen (SFS 1998:1276), 4 kap.
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

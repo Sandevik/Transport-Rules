@@ -9,7 +9,7 @@
 - Commission Implementing Regulation (EU) 2021/1228 — specifications for smart tachograph v2
 - https://www.transportstyrelsen.se/sv/vagtrafik/Yrkestrafik/Kor--och-vilotider/Fardsrivare/
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

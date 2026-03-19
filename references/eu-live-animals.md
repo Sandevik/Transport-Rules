@@ -7,7 +7,7 @@
 - Jordbruksverket (Swedish Board of Agriculture): https://www.jordbruksverket.se/
 - SJVFS (Jordbruksverkets föreskrifter) — Swedish implementing regulations
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 

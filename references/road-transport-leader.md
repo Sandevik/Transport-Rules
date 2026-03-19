@@ -5,7 +5,7 @@
 - TSFS regulations on oversized transport
 - EU Directive 96/53/EG (dimensions and weights)
 
-**Last verified:** March 2026
+**Last verified: 2026-03-19**
 
 ---
 
