@@ -1,0 +1,11 @@
+jurisdiction: US-NC
+topic: road-charging
+regulation: "North Carolina state toll authority legislation"
+last_verified: "2026-05-31"
+inherits_from: null
+currency: USD
+
+toll_system_exists: true
+notes: "NC Turnpike (I-540, NC-540); state inspection for commercial vehicles"
+state_toll_authority_url: "https://www.transportation.gov/state-dot-links"
+rate_note: "Toll rates vary by facility; see individual toll authority websites for current rates"

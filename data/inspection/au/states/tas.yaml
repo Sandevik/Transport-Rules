@@ -1,0 +1,10 @@
+jurisdiction: AU-TAS
+topic: inspection
+regulation: "Tasmania vehicle inspection standards"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+annual_inspection_required: true
+inspection_conducted_by: "Authorised Inspection Stations (AIS) — state approved"
+notes: "Island state — no road trains; lower mass limits due to bridge network; ferry connections to mainland; DIER vehicle inspection; no toll roads"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation may affect AIS approval requirements"

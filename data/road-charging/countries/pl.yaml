@@ -1,0 +1,96 @@
+jurisdiction: PL
+topic: road-charging
+regulation: "Ustawa o autostradach płatnych oraz o Krajowym Funduszu Drogowym; e-TOLL system"
+last_verified: "2026-06-01"
+source_url: "https://etoll.gov.pl/en/e-toll-system/rates-and-payments/"
+source_rate_documents:
+  - "A/S roads PDF: etoll.gov.pl/media/q0udddwi/a-i-s-pl-01022026.pdf"
+  - "G/GP roads PDF: etoll.gov.pl/media/airc4o4p/g-i-gp-pl-01022026.pdf"
+inherits_from: EU
+
+system: "e-TOLL (GNSS-based electronic toll)"
+authority: "GDDKiA (Generalna Dyrekcja Dróg Krajowych i Autostrad) / KAS (Krajowa Administracja Skarbowa)"
+currency: PLN
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "All motorways (A-roads), expressways (S-roads), and selected national roads (G/GP class)"
+  note: "e-TOLL replaced viaTOLL system in 2021; network expanded 1 February 2026"
+
+# Rates effective 1 February 2026
+# Source: Official rate PDFs from etoll.gov.pl
+# All rates in PLN per km
+# Emission classes: max Euro 2 | Euro 3 | Euro 4 | min Euro 5
+# (Euro 6 vehicles fall in "min Euro 5" category — lowest rate)
+
+rates_pln_per_km:
+  # Class A and S roads (motorways and expressways)
+  motorways_and_expressways:
+    gvw_over_3_5t_under_12t:
+      max_euro_2:  0.80
+      euro_3:      0.70
+      euro_4:      0.58
+      min_euro_5:  0.41   # Euro 5 and Euro 6
+    gvw_12t_and_over:
+      max_euro_2:  1.07
+      euro_3:      0.93
+      euro_4:      0.75
+      min_euro_5:  0.56
+    buses_all_gvw:
+      max_euro_2:  0.80
+      euro_3:      0.70
+      euro_4:      0.58
+      min_euro_5:  0.41
+
+  # Class G and GP roads (main national roads — lower rate than motorways)
+  national_roads_g_gp:
+    gvw_over_3_5t_under_12t:
+      max_euro_2:  0.66
+      euro_3:      0.58
+      euro_4:      0.47
+      min_euro_5:  0.34
+    gvw_12t_and_over:
+      max_euro_2:  0.83
+      euro_3:      0.75
+      euro_4:      0.60
+      min_euro_5:  0.42
+    buses_all_gvw:
+      max_euro_2:  0.66
+      euro_3:      0.58
+      euro_4:      0.47
+      min_euro_5:  0.34
+
+# Typical reference vehicle: HGV ≥12t, Euro VI (min Euro 5 category), A/S road
+typical_reference:
+  vehicle: "HGV ≥12t, Euro VI (falls in min. Euro 5 category), motorway/expressway"
+  rate_pln_per_km: 0.56
+  rate_eur_approx: 0.13   # approximate at ~4.25 PLN/EUR exchange rate
+  note: "Same vehicle on G/GP road: 0.42 PLN/km. Older Euro ≤2 HGV on motorway: 1.07 PLN/km"
+
+# Key tolled roads (expanded network from 1 February 2026)
+tolled_roads:
+  motorways:
+    - "A1 (Gdańsk–Łódź–Gorzyczki/Czech border)"
+    - "A2 (Warsaw–Łódź–Poznań–German border)"
+    - "A4 (Kraków–Katowice–Wrocław–German border / Ukrainian border)"
+    - "A6, A8, A18"
+  expressways: "All S-class roads (S1–S17 network)"
+  national_roads: "Selected G and GP class national roads — see GDDKiA route list"
+
+payment:
+  obu_options:
+    - "GNSS OBU device (registered e-TOLL service provider)"
+    - "e-TOLL mobile app (GNSS via smartphone)"
+  account_types:
+    - "Prepaid (advance deposit)"
+    - "Postpaid (with collateral — billed within 7 business days)"
+
+enforcement: "GITD (Główny Inspektorat Transportu Drogowego) — roadside checks and fixed ANPR/DSRC gantries"
+penalty: "Administrative fine (kara administracyjna); vehicle immobilisation for repeat violations"
+
+notes: >
+  Rate table source: Official e-TOLL PDFs, effective 1 February 2026.
+  Rates in PLN/km. Euro 5 and Euro 6 vehicles are grouped in the same lowest-rate category ("min. Euro 5").
+  No further differentiation between Euro 5 and Euro 6 in the current Polish rate structure.
+  Exchange rate indicative only: 1 EUR ≈ 4.20–4.30 PLN (check current rate).
+  Network expanded significantly on 1 February 2026.

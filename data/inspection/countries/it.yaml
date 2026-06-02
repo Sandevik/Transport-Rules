@@ -1,0 +1,16 @@
+jurisdiction: IT
+topic: inspection
+regulation: "Decreto Legislativo 285/1992 (Codice della Strada) Art. 80"
+last_verified: "2026-05-31"
+source_url: "https://www.mit.gov.it"
+inherits_from: EU
+
+authority: "MIT (Ministero delle Infrastrutture e dei Trasporti) (MIT)"
+inspection_name: "Revisione (Centro revisioni)"
+approved_operators_type: "Centro revisioni autorizzato (authorized revision centre)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/it/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/it/vehicle-inspection.md"

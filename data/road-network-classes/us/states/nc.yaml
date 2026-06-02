@@ -1,0 +1,10 @@
+jurisdiction: US-NC
+topic: road-network-classes
+regulation: "North Carolina state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "NC Turnpike (I-540, NC-540); state inspection for commercial vehicles"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

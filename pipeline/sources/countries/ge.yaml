@@ -1,0 +1,39 @@
+country: Georgia
+code: ge
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: GEL
+notes: >
+  AETR signatory and EU candidate (since December 2023). AETR governs driving/rest
+  time and tachographs. Key country on the Middle Corridor (Trans-Caspian International
+  Transport Route) linking Europe to Central Asia/China via Azerbaijan-Caspian-Kazakhstan
+  or Georgia-Armenia-Iran. EU-Georgia Association Agreement and DCFTA in force.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://mtsd.gov.ge/en
+        description: Ministry of Economy and Sustainable Development of Georgia — Transport
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://mtsd.gov.ge/en
+        description: Ministry of Economy — international transport permits Georgia
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

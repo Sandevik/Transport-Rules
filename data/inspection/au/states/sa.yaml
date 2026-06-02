@@ -1,0 +1,10 @@
+jurisdiction: AU-SA
+topic: inspection
+regulation: "South Australia vehicle inspection standards"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+annual_inspection_required: true
+inspection_conducted_by: "Authorised Inspection Stations (AIS) — state approved"
+notes: "Road train routes in remote SA (north and west); HVNL participant; Department for Infrastructure and Transport vehicle inspection; no major toll roads"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation may affect AIS approval requirements"

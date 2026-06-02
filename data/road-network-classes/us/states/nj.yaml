@@ -1,0 +1,11 @@
+jurisdiction: US-NJ
+topic: road-network-classes
+regulation: "New Jersey state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_turnpike_doubles: true
+spring_weight_restrictions: false
+
+notes: "NJ Turnpike; Garden State Parkway; GWB, Goethals; turnpike doubles on NJ Turnpike; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

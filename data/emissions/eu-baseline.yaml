@@ -1,0 +1,65 @@
+jurisdiction: EU
+topic: emissions
+regulation: "Regulation (EU) 2024/1257 (Euro VII); Regulation (EU) 2024/1610 (CO2 targets for HDVs)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1257"
+inherits_from: null
+
+euro_vii:
+  regulation: "Regulation (EU) 2024/1257"
+  replaces: "Euro VI (Regulation (EC) 595/2009)"
+  application_dates:
+    N3_M3_new_type_approvals: "2027-07-01"
+    N3_M3_all_new_vehicles: "2028-07-01"
+    N1_N2_M1_M2_new_type_approvals: "2030-07-01"
+    N1_N2_M1_M2_all_new_vehicles: "2031-07-01"
+
+  emission_limits_mg_per_kwh:
+    NOx_WHTC: 90         # N3 diesel — World Harmonized Transient Cycle
+    NOx_cold_start: 90
+    PM_WHTC: 1
+    CO_WHTC: 2800
+    NMHC: 90
+    CH4: 500             # relevant for gas-powered vehicles
+    NH3_ppm: 10
+
+  durability_requirements_km:
+    N3: 700000
+    N2: 300000
+    M3: 700000
+
+  additional_requirements:
+    - "Real Driving Emissions (RDE) testing mandatory"
+    - "In-service conformity checks extended to 700,000km/8 years"
+    - "Non-exhaust particle emissions (brake/tyre) included for first time"
+    - "CO2 measurement harmonised with VECTO simulation tool"
+
+euro_vi_current:
+  note: "Euro VI still applies to vehicles registered before Euro VII dates"
+  NOx_limit_mg_per_kwh: 400
+  PM_limit_mg_per_kwh: 10
+
+co2_reduction_targets_hdv:
+  regulation: "Regulation (EU) 2024/1610"
+  baseline_year: 2019
+  reference_vehicle: "Vehicles ≥16t GVW (N3 category)"
+  targets:
+    "2030": -45    # percent reduction vs 2019 baseline
+    "2035": -65
+    "2040": -90
+  zero_emission_mandate:
+    urban_buses: "90% ZEV by 2030"
+    heavy_lorries: "Progressive mandate from 2030"
+  credits_and_penalties:
+    zev_supercredits: true
+    excess_emissions_premium_eur_per_gCO2_per_tkm: 4250
+
+low_emission_zones:
+  note: "EU does not mandate LEZ — member states set their own zones. See country files for national LEZ rules."
+  common_systems:
+    - "Germany: Umweltzonen (green badge required — Euro 4+ gasoline, Euro 6 diesel)"
+    - "Sweden: Miljözon (city-specific rules)"
+    - "UK (standalone): ULEZ, CAZ — see gb.yaml"
+    - "Netherlands: ZE zones from 2025 in 30+ cities"
+    - "France: ZFE-m (low-emission zones) in cities >150,000 population"
+    - "Italy: ZTL zones in historic city centres"

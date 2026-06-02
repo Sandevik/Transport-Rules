@@ -1,0 +1,36 @@
+jurisdiction: FI
+topic: dimensions-weights
+regulation: "Finnish Road Traffic Act (267/1981 as amended); Government Decree on Vehicle Dimensions and Weights (407/2013 as amended)"
+last_verified: "2026-05-31"
+source_url: "https://www.traficom.fi/en/transport/road/vehicle-dimensions-and-masses"
+inherits_from: EU
+
+overrides:
+  height_m: 4.4              # Finland allows 4.4m (vs EU common 4.0m)
+  ems_length_m: 34.5         # Nordic HCT (High Capacity Transport) — 34.5m allowed on most network
+  max_gvw_t: 76              # Finland's maximum for multi-axle HCT combinations
+  ems_standard_length_m: 25.25
+
+hct_high_capacity_transport:
+  max_length_m: 34.5
+  max_gvw_t: 76
+  applies_on: "Most of national road network (Väylävirasto maintains approved network)"
+  exclusions: "Some municipal roads and bridges; check network map"
+  note: "76t HCT allowed since 2013 to support forestry and heavy industry transport"
+  network_url: "https://vayla.fi/tieverkko/erikoiskuljetukset"
+
+standard_international:
+  max_gvw_t: 40              # EU rules apply for cross-border transport
+  note: "Nordic exception (76t) only applies domestically; cross-border follows EU 96/53/EC"
+
+axle_loads_t:
+  single_non_driving: 10
+  single_driving: 11.5       # same as EU baseline
+  bogie_driving_pneumatic: 20  # higher than EU for pneumatic suspension HCT
+  note: "Higher axle loads possible for HCT combinations with specific axle configurations"
+
+seasonal:
+  spring_thaw_restriction: "Kelirikko — weight restrictions on Class III/IV roads"
+  period_approx: "March – May (varies by latitude; later in north)"
+  check_url: "https://www.vayla.fi/kelirikkorajoitukset"
+  effect: "Reduced weight limits on affected roads; some roads closed to heavy traffic"

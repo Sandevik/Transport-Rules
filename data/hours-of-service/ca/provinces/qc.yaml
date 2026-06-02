@@ -1,0 +1,9 @@
+jurisdiction: CA-QC
+topic: hours-of-service
+regulation: "Quebec Commercial Vehicle Act / Motor Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+has_intrastate_variations: true
+notes: "Spring weight restrictions among most comprehensive in Canada (March–May); A-25 and A-30 bridge concessions (toll); SAAQ (Société de l'assurance automobile du Québec) vehicle inspection; French-language regulations; unique permit system for oversize"
+note: "Remote/Arctic operations may have specific exemptions. Check provincial regulations."

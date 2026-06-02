@@ -1,0 +1,16 @@
+jurisdiction: AT
+topic: inspection
+regulation: "Kraftfahrgesetz (KFG); §57a KFG"
+last_verified: "2026-05-31"
+source_url: "https://www.bmk.gv.at"
+inherits_from: EU
+
+authority: "Bundesministerium für Klimaschutz (BMAW)"
+inspection_name: "§57a KFG Begutachtung (Pickerl)"
+approved_operators_type: "Bevollmächtigte Werkstätte (accredited garage with §57a authorisation)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/at/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/at/vehicle-inspection.md"

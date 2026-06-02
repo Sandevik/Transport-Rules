@@ -1,0 +1,47 @@
+jurisdiction: EU
+topic: road-charging
+regulation: "Directive 1999/62/EC (Eurovignette) as amended by Directive (EU) 2022/362; EETS Directive 2019/520/EU"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L0362"
+inherits_from: null
+
+eurovignette_framework:
+  applies_to: "Vehicles ≥12t GVW on Trans-European Road Network (TERN) and tolled motorways"
+  extended_to: "Vehicles >3.5t GVW where member states choose (2022/362 allows extension)"
+  principle: "User pays + polluter pays"
+
+charge_types:
+  infrastructure_charge:
+    description: "Distance-based toll reflecting infrastructure construction/maintenance/operations cost"
+    basis: "Per kilometre; varies by vehicle class and time of day"
+    external_cost_surcharge:
+      co2_included: true     # from 2023 amendment
+      noise_surcharge_optional: true
+      air_pollution_surcharge_mandatory: true
+
+  time_based_vignette:
+    description: "Flat-rate period-based access charge (alternative to distance toll)"
+    permitted: true
+    note: "Member states may use vignettes as alternative to distance tolls (e.g., Austria for lighter trucks)"
+
+emission_class_differentiation:
+  mandatory: true
+  basis: "Euro emission class — Euro VI pays lowest rate; older vehicles pay more"
+  principle: "Cleaner vehicles pay less; no cross-subsidy between clean and polluting"
+
+eets_european_electronic_tolling_service:
+  regulation: "2019/520/EU"
+  goal: "Single contract/OBU covers all EU toll systems"
+  implementation: "Progressive — major service providers must offer EETS"
+  obu: "On-board unit compatible with DSRC (5.8GHz microwave) and/or GNSS"
+
+member_state_discretion:
+  can_exempt:
+    - "Vehicles used by armed forces"
+    - "Emergency vehicles"
+    - "Zero-emission vehicles (ZEV discount up to 75% allowed)"
+  must_not:
+    - "Discriminate based on nationality of operator or vehicle registration"
+    - "Charge for same road twice (double-charging prohibition)"
+
+note: "Each country operates its own toll system within this EU framework. See road-charging/countries/ for national rates."

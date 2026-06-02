@@ -1,0 +1,91 @@
+jurisdiction: HU
+topic: road-charging
+regulation: "Act LXVII of 2013 on motorway tolls (2013. évi LXVII. törvény); HU-GO system regulations"
+last_verified: "2026-06-01"
+source_url: "https://www.hu-go.hu/?language=eng"
+inherits_from: EU
+
+system: "HU-GO (Útdíjfizetési rendszer — GNSS-based distance toll)"
+authority: "NKHT (Nemzeti Közlekedési Hatóság Zrt.) / NTPS (National Toll Payment Service)"
+currency: HUF
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "Motorways (autópályák — M-roads), expressways (autóutak), and selected national roads"
+  note: "GNSS-based OBU required"
+
+# HU-GO rates differentiated by:
+#   - Vehicle category (axle count: 2-axle, 3-axle, 4-axle, 5+ axle)
+#   - Euro emission class (J1–J5: J1 = Euro 0, J5 = Euro V+)
+#   - Road category (motorway vs national road)
+#
+# Approximate rates (HUF/km) — based on published NKHT rate schedules
+# Note: Hungarian HUF rates are periodically revised; verify at hu-go.hu
+# Exchange rate indicative: 1 EUR ≈ 385–400 HUF (2025/2026)
+
+rates_huf_per_km:
+  # Motorways and expressways (M and autóút roads)
+  motorways:
+    two_axle:
+      j1_euro_0:       62
+      j2_euro_i_ii:    55
+      j3_euro_iii:     50
+      j4_euro_iv:      44
+      j5_euro_v_plus:  36
+    three_axle:
+      j1_euro_0:       89
+      j2_euro_i_ii:    79
+      j3_euro_iii:     72
+      j4_euro_iv:      63
+      j5_euro_v_plus:  52
+    four_axle:
+      j1_euro_0:       107
+      j2_euro_i_ii:    95
+      j3_euro_iii:     86
+      j4_euro_iv:      75
+      j5_euro_v_plus:  62
+    five_plus_axle:
+      j1_euro_0:       122
+      j2_euro_i_ii:    108
+      j3_euro_iii:     98
+      j4_euro_iv:      86
+      j5_euro_v_plus:  71
+
+  # National roads (nem autópálya / főút)
+  national_roads:
+    two_axle:
+      j5_euro_v_plus:  27
+    five_plus_axle:
+      j5_euro_v_plus:  55
+    note: "Lower rates on national roads vs motorways"
+
+rates_eur_per_km_approx:
+  motorway_5axle_euro_vi: 0.18   # ~71 HUF at 400 HUF/EUR
+  motorway_5axle_euro_0:  0.31   # ~122 HUF
+  note: "EUR equivalents are approximate; calculate using current exchange rate"
+
+typical_reference:
+  vehicle: "5-axle articulated HGV, Euro VI (J5 class), motorway"
+  rate_huf_per_km: 71
+  rate_eur_approx: 0.18
+  note: "Same vehicle, Euro 0: 122 HUF/km (~0.31 EUR/km)"
+
+obu:
+  required: true
+  type: "GNSS OBU"
+  providers:
+    - "HU-GO OBU (national)"
+    - "EETS-compatible providers"
+  registration: "hu-go.hu or authorized EETS provider"
+
+enforcement:
+  authority: "NKHT roadside controllers and ANPR gantries"
+  penalty: "Administrative fine; vehicle immobilisation for non-payment"
+
+notes: >
+  Rate values are indicative based on published NKHT HU-GO tariff schedules.
+  Exact current rates should be verified at hu-go.hu (toll calculator available).
+  HUF amounts fluctuate in EUR terms with exchange rate movements.
+  Euro VI vehicles fall in the J5 emission category (minimum toll).
+  The HU-GO system uses GNSS positioning; OBU must be correctly fitted and activated.
+  Hungary also has a separate e-vignette (matrica) for passenger cars — not applicable to HGVs.

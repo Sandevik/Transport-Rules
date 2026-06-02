@@ -1,0 +1,8 @@
+jurisdiction: US-KS
+topic: dimensions-weights
+regulation: "Kansas state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Kansas Turnpike (I-335) tolled; allows triples and turnpike doubles on Turnpike"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,8 @@
+jurisdiction: US-NE
+topic: dimensions-weights
+regulation: "Nebraska state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Allows triple trailers on I-80 corridor; no mandatory inspection; no tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

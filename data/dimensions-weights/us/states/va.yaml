@@ -1,0 +1,8 @@
+jurisdiction: US-VA
+topic: dimensions-weights
+regulation: "Virginia state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "I-66/I-95/I-495 Express Lanes; Dulles Toll Road; Chesapeake Bay Bridge-Tunnel; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,10 @@
+jurisdiction: CA-YT
+topic: road-network-classes
+regulation: "Yukon highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: true
+notes: "Arctic territory; limited road network; Alaska Highway; spring restrictions (ice roads thawing); significant seasonal road conditions; intrastate HOS variations for remote operations; vehicle inspection program"

@@ -1,0 +1,8 @@
+jurisdiction: CA-NL
+topic: dimensions-weights
+regulation: "Newfoundland and Labrador highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Island province (Newfoundland) + mainland Labrador; ferry connections; spring restrictions; logging roads in Labrador; limited road network; no toll roads"

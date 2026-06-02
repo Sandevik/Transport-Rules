@@ -1,0 +1,96 @@
+country: Spain
+code: es
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: MITMA (Ministerio de Transportes, Movilidad y Agenda Urbana)
+  primary_url: https://www.transportes.gob.es/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportes.gob.es/
+      description: MITMA — Spanish Ministry of Transport
+      type: official
+    - url: https://www.dgt.gob.es/
+      description: DGT — Dirección General de Tráfico (traffic enforcement)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.transportes.gob.es/
+      description: MITMA — toll road information
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mitma.gob.es/transporte-terrestre/transporte-por-carretera/ordenacion-del-transporte/tacografo
+      description: MITMA — Tacógrafo Spain
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.dgt.es/es/el-trafico/itv/
+      description: DGT — ITV Spain
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mitma.gob.es/transporte-terrestre/formacion-profesional/cap
+      description: MITMA — CAP (CPC) Spain
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mitma.gob.es/transporte-terrestre/transporte-por-carretera/mercancias-peligrosas
+      description: MITMA — Mercancías peligrosas ADR Spain
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/
+      description: MITECO — Calidad del aire Spain
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mites.gob.es/
+      description: MITES — desplazamiento trabajadores Spain
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mitma.gob.es/transporte-terrestre/transporte-por-carretera/transporte-combinado
+      description: MITMA — Transporte combinado Spain
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mapa.gob.es/es/ganaderia/temas/sanidad-animal-higiene-ganadera/sanidad-animal/transporte/
+      description: MAPA — Transporte animales vivos Spain
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mitma.gob.es/transporte-terrestre/transporte-por-carretera/ordenacion-del-transporte/masas-y-dimensiones
+      description: MITMA — Masas y dimensiones Spain
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mitma.gob.es/transporte-terrestre/transporte-por-carretera/ordenacion-del-transporte/autorizaciones
+      description: MITMA — Autorizaciones transport Spain
+      type: official
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.dgt.es/en/el-trafico/carreteras/
+      description: DGT — traffic restrictions
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official

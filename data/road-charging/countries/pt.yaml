@@ -1,0 +1,92 @@
+jurisdiction: PT
+topic: road-charging
+regulation: "Decreto-Lei n.º 111/2011; portagens concession contracts; Directive 2022/362/EU transposed"
+last_verified: "2026-06-01"
+source_url: "https://www.pttolls.com/en"
+inherits_from: EU
+
+system: "Via Verde / PT Tolls electronic toll collection (concession motorways)"
+authority: "Infraestruturas de Portugal (IP) / individual concessionaires"
+currency: EUR
+
+applies_to:
+  vehicle_gvw_t_min: 3.5   # class 3+ vehicles
+  road_types: "Motorways (A-roads / autoestradas) and some bridges"
+  note: "Most Portuguese motorways are tolled; no free parallel alternatives on many routes"
+
+# Portuguese toll rates are set per concession and vary by:
+#   - Vehicle class (axle count)
+#   - Specific motorway section / concessionaire
+#
+# Vehicle classes:
+#   Class 3: 2-axle HGV >3.5t (1 trailer axle: class 4; 2+ trailer axles: class 5)
+#   Class 4: 3-axle combination
+#   Class 5: 4-axle combination
+#   Class 6: 5+ axle combination (typical 5-axle artic)
+#
+# Average indicative rates for trucks (EUR/km) by class:
+
+vehicle_classes:
+  class_3_2axle:
+    description: "2-axle HGV or 3-axle bus"
+    avg_rate_eur_per_km: 0.076
+  class_4_3axle:
+    description: "3-axle combination"
+    avg_rate_eur_per_km: 0.110
+  class_5_4axle:
+    description: "4-axle combination"
+    avg_rate_eur_per_km: 0.135
+  class_6_5plus_axle:
+    description: "5+ axle combination (standard 40t artic)"
+    avg_rate_eur_per_km: 0.160
+    note: "Typical range 0.13–0.20 EUR/km depending on route and concessionaire"
+
+# Key concessionaires
+concessionaires:
+  - name: "Ascendi"
+    routes: ["A3 (Porto–Braga–Valença)", "A4 (Porto–Amarante)", "A11", "A24", "A25"]
+  - name: "Brisa"
+    routes: ["A1 (Lisbon–Porto)", "A2 (Lisbon–Algarve)", "A5", "A6", "A9", "A12"]
+  - name: "Lusoponte"
+    routes: ["Vasco da Gama Bridge", "25 de Abril Bridge (Lisboa)"]
+  - name: "Globalvia Portugal"
+    routes: ["A10", "A13", "A13-1", "A33"]
+  - name: "Vialivre / Via Verde"
+    routes: "Electronic tolling + some concessions"
+
+# Indicative rates on key routes (Class 6 = 5-axle artic, EUR/km)
+key_routes:
+  A1_Lisbon_Porto:
+    distance_km: 314
+    class_6_total_eur_approx: 48
+    class_6_avg_eur_per_km: 0.153
+  A2_Lisbon_Algarve:
+    distance_km: 280
+    class_6_total_eur_approx: 42
+    class_6_avg_eur_per_km: 0.150
+  A25_Aveiro_Spanish_border:
+    distance_km: 170
+    class_6_total_eur_approx: 25
+    class_6_avg_eur_per_km: 0.147
+
+emission_class_differentiation:
+  applicable: false
+  note: "Portuguese motorway tolls are not differentiated by Euro emission class (as of 2026)"
+
+payment:
+  via_verde_transponder:
+    description: "Via Verde electronic tag — main system for regular users"
+    interoperability: "EETS-compatible"
+  easytoll:
+    description: "EASYToll — for foreign/occasional visitors; register online before entry"
+    url: "https://www.pttolls.com/en"
+  card_payment: "At toll booths (unmanned electronic or staffed)"
+  anpr_invoice: "Automatic plate recognition; invoice sent to registered keeper"
+
+notes: >
+  Portugal has one of the densest tolled motorway networks in Europe — most A-roads are tolled.
+  Rates are set per concession section; no national uniform per-km rate.
+  Via Verde transponder strongly recommended for regular operators.
+  EASYToll is the recommended pre-registration option for foreign HGV operators.
+  Several formerly free roads (ex-SCUT — 'semiprivate' toll-free roads) have become tolled.
+  For exact section rates use the toll calculator at portagens.infraestruturasdeportugal.pt

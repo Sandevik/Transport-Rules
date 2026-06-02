@@ -1,0 +1,60 @@
+country: Turkey
+code: tr
+eu_member: false
+eea_member: false
+aetr_signatory: true
+framework_tier: 2
+currency: TRY
+notes: 'AETR signatory. AETR governs driving/rest time only. All other topics (licensing,
+  dimensions, tolls, TIR permits) are standalone Turkish national rules.
+
+  '
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+    - url: https://www.uab.gov.tr
+      description: UAB — Turkish Ministry of Transport and Infrastructure
+      type: official
+  transit-permits:
+    standalone: true
+    sources:
+    - url: https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/english/tir-system
+      description: Turkish Ministry of Trade — TIR system information
+      type: official
+  tachograph:
+    aetr_baseline_applies: true
+    sources:
+    - url: https://www.ubak.gov.tr/
+      description: T.C. Ulaştırma Bakanlığı — tachograph Turkey
+      type: official
+  vehicle-inspection:
+    standalone: true
+    sources:
+    - url: https://www.ubak.gov.tr/
+      description: T.C. Ulaştırma — araç muayenesi Turkey
+      type: official
+  professional-driver:
+    standalone: true
+    sources:
+    - url: https://www.ubak.gov.tr/
+      description: T.C. Ulaştırma — SRC Turkey
+      type: official
+  dangerous-goods:
+    standalone: true
+    sources:
+    - url: https://www.ubak.gov.tr/
+      description: T.C. Ulaştırma — ADR Turkey
+      type: official
+  dimensions-weights:
+    standalone: true
+    sources:
+    - url: https://www.ubak.gov.tr/
+      description: T.C. Ulaştırma — araç boyut Turkey
+      type: official
+  commercial-license:
+    standalone: true
+    sources:
+    - url: https://www.ubak.gov.tr/
+      description: T.C. Ulaştırma — yetki belgesi Turkey
+      type: official

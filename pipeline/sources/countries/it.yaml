@@ -1,0 +1,93 @@
+country: Italy
+code: it
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: MIT (Ministero delle Infrastrutture e dei Trasporti)
+  primary_url: https://www.mit.gov.it/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/en/
+      description: MIT — Italian Ministry of Infrastructure and Transport
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.autostrade.it/en/
+      description: Autostrade per l'Italia — main motorway toll operator
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — tachigrafo Italy
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — revisione veicoli Italy
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — CPC Italy
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — ADR merci pericolose Italy
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mase.gov.it/
+      description: MASE — emissioni Italy
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.lavoro.gov.it/
+      description: Ministero del Lavoro — distacco Italy
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — trasporto combinato Italy
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.salute.gov.it/portale/temi/p2_6.jsp?id=4330
+      description: Ministero della Salute — animali vivi Italy
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — masse e dimensioni Italy
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mit.gov.it/
+      description: MIT — licenza comunitaria Italy
+      type: official
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.mit.gov.it
+      description: MIT — annual driving ban calendar
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official

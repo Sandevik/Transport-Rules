@@ -1,0 +1,56 @@
+jurisdiction: EU
+topic: posting-workers
+regulation: "Directive 96/71/EC (Posting of Workers) as amended by 2018/957/EU; Directive 2020/1057/EU (transport-specific rules)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020L1057"
+inherits_from: null
+
+transport_specific_rules:
+  regulation: "2020/1057/EU (lex specialis for road transport)"
+  replaces_general_directive_for: "Drivers performing road transport of goods or passengers"
+
+  cabotage_posting:
+    applies: true
+    note: "Drivers performing cabotage operations are considered posted workers from day 1"
+    declaration_required: true
+
+  bilateral_transit_exemption:
+    bilateral_transport_exempt: true
+    transit_exempt: true
+    note: "Bilateral transport (origin or destination in employer's member state) and transit are NOT posting"
+
+  third_country_transit_exemption:
+    exempt: true
+    note: "Transit through a member state where driver performs no loading/unloading is not posting"
+
+  combined_transport_exemption:
+    road_leg_only_exempt: true
+    note: "Road leg of combined transport (rail+road, sea+road) is not posting if road leg is short"
+
+declaration_requirements:
+  imi_system: "IMI (Internal Market Information System)"
+  declaration_before_posting: true
+  content_required:
+    - driver_identity
+    - employer_details
+    - posting_start_and_end_dates
+    - host_country_minimum_wage_commitment
+  document_in_vehicle:
+    - posting_declaration_copy
+    - employment_contract_or_equivalent
+    - tachograph_data_available_electronically
+    - payslips_or_pay_records
+
+minimum_wage_obligation:
+  applies_to_cabotage: true
+  minimum_paid: "host country statutory or collectively bargained minimum wage"
+  reference: "Directive 2018/957/EU Art. 3 — hard core of terms and conditions"
+
+enforcement:
+  host_state_may_check: true
+  cooperation_via_imi: true
+  penalties_for_non_declaration: "determined by host member state"
+  note: "Employer in home state responsible for ensuring compliance in host state"
+
+national_declarations:
+  note: "Many member states have specific posting declaration portals. See country files: de.yaml, fr.yaml, be.yaml, nl.yaml, pl.yaml, at.yaml"

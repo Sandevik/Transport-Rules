@@ -1,0 +1,10 @@
+jurisdiction: CA-ON
+topic: road-network-classes
+regulation: "Ontario highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: false
+notes: "Spring weight restrictions March–April (typical); Highway 407 ETR private toll; MTO (Ministry of Transportation Ontario) vehicle inspection at licensed facilities; largest truck fleet in Canada"

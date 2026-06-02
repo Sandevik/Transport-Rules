@@ -1,0 +1,87 @@
+country: Slovakia
+code: sk
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: NSAT (Národný Správca Autostrád a Rýchlostných Ciest)
+  primary_url: https://nsat.sk/en/home/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mindop.sk/en/
+      description: Ministry of Transport Slovakia
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.emyto.sk/en
+      description: e-MYTO — Slovak electronic toll system for HGVs
+      type: official
+  posting-declaration:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ip.gov.sk/road-transport-posting-declarations-2/
+      description: National Labour Inspectorate — road transport posting declarations
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.sk/
+      description: MDaSR — tachograf Slovakia
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.sk/
+      description: MDaSR — STK Slovakia
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.sk/
+      description: MDaSR — CPC Slovakia
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.mk/
+      description: MDaSR — ADR Slovakia
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mzp.sk/
+      description: MŽP — emisie Slovakia
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ip.gov.sk/
+      description: NIP — vysielanie Slovakia
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.sk/
+      description: MDaSR — kombinovaná doprava Slovakia
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.svps.sk/
+      description: ŠVPS — transport zvierat Slovakia
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.sk/
+      description: MDaSR — rozmery a hmotnosti Slovakia
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdsr.sk/
+      description: MDaSR — licencia dopravcu Slovakia
+      type: official

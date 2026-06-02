@@ -1,0 +1,11 @@
+jurisdiction: US-IA
+topic: road-network-classes
+regulation: "Iowa state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Spring weight restrictions March–April; Iowa allows 105,500 lbs on non-Interstate with permit"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

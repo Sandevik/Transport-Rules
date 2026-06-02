@@ -1,0 +1,11 @@
+jurisdiction: US-AK
+topic: road-network-classes
+regulation: "Alaska state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Arctic conditions; seasonal weight restrictions in spring/summer on secondary roads"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

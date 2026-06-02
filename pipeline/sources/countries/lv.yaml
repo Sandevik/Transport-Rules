@@ -1,0 +1,84 @@
+country: Latvia
+code: lv
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: CSDD (Ceļu satiksmes drošības direkcija / Road Traffic Safety Directorate)
+  primary_url: https://www.csdd.lv/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/en/
+      description: CSDD — Road Traffic Safety Directorate Latvia
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.csdd.lv/en/road-traffic/road-user-charge-vignette/
+      description: CSDD — Road user charge vignette information
+      type: official
+    - url: https://lvvignette.eu
+      description: LV Vignette — purchase portal for Latvian vignette
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — tachograph Latvia
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — tehniskā apskate Latvia
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — CPC Latvia
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — ADR Latvia
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vvd.gov.lv/
+      description: VVDZ — Environmental Bureau Latvia
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vid.gov.lv/
+      description: VID — posted workers Latvia
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — combined transport Latvia
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.pvd.gov.lv/
+      description: PVD — animal transport Latvia
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — dimensions and weights Latvia
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.csdd.lv/
+      description: CSDD — licences Latvia
+      type: official

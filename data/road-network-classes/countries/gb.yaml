@@ -1,0 +1,48 @@
+jurisdiction: GB
+topic: road-network-classes
+regulation: "Road Traffic Act 1988; Road Vehicles (Authorised Weight) Regulations 1998 (SI 1998/3111); Road Vehicles (Construction and Use) Regulations 1986; Special Types General Order 2003 (STGO SI 2003/1998)"
+last_verified: "2026-05-31"
+source_url: "https://www.gov.uk/government/collections/abnormal-loads"
+inherits_from: null
+
+system_name: "UK Bridge Structural Weight Restrictions + STGO Categories"
+description: "UK has no BK-style road class system. Standard vehicle weight limits apply nationally (no road class variation). Individual bridge/route weight restrictions are posted where structures cannot support standard limits. Heavy abnormal loads use STGO categories."
+
+standard_limits:
+  max_gvw_t: 44              # 6-axle articulated
+  max_gvw_4_axle_t: 40
+  max_length_m: 18.75
+  max_width_m: 2.55
+  note: "UK retained EU-equivalent weight limits as domestic law post-Brexit"
+
+bridge_and_route_restrictions:
+  mechanism: "Individual bridge/route weight limits signed in tonnes (e.g., '7.5T' or '40T')"
+  legal_basis: "Highways Act 1980 Section 59; Road Traffic Regulation Act 1984"
+  assessment_standard: "BD 86 (Design Manual for Roads and Bridges — Bridge Assessment)"
+  threshold_for_restriction_t: 7.5   # restrictions only imposed on routes with weak structures
+  enforcement: "Police and local highway authority"
+  note: "Structural weight limit signs must be obeyed; fines and liability for damage apply"
+
+stgo_categories:
+  Cat_1:
+    max_gvw_t: 80
+    max_width_m: 5.0
+    max_length_m: 30.0
+    requirements: "Notify highway authorities (Section 59 agreement); minimum 2 days notice"
+    pilot_vehicle: "Required if width >3.5m or length >25.9m"
+  Cat_2:
+    max_gvw_t: 150
+    requirements: "Notify highway authorities AND police; 5 days advance notice"
+    pilot_vehicle: "Required"
+    police_escort: "Depends on dimensions"
+  Cat_3:
+    max_gvw_t: null
+    requirements: "Secretary of State individual order; full route survey; police escort"
+    advance_notice_months: 3
+
+authorised_weights_amendment:
+  note: "Road Vehicles (Authorised Weight) (Amendment) Regulations 2023 updated some multi-axle limits"
+
+authority: "DVSA (Driver and Vehicle Standards Agency) — standards; Local Highways Authorities — bridge restrictions; National Highways — motorway/trunk roads"
+
+weekend_bans: null   # UK has no general HGV weekend bans (unlike EU neighbours)

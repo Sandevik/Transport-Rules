@@ -1,0 +1,9 @@
+jurisdiction: CA-NU
+topic: hours-of-service
+regulation: "Nunavut Commercial Vehicle Act / Motor Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+has_intrastate_variations: true
+notes: "Most remote territory; almost no permanent roads (cargo by sea/air); ice roads in winter only; Arctic-specific HOS deviations; vehicle inspection where applicable; no toll roads"
+note: "Remote/Arctic operations may have specific exemptions. Check provincial regulations."

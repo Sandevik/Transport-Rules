@@ -1,0 +1,14 @@
+jurisdiction: IT
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/it/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.autostrade.it"
+inherits_from: EU
+
+system: "Autostrade (telepass)"
+authority: "Autostrade per l'Italia + concessions"
+currency: EUR
+applies_to: "National motorway network (autostrade)"
+notes: "Per-distance tolls; Telepass transponder. Heavy trucks pay higher rates by axle count."
+
+rates: "See references/countries/it/tolls.md for current rate tables — rates updated frequently"

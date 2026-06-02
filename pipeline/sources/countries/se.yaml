@@ -1,0 +1,219 @@
+country: Sweden
+code: se
+eu_member: true
+eea_member: true
+aetr_signatory: true
+framework_tier: 1
+currency: SEK
+authorities:
+  primary: Transportstyrelsen
+  primary_url: https://www.transportstyrelsen.se/en/
+notes: 'EU member state and AETR signatory. EU baseline regulations apply for driving/rest,
+  tachograph, and most professional transport topics. Sweden has significant national
+  legislation covering BK road-bearing classes, long vehicle combinations (EMS/LCV
+  up to 34.5m), transport dispensation, professional driver competence, taxi rules,
+  company control requirements, and environmental law (Miljöbalken). Swedish national
+  rules often exceed EU minimums.
+
+  '
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportstyrelsen.se/en/road/Professional-transport/Driving-and-rest-times/
+      description: Transportstyrelsen — Driving and rest times (English)
+      type: official
+    - url: https://www.transportstyrelsen.se/sv/vag/yrkestrafik/korkorts--och-yrkesforarkompetens/kork-och-vilotid/
+      description: Transportstyrelsen — Kör- och vilotid (Swedish)
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    national_deviations: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/matt-och-vikt/
+      description: Transportstyrelsen — Mått och vikt
+      type: official
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/matt-och-vikt/bkklasser/
+      description: Transportstyrelsen — BK-klasser (bearing capacity classes)
+      type: official
+  bk-bearing-classes:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/matt-och-vikt/bkklasser/
+      description: Transportstyrelsen — BK1, BK2, BK3, BK4 road bearing classes
+      type: official
+    - url: https://www.trafikverket.se/for-dig-i-branschen/Vag1/bk-klasser/
+      description: Trafikverket — BK class road information
+      type: official
+  long-trucks:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/matt-och-vikt/langa-fordon/
+      description: Transportstyrelsen — Långa fordon (EMS/LCV up to 34.5m)
+      type: official
+  transport-dispensation:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/dispenser/
+      description: Transportstyrelsen — Transportdispens (exceptional load permits)
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/yrkestrafik/korkorts--och-yrkesforarkompetens/yrkesforarkompetens/
+      description: Transportstyrelsen — Yrkesförarutbildning / Driver CPC Sweden
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tillstand-och-tillsyn/tillstand/
+      description: Transportstyrelsen — Tillstånd (transport operator licence)
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/yrkestrafik/korkorts--och-yrkesforarkompetens/kork-och-vilotid/fardskrivare/
+      description: Transportstyrelsen — Färdskrivare (tachograph)
+      type: official
+  working-time:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/yrkestrafik/korkorts--och-yrkesforarkompetens/kork-och-vilotid/arbetstid/
+      description: Transportstyrelsen — Arbetstid för mobila arbetstagare i vägtransportsektorn
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/sanktionsavgifter/
+      description: Transportstyrelsen — Sanktionsavgifter (sanctions and penalties)
+      type: official
+  company-control:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tillstand-och-tillsyn/tillsyn/
+      description: Transportstyrelsen — Tillsyn / företagskontroll
+      type: official
+  taxi:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tillstand-och-tillsyn/tillstand/taxitrafik/
+      description: Transportstyrelsen — Taxitrafiktillstånd
+      type: official
+  light-vehicles:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/
+      description: Transportstyrelsen — Yrkestrafik lätta fordon
+      type: official
+  road-transport-leader:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/yrkestrafik/korkorts--och-yrkesforarkompetens/yrkesforarkompetens/
+      description: Transportstyrelsen — Trafikansvarig (road transport manager)
+      type: official
+  international-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/internationell-yrkestrafik/
+      description: Transportstyrelsen — Internationell yrkestrafik
+      type: official
+  exceptions:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/undantag/
+      description: Transportstyrelsen — Undantag från yrkestrafiktillstånd
+      type: official
+  environment-law:
+    standalone: true
+    sources:
+    - url: https://www.naturvardsverket.se/
+      description: Naturvårdsverket — Environmental regulations affecting transport
+      type: official
+    - url: https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/miljobalk-1998808_sfs-1998-808
+      description: Riksdagen — Miljöbalken (Environmental Code)
+      type: official
+  tax-procedures:
+    standalone: true
+    sources:
+    - url: https://www.skatteverket.se/foretag/skatterochavdrag/fordonsskatt.4.html
+      description: Skatteverket — Fordonsskatt (vehicle tax)
+      type: official
+    - url: https://www.transportstyrelsen.se/sv/vag/Fordon/fordonsavgifter/
+      description: Transportstyrelsen — Fordonsavgifter
+      type: official
+  collective-transport:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/linjetrafik/
+      description: Transportstyrelsen — Linjetrafik och kollektivtrafik
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Fordon/fordonsregler/Vinterdack/
+      description: Transportstyrelsen — vinterdäck
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/dispenser/
+      description: National oversize load permit authority
+      type: official
+  collective-agreement-transport:
+    standalone: true
+    sources:
+    - url: https://www.akeri.se/branschinformation/avtal-och-regler/abv/
+      description: Sveriges Åkeriföretag — Transportavtalet and ABV (collective agreement
+        between SÅ and Svenska Transportarbetareförbundet; wages, OB, traktamente,
+        overtime, sick pay, pension via Fora/SAF-LO)
+      type: official
+    - url: https://www.skatteverket.se/privat/skatter/arbeteochinkomst/traktamente.4.html
+      description: Skatteverket — traktamente tax-free rates (domestic SEK 241/night;
+        international by country table updated annually)
+      type: official
+    - url: https://www.forsakringskassan.se/foretag/sjuklon
+      description: Försäkringskassan — sjuklön employer obligation (days 2–14 at 80%;
+        FK sjukpenning from day 15)
+      type: official
+    - url: https://www.fora.se/
+      description: Fora — Avtalspension SAF-LO; TFA, AGS, AGB, TGL collective insurance
+        for blue-collar transport workers bound by Transportavtalet
+      type: official
+  road-damage-liability:
+    standalone: true
+    sources:
+    - url: https://www.trafikverket.se/for-dig-i-branschen/Vag1/bk-klasser/
+      description: Trafikverket — BK-klasser and road damage liability; overloading
+        consequences for BK1/BK2/BK3/BK4 roads
+      type: official
+    - url: https://www.transportstyrelsen.se/sv/vag/Yrkestrafik/Tung-trafik/matt-och-vikt/bkklasser/
+      description: Transportstyrelsen — BK-klasser; sanktionsavgift for exceeding
+        bearing class weight limits
+      type: official
+  spring-weight-restrictions:
+    standalone: true
+    sources:
+    - url: https://www.trafikverket.se/resa-och-trafik/vag-och-jarnvag/Vi-bygger-och-forbattrar-vag-och-jarnvag/tjallossning/
+      description: Trafikverket — tjällossning (spring thaw restrictions)
+      type: official
+  domestic-freight-contract:
+    standalone: true
+    sources:
+    - url: https://www.akeri.se/branschinformation/avtal-och-regler/abv/
+      description: ABV 2019 — Allmänna Bestämmelser för Inrikes Vägtransport; carrier
+        liability 150 SEK/kg; fault-based standard; 1-year claims bar; lien rights
+      type: official
+    - url: https://www.speditionslagen.se/nsab/
+      description: NSAB 2015 — Nordic freight forwarder standard conditions; 8.33 SDR/kg
+        limit; applies to speditor contracts
+      type: official
+    - url: https://sccinstitute.com/
+      description: Stockholm Chamber of Commerce (SCC) — arbitration for Swedish
+        transport disputes under ABV
+      type: official

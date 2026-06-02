@@ -1,0 +1,84 @@
+country: Slovenia
+code: si
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: DARS (Družba za avtoceste v Republiki Sloveniji)
+  primary_url: https://www.dars.si
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.dars.si
+      description: DARS — Slovenian motorway company and transport authority
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://evinjeta.dars.si/en
+      description: DARS E-Vinjeta — Slovenian vignette for light vehicles
+      type: official
+    - url: https://www.darsgo.si
+      description: DarsGo — Slovenian electronic distance toll for HGVs (>3.5t)
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-infrastrukturo/
+      description: MZI — tahograf Slovenia
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.amzs.si/
+      description: AMZS — tehnični pregledi Slovenia
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/
+      description: MZI — CPC Slovenia
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/
+      description: MZI — ADR Slovenia
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-okolje-podnebje-in-energijo/
+      description: Ministry of Environment Slovenia
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mddsz.gov.si/
+      description: MDDSZ — napoteni delavci Slovenia
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/
+      description: MZI — kombinirani prevoz Slovenia
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-kmetijstvo-gozdarstvo-in-prehrano/
+      description: MKGP — transport živali Slovenia
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/
+      description: MZI — mase in dimenzije Slovenia
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.si/
+      description: MZI — dovoljenja za cestni prevoz Slovenia
+      type: official

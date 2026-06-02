@@ -1,0 +1,16 @@
+jurisdiction: FR
+topic: inspection
+regulation: "Code de la route; Arrêté du 27 juillet 2004"
+last_verified: "2026-05-31"
+source_url: "https://www.securite-routiere.gouv.fr"
+inherits_from: EU
+
+authority: "DREAL (Direction Régionale de l'Environnement) (Ministère des Transports)"
+inspection_name: "Contrôle technique poids lourd (CTPL)"
+approved_operators_type: "Centre de contrôle technique agréé (private approved centres)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/fr/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/fr/vehicle-inspection.md"

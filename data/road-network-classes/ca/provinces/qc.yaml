@@ -1,0 +1,10 @@
+jurisdiction: CA-QC
+topic: road-network-classes
+regulation: "Quebec highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: false
+notes: "Spring weight restrictions among most comprehensive in Canada (March–May); A-25 and A-30 bridge concessions (toll); SAAQ (Société de l'assurance automobile du Québec) vehicle inspection; French-language regulations; unique permit system for oversize"

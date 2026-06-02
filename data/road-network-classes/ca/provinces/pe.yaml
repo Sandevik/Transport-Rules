@@ -1,0 +1,10 @@
+jurisdiction: CA-PE
+topic: road-network-classes
+regulation: "Prince Edward Island highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: false
+spring_period: "N/A"
+logging_truck_routes: false
+notes: "Small island province; Confederation Bridge (toll for outbound only — Nova Scotia side); vehicle inspection program; agricultural province"

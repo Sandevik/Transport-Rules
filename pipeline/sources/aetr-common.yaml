@@ -1,0 +1,88 @@
+description: AETR Agreement baseline sources — for Tier 2 countries (non-EU/EEA AETR signatories)
+code: aetr
+country: AETR (UNECE)
+framework_tier: 2
+notes: >
+  AETR governs driving/rest time, tachographs, crew requirements, enforcement,
+  and sanctions for international road transport crossing non-EU AETR contracting parties.
+  All other topics (vehicle dimensions, ADR, professional driver CPC, road charging,
+  commercial licensing, posting of workers) are standalone national rules for AETR-only countries.
+
+topics:
+  scope:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Agreement text, contracting party list, and application scope
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Articles 1–4, application scope)
+        type: official
+
+  driving-rest-time:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Agreement text and contracting party status
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (published in EU Official Journal)
+        type: official
+
+  tachograph:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Annex 1B (tachograph technical requirements)
+        type: official
+
+  crew-requirements:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Article 5 (minimum driver age, multi-manning rules)
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Article 5)
+        type: official
+
+  exemptions:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Article 13 (vehicles and operations exempt from AETR)
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Article 13)
+        type: official
+
+  undertaking-obligations:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Article 10 (transport undertaking responsibilities)
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Article 10)
+        type: official
+
+  driver-documentation:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Article 12 and Annex 1B (record book, manual entries)
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Article 12)
+        type: official
+
+  enforcement:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Articles 15–22 (roadside inspections, enforcement powers)
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Articles 15–22)
+        type: official
+
+  sanctions:
+    sources:
+      - url: https://unece.org/transport/road-transport/aetr-agreement-and-status
+        description: UNECE — AETR Articles 22–22ter (penalties, advance payment prohibition)
+        type: official
+      - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22010A0317%2801%29
+        description: EUR-Lex — AETR consolidated text (Articles 22–22ter)
+        type: official

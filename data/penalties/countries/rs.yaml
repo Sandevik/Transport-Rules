@@ -1,0 +1,57 @@
+jurisdiction: RS
+topic: transit-permit-penalties
+regulation: "Law on Road Transport (Zakon o prevozu u drumskom saobraćaju) and associated Ministry of Construction, Transport and Infrastructure regulations"
+last_verified: "2026-06-01"
+inherits_from: null
+currency: RSD
+
+note: "RSD amounts are indicative based on current Serbian road transport enforcement practice. Verify current rates with the Serbian Ministry of Construction, Transport and Infrastructure or Directorate for Road Transport."
+
+enforcement_authority: "Ministry of Construction, Transport and Infrastructure; Road Transport Inspectorate (Inspektorat za drumski saobraćaj)"
+
+violations:
+  - id: no_permit
+    description: "Operating without required bilateral or CEMT/ITF permit"
+    amount_min: 300000
+    amount_max: 600000
+    currency: RSD
+    additional_sanction: "Vehicle immobilisation possible"
+
+  - id: permit_mismatch
+    description: "Permit does not match vehicle or journey type"
+    amount_min: 150000
+    amount_max: 300000
+    currency: RSD
+
+  - id: cabotage_violation
+    description: "Cabotage violation — foreign haulier carrying Serbian domestic load"
+    amount_min: 300000
+    amount_max: 600000
+    currency: RSD
+    additional_sanction: "Vehicle detention"
+
+  - id: aetr_tachograph
+    description: "AETR tachograph violation (driving/rest time infringement)"
+    amount_min: 100000
+    amount_max: 300000
+    currency: RSD
+    note: "Applied to driver and/or company"
+
+  - id: no_cpc
+    description: "Operating without driver CPC documentation"
+    amount_min: 100000
+    amount_max: 200000
+    currency: RSD
+
+  - id: overweight
+    description: "Overweight vehicle"
+    amount_min: null
+    amount_max: null
+    currency: RSD
+    note: "Variable per tonne excess; additional road damage charge may apply"
+
+fine_ranges:
+  no_permit_rsd: "300,000–600,000 RSD"
+  cabotage_rsd: "300,000–600,000 RSD"
+  aetr_violation_rsd: "100,000–300,000 RSD"
+  no_cpc_rsd: "100,000–200,000 RSD"

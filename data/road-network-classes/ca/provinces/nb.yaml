@@ -1,0 +1,10 @@
+jurisdiction: CA-NB
+topic: road-network-classes
+regulation: "New Brunswick highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: false
+spring_period: "N/A"
+logging_truck_routes: false
+notes: "Maritime province; cross-border with Maine (US); MVI (Motor Vehicle Inspection) program; no toll roads; forestry transport important"

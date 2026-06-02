@@ -1,0 +1,33 @@
+jurisdiction: NL
+topic: road-network-classes
+regulation: "Voertuigreglement; Regeling voertuigen; RDW Ontheffing LZV"
+last_verified: "2026-05-31"
+source_url: "https://www.rdw.nl/ontheffing-lzv"
+inherits_from: null
+
+system_name: "LZV/EcoCombi Designated Route Network (DWO)"
+description: "Netherlands operates a designated route network (DWO — Digitale Wegenkaart Ontheffingen) for LZV (Langere en Zwaardere Vrachtautocombinatie) combinations of up to 25.25m and 60t. Standard EU limits apply on all other roads."
+
+standard_network:
+  max_length_m: 18.75
+  max_gvw_t: 40              # EU baseline
+  applies_to: "All roads not on LZV network"
+
+lzv_network:
+  name: "LZV/EcoCombi Designated Network"
+  max_length_m: 25.25
+  max_gvw_t: 60
+  permit_type: "RDW Exemption (Ontheffing LZV)"
+  permit_url: "https://www.rdw.nl/ontheffing-lzv"
+  route_map_name: "DWO (Digitale Wegenkaart Ontheffingen)"
+  route_map_url: "https://www.rdw.nl/dwo"
+  route_selection: "Driver selects LZV in DWO app; green routes = permitted"
+  driver_additional_test_required: true
+  note: "LZV permit is per vehicle combination registered with RDW; annual renewal"
+  exemption_holder: "Carrier (not driver); driver must be trained"
+
+vehicle_configurations_allowed:
+  - "Semi-trailer + tractor (25.25m)"
+  - "Semi-trailer + tractor + dolly + semi-trailer (road train)"
+  - "Drawbar combination"
+  note: "All configurations must be registered with RDW for LZV exemption"

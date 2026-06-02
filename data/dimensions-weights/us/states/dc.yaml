@@ -1,0 +1,8 @@
+jurisdiction: US-DC
+topic: dimensions-weights
+regulation: "DC state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "DC has commercial vehicle inspection; I-495 Express Lanes tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

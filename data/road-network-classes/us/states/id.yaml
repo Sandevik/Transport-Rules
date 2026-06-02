@@ -1,0 +1,13 @@
+jurisdiction: US-ID
+topic: road-network-classes
+regulation: "Idaho state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Allows triple trailers on designated routes; spring weight restrictions"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

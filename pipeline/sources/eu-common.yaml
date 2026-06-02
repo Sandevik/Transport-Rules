@@ -1,0 +1,362 @@
+description: EU-wide baseline regulation sources (Tier 1 — EU member states and EEA)
+code: eu
+country: European Union
+framework_tier: 1
+topics:
+  driving-rest-time:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006R0561
+      description: EU Regulation 561/2006 — driving and rest times (full text)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020R1054
+      description: EU Regulation 2020/1054 — Mobility Package amendments
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/social-provisions/driving-time-and-rest-periods_en
+      description: EC DG MOVE — Driving time and rest periods summary
+      type: official
+  tachograph:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0165
+      description: EU Regulation 165/2014 — tachographs
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R1228
+      description: EU IR 2021/1228 — smart tachograph v2 technical spec
+      type: official
+  commercial-licensing:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1071
+      description: EU Regulation 1071/2009 — access to the occupation of road transport
+        operator
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1072
+      description: EU Regulation 1072/2009 — access to the market, cabotage 3-in-7
+        rule
+      type: official
+  professional-driver:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0059
+      description: Directive 2003/59/EC — initial qualification and periodic training
+        (Driver CPC)
+      type: official
+  weights-dimensions:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31996L0053
+      description: Directive 96/53/EC — maximum weights and dimensions for heavy vehicles
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L0719
+      description: Directive 2015/719/EU — amending 96/53/EC (alternative fuels weight
+        bonus)
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/weights-and-dimensions_en
+      description: EC DG MOVE — Weights and dimensions summary page
+      type: official
+  dangerous-goods:
+    sources:
+    - url: https://unece.org/transport/dangerous-goods/adr-2025
+      description: ADR 2025 — UNECE Agreement on transport of dangerous goods by road
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0068
+      description: Directive 2008/68/EC — inland transport of dangerous goods
+      type: official
+  vehicle-inspection:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0045
+      description: Directive 2014/45/EU — periodic roadworthiness tests for motor
+        vehicles
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0047
+      description: Directive 2014/47/EU — roadside technical inspections
+      type: official
+  posting-workers:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020L1057
+      description: Directive 2020/1057/EU — specific posting rules for road transport
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018L0957
+      description: Directive 2018/957/EU — revised posting of workers directive
+      type: official
+  emissions:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1610
+      description: EU Regulation 2024/1610 — CO2 emission targets for heavy-duty vehicles
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1257
+      description: EU Regulation 2024/1257 — Euro VII emission standards
+      type: official
+  road-charging:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L0362
+      description: Directive 2022/362/EU — Eurovignette recast (distance-based tolls)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0520
+      description: Directive 2019/520/EU — EETS (European Electronic Toll Service)
+      type: official
+  combined-transport:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31992L0106
+      description: Directive 92/106/EEC — combined transport of goods between member
+        states
+      type: official
+  live-animals:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32005R0001
+      description: Regulation EC 1/2005 — protection of animals during transport
+      type: official
+  working-time:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32002L0015
+      description: Directive 2002/15/EC — organisation of working time for mobile
+        road transport workers
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/social-provisions/working-time_en
+      description: EC DG MOVE — Working time in road transport summary
+      type: official
+  driver-licensing:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0126
+      description: Directive 2006/126/EC — driving licences (vehicle categories C,
+        CE, D, DE)
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/driving-licences_en
+      description: EC DG MOVE — Driving licences overview
+      type: official
+  enforcement:
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0022
+      description: Directive 2006/22/EC — minimum conditions for enforcement of Regulations
+        561/2006 and 165/2014
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020R1054
+      description: EU Regulation 2020/1054 — Mobility Package enforcement amendments
+      type: official
+  cmr-liability:
+    standalone: true
+    sources:
+    - url: https://unece.org/transport/road-transport/cmr-convention-and-protocols
+      description: UNECE — CMR Convention and Protocols (full text and 1978 SDR Protocol)
+      type: official
+    - url: https://www.legislation.gov.uk/ukpga/1965/37/schedule/made
+      description: Carriage of Goods by Road Act 1965 Schedule — CMR Convention text
+      type: official
+    - url: https://unece.org/transport/road-transport/cmr-convention-and-protocols
+      description: UNECE — Additional Protocol on eCMR (electronic consignment note,
+        2008)
+      type: official
+  load-securing:
+    standalone: true
+    sources:
+    - url: https://transport.ec.europa.eu/transport-modes/road/road-safety/cargo-securing_en
+      description: EC DG MOVE — Cargo securing road safety page
+      type: official
+    - url: https://www.balm.bund.de/EN/Tasks/MandatoryCheckLoads/mandatorycheckloads_node.html
+      description: BALM (Germany) — Mandatory load check guidance
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0047
+      description: Directive 2014/47/EU — roadside technical inspections (Art. 13
+        cargo securing)
+      type: official
+  tachograph-exemptions:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006R0561
+      description: EU Regulation 561/2006 — Articles 3, 13, and 14 exemptions
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/social-provisions/driving-time-and-rest-periods_en
+      description: EC DG MOVE — Social provisions overview including exemptions
+      type: official
+  speed-limiters:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31992L0006
+      description: Council Directive 92/6/EEC — installation and use of speed limitation
+        devices
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32002L0085
+      description: Directive 2002/85/EC — amending 92/6/EEC (extending scope to N2/M2
+        vehicles)
+      type: official
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.bag.bund.de/EN/Tasks/FreightTransport/SundayDrivingBan/sundaydrivingban_node.html
+      description: BALM — Sunday driving ban guidance (DE)
+      type: official
+  atp-temperature:
+    standalone: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement on perishable foodstuffs
+      type: official
+  noise-regulations:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0540
+      description: EU Regulation 540/2014 — vehicle noise limits
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://transport.ec.europa.eu/transport-modes/road/road-safety/vehicles/exceptional-transport_en
+      description: EC DG MOVE — exceptional transport overview
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://transport.ec.europa.eu/transport-modes/road/road-safety/road-rules-and-signs_en
+      description: EC DG MOVE — national winter tyre rules overview
+      type: official
+  driver-medical-fitness:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0126
+      description: Directive 2006/126/EC — Annex III medical standards for Group 2
+        licences (C, CE, C1, C1E)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L1106
+      description: Directive 2016/1106/EU — amending Annex III (insulin-treated diabetes
+        for Group 2 licences)
+      type: official
+  alcohol-drug-limits:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001H0115
+      description: EU Council Recommendation 2001/115/EC — harmonisation of road traffic
+        rules (0.5‰ BAC recommendation)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0126
+      description: Directive 2006/126/EC Annex III — fitness to drive (alcohol and
+        substance dependency)
+      type: official
+  environmental-zones:
+    standalone: true
+    sources:
+    - url: https://www.urbanaccessregulations.eu/
+      description: Urban Access Regulations database — authoritative EU city zone
+        lookup (ERTICO / EC DG MOVE)
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/road-rules-and-signs_en
+      description: EC DG MOVE — road rules and signs including urban access regulations
+        overview
+      type: official
+  vehicle-insurance:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0103
+      description: Directive 2009/103/EC — Motor Insurance Directive (mandatory MTPL)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021L2118
+      description: Directive 2021/2118/EU — amending MID (new minimum amounts, Green
+        Card abolition within EU/EEA from Dec 2023)
+      type: official
+  road-accident-procedures:
+    standalone: true
+    sources:
+    - url: https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/index_en.htm
+      description: EU Your Europe — road rules and safety when driving abroad
+      type: official
+    - url: https://transport.ec.europa.eu/transport-modes/road/road-safety_en
+      description: EC DG MOVE — road safety overview
+      type: official
+  driver-employment-law:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L1152
+      description: Directive 2019/1152/EU — transparent and predictable working conditions
+        (written contracts, trial period max 6 months, parallel employment rights)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020L1057
+      description: Directive 2020/1057/EU — specific posting rules for road transport
+        (cabotage/cross-trade posting, bilateral exemptions)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883
+      description: EU Regulation 883/2004 — coordination of social security systems;
+        A1 certificate; country of establishment rule for road transport
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0987
+      description: EU Regulation 987/2009 — implementing Regulation 883/2004
+      type: official
+  vehicle-maintenance:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/government/publications/guide-to-maintaining-roadworthiness
+      description: DVSA Guide to Maintaining Roadworthiness — 106-page best practice
+        guide; daily walkaround checks, 6–8 weekly safety inspections, defect reporting,
+        record-keeping (15 months)
+      type: guidance
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0045
+      description: Directive 2014/45/EU — periodic roadworthiness tests (N2/N3 every
+        2 years; defect categories Minor/Major/Dangerous)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0047
+      description: Directive 2014/47/EU — roadside technical inspections of commercial
+        vehicles (ERRU risk-based targeting; immobilisation powers)
+      type: official
+    - url: https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/fordonslag-2002574_sfs-2002-574
+      description: Swedish Fordonslagen (2002:574) — vehicle maintenance obligations;
+        annual kontrollbesiktning for HGVs
+      type: official
+  cargo-insurance:
+    standalone: true
+    sources:
+    - url: https://unece.org/transport/road-transport/cmr-convention-and-protocols
+      description: CMR Convention — Art. 23 carrier liability limit 8.33 SDR/kg; Art. 24
+        declared value; Art. 29 wilful misconduct unlimited liability
+      type: official
+    - url: https://www.lmalloyds.com/LMA/Cargo/Institute_Cargo_Clauses.aspx
+      description: Institute Cargo Clauses (ICC) A, B, C — Lloyd's Market Association;
+        all-risk and named-peril shipper cargo cover
+      type: guidance
+    - url: https://fiata.org/tools-and-documents/fiata-documents/
+      description: FIATA Multimodal Transport Bill of Lading (FBL) standard conditions;
+        freight forwarder principal liability
+      type: official
+  subcontracting-liability:
+    standalone: true
+    sources:
+    - url: https://unece.org/transport/road-transport/cmr-convention-and-protocols
+      description: CMR Convention Art. 3 (carrier responsible for subcontractors as
+        own acts) and Art. 34–40 (successive carrier liability and recourse)
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1760
+      description: EU Directive 2024/1760 — CSDDD Corporate Sustainability Due Diligence;
+        supply chain obligations for large operators (from 2027)
+      type: official
+    - url: https://www.gesetze-im-internet.de/lksg/
+      description: German Lieferkettensorgfaltspflichtengesetz (LkSG) — Supply Chain
+        Due Diligence Act; applies to DE companies ≥1,000 employees from 2024
+      type: official
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1071
+      description: EU Regulation 1071/2009 — Community Licence verification for
+        subcontractor due diligence
+      type: official
+  inland-waterway-transport:
+    standalone: true
+    sources:
+    - url: https://unece.org/transport/inland-water-transport/adn
+      description: UNECE — ADN Agreement on Dangerous Goods by Inland Waterways
+      type: official
+  rail-transport-interface:
+    standalone: true
+    sources:
+    - url: https://otif.org/en/
+      description: OTIF — Intergovernmental Organisation for International Carriage
+        by Rail
+      type: official
+  warehouse-interface:
+    standalone: true
+    sources:
+    - url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0018
+      description: SEVESO III Directive 2012/18/EU — major accident hazards
+      type: official
+  sea-transport-interface:
+    standalone: true
+    sources:
+    - url: https://www.imo.org/en/OurWork/Safety/Pages/DangerousGoods-default.aspx
+      description: IMO — IMDG Code (Dangerous Goods on Sea Vessels)
+      type: official
+  spring-weight-restrictions:
+    standalone: true
+    sources:
+    - url: https://transport.ec.europa.eu/transport-modes/road_en
+      description: EC DG MOVE — road transport (no EU baseline; national rules)
+      type: official

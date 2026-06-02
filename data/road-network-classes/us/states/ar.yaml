@@ -1,0 +1,10 @@
+jurisdiction: US-AR
+topic: road-network-classes
+regulation: "Arkansas state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "No general LCV program; no spring restrictions; no mandatory periodic inspection"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

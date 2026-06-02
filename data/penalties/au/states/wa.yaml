@@ -1,0 +1,10 @@
+jurisdiction: AU-WA
+topic: penalties
+regulation: "Western Australia Heavy Vehicle enforcement"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+note: "Penalty amounts set by HVNL (nationally consistent in participating states) + state-specific rules"
+notes: "Extensive road train network — most of rural WA outside Perth metro; up to 3 trailers (B-triple) on many outback roads; Main Roads WA own legislation (not HVNL); limited toll infrastructure; mining-related heavy vehicle routes"
+nhvl_infringement_notices: "NHVR and state enforcement officers can issue infringement notices; see nhvr.gov.au/penalties"

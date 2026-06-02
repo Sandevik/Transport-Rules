@@ -1,0 +1,10 @@
+jurisdiction: US-TX
+topic: inspection
+regulation: "Texas motor vehicle inspection regulations"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+fmcsa_equivalent_program: true
+scope: "State periodic inspection program meets or exceeds FMCSA 49 CFR Part 396 Appendix A"
+notes: "Up to 84,000 lbs on non-Interstate with TxDMV permit; extensive toll network (TxTAG); state inspection equiv. (commercial vehicles)"
+state_authority_url: "https://www.transportation.gov/state-dot-links"

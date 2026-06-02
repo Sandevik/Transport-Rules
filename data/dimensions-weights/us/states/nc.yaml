@@ -1,0 +1,8 @@
+jurisdiction: US-NC
+topic: dimensions-weights
+regulation: "North Carolina state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "NC Turnpike (I-540, NC-540); state inspection for commercial vehicles"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

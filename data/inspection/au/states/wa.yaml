@@ -1,0 +1,10 @@
+jurisdiction: AU-WA
+topic: inspection
+regulation: "Western Australia vehicle inspection standards"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+annual_inspection_required: true
+inspection_conducted_by: "Authorised Inspection Stations (AIS) — state approved"
+notes: "Extensive road train network — most of rural WA outside Perth metro; up to 3 trailers (B-triple) on many outback roads; Main Roads WA own legislation (not HVNL); limited toll infrastructure; mining-related heavy vehicle routes"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation may affect AIS approval requirements"

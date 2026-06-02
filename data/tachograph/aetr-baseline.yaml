@@ -1,0 +1,25 @@
+jurisdiction: AETR
+topic: tachograph
+regulation: "AETR Agreement Annex 1B (digital tachograph technical requirements)"
+last_verified: "2026-05-31"
+source_url: "https://unece.org/transport/road-transport/aetr"
+inherits_from: null
+
+alignment_with_eu:
+  note: "AETR Annex 1B has been updated to align with EU smart tachograph requirements. For practical purposes, AETR tachograph rules mirror EU 165/2014 for vehicles operating in AETR territory."
+  smart_v2_roadmap: "AETR contracting parties adopting smart v2 on same timeline as EU where technically feasible"
+
+calibration:
+  interval_years: 2
+  seal_check_years: 6
+  first_calibration: "at installation"
+
+card_types:
+  driver_card: {validity_years: 5}
+  workshop_card: {use: "Calibration only"}
+  company_card: {use: "Download and lock"}
+  control_card: {issued_to: "Enforcement authorities"}
+
+key_difference_vs_eu:
+  roadside_cash_prohibition: "AETR Art. 22ter — enforcement authorities may not require immediate cash payment of fines"
+  no_remote_eid: "Not all AETR signatories have REDI-compatible enforcement infrastructure"

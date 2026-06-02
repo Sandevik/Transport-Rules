@@ -1,0 +1,81 @@
+country: Cyprus
+code: cy
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: Department of Road Transport (RTD)
+  primary_url: https://rtd.mcw.gov.cy/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://rtd.mcw.gov.cy/
+      description: RTD — Cyprus Department of Road Transport
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — tachograph
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — vehicle inspection
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — CPC
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — ADR
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.moa.gov.cy/moa/environment/environment.nsf
+      description: Ministry of Agriculture Cyprus — environment
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mlsi.gov.cy/mlsi/dl/dl.nsf
+      description: Ministry of Labour Cyprus
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — combined transport
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.moa.gov.cy/moa/vs/vs.nsf
+      description: Veterinary Services Cyprus
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — dimensions and weights
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — operator licensing
+      type: official
+  overview:
+    standalone: true
+    sources:
+    - url: https://www.mcw.gov.cy/mcw/drt/drt.nsf/index_en/index_en
+      description: DRT Cyprus — Department of Road Transport overview
+      type: official

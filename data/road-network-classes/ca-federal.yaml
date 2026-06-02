@@ -1,0 +1,20 @@
+jurisdiction: CA
+topic: road-network-classes
+regulation: "NSC Standard 14; provincial highway acts"
+last_verified: "2026-05-31"
+inherits_from: null
+
+note: "Canada has no federal road class system for weight limits. Provinces manage their own road networks and spring weight restrictions. Federal government controls Trans-Canada Highway access standards through provincial agreements."
+
+spring_weight_restrictions:
+  note: "Most provinces impose spring weight restrictions when frost leaves the ground, weakening road bases."
+  federal_role: "None — provinces manage independently"
+  typical_period: "March – June (varies significantly by latitude and year)"
+
+logging_truck_routes:
+  note: "BC and Ontario have extensive logging/forestry truck route systems on resource roads managed separately from public highways"
+  bc_forest_service_roads: "Managed by BC Ministry of Forests; separate permit/road use system"
+
+national_highway_system:
+  description: "Trans-Canada Highway and other NHS routes maintained to national standards"
+  managed_by: "Provincial governments with federal funding"

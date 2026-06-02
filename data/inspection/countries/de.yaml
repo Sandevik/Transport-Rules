@@ -1,0 +1,38 @@
+jurisdiction: DE
+topic: inspection
+regulation: "§29 StVZO (Hauptuntersuchung); §57b StVZO (Sicherheitsprüfung); §29 StVZO Anlage VIII"
+last_verified: "2026-05-31"
+source_url: "https://www.kba.de/DE/Themen/FahrzeugeUndHalter/PruefungUndBegutachtung/Hauptuntersuchung/hauptuntersuchung_node.html"
+inherits_from: EU
+
+authority: "Kraftfahrt-Bundesamt (KBA) — oversight; approved inspection organizations listed below"
+approved_operators:
+  - "TÜV (various regional TÜV organizations)"
+  - "DEKRA"
+  - "GTÜ (Gesellschaft für Technische Überwachung)"
+  - "KÜS (Kraftfahrzeugüberwachungsorganisation freiberuflicher Kfz-Sachverständiger)"
+
+periodic_inspection:
+  name: "Hauptuntersuchung (HU)"
+  intervals:
+    N2: {first_after_months: 36, subsequent_months: 12}   # 3 years for new; then annual
+    N3: {first_after_months: 12, subsequent_months: 12}   # annual from new
+    O3_O4: {first_after_months: 12, subsequent_months: 12}
+
+safety_inspection:
+  name: "Sicherheitsprüfung (SP)"
+  applies_to: "N2 vehicles >7.5t and N3, O3, O4"
+  interval_months: 12
+  items: [brakes, steering, lighting, axles, tyres]
+  note: "SP is a focused brake/chassis check between full HU inspections"
+
+sticker_system:
+  name: "HU-Plakette (inspection sticker)"
+  location: "Rear number plate"
+  encodes: "Month and year of next inspection"
+  color: "Rotates through 6 colors by year"
+
+fees_approx_eur:
+  N3_HU: 120                 # approximate TÜV/DEKRA fee
+  SP: 40
+  note: "Fees vary by operator and region"

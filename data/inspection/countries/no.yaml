@@ -1,0 +1,16 @@
+jurisdiction: NO
+topic: inspection
+regulation: "Vegtrafikkloven; Kjøretøyforskriften (FOR-1994-10-04-918)"
+last_verified: "2026-05-31"
+source_url: "https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/kontroll-og-godkjenning/"
+inherits_from: EU
+
+authority: "Statens vegvesen (Statens vegvesen)"
+inspection_name: "Periodisk kjøretøykontroll (EU-kontroll)"
+approved_operators_type: "Godkjent kontrollenhet (approved inspection unit — Statens vegvesen or private)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/no/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/no/vehicle-inspection.md"

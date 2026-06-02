@@ -1,0 +1,10 @@
+jurisdiction: US-MD
+topic: road-network-classes
+regulation: "Maryland state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "Bay Bridge, Fort McHenry Tunnel tolls; I-495 Express Lanes; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

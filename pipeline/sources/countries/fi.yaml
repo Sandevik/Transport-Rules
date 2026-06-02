@@ -1,0 +1,101 @@
+country: Finland
+code: fi
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: Traficom (Finnish Transport and Communications Agency)
+  primary_url: https://www.traficom.fi/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://tyosuojelu.fi/en/employment-relationship/driving-times-rest-periods/rules
+      description: Tyosuojelu.fi — Driving times and rest periods rules
+      type: official
+    - url: https://tyosuojelu.fi/en/employment-relationship/driving-times-rest-periods/tachograph
+      description: Tyosuojelu.fi — Tachograph requirements in Finland
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    national_deviations: true
+    notes: Finland uses Nordic exception — permits 76t GVW and 34.5m modular combinations
+    sources:
+    - url: https://www.traficom.fi/sites/default/files/media/file/76%20t%2034,5%20m%20in%20Finland.pdf
+      description: Traficom — 76 tonne 34.5m vehicles in Finland (PDF)
+      type: official
+    - url: https://www.traficom.fi/en/transport/road/road-traffic-act2020
+      description: Traficom — Road Traffic Act 2020
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://www.traficom.fi/en/transport/road/traffic-violations-and-traffic-penalty-fees
+      description: Traficom — Traffic violations and traffic penalty fees
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/liikenne/tieliikenne/ajopiirturit
+      description: Traficom — Ajopiirturit Finland
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/liikenne/tieliikenne/katsastus
+      description: Traficom — Katsastus Finland
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/liikenne/tieliikenne/ammattipätevyys
+      description: Traficom — Ammattipätevyys CPC Finland
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/liikenne/tieliikenne/vaarallisten-aineiden-kuljetus
+      description: Traficom — VAK ADR Finland
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/ajankohtaista/pakokaasupaatojen-saantelyt
+      description: Traficom — Pakokaasupäästöt Finland
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://tyosuojelu.fi/web/en/employment-relationship/posted-workers
+      description: Occupational Safety Finland — posted workers
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/liikenne/tieliikenne/yhdistetty-kuljetus
+      description: Traficom — Yhdistetty kuljetus Finland
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ruokavirasto.fi/en/animals/animal-transport/
+      description: Ruokavirasto — animal transport Finland
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.traficom.fi/fi/liikenne/tieliikenne/tavaraliikennelupa
+      description: Traficom — Tavaraliikennelupa Finland
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://www.traficom.fi/en/transport/road/vehicle-requirements/tyres
+      description: Traficom — winter tyre requirements
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official

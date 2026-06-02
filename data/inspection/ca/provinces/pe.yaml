@@ -1,0 +1,8 @@
+jurisdiction: CA-PE
+topic: inspection
+regulation: "Prince Edward Island Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Small island province; Confederation Bridge (toll for outbound only — Nova Scotia side); vehicle inspection program; agricultural province"

@@ -1,0 +1,10 @@
+jurisdiction: US-WV
+topic: road-network-classes
+regulation: "West Virginia state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "WV Turnpike (I-77/64); state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

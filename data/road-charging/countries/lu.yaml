@@ -1,0 +1,14 @@
+jurisdiction: LU
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/lu/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.roads.lu"
+inherits_from: EU
+
+system: "No general truck toll"
+authority: "Administration des ponts et chaussées"
+currency: EUR
+applies_to: "No distance toll system"
+notes: "Luxembourg has no general heavy vehicle road toll."
+
+rates: "See references/countries/lu/tolls.md for current rate tables — rates updated frequently"

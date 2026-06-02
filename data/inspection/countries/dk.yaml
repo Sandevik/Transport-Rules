@@ -1,0 +1,16 @@
+jurisdiction: DK
+topic: inspection
+regulation: "Bekendtgørelse om syn af køretøjer; Færdselsloven"
+last_verified: "2026-05-31"
+source_url: "https://www.fstyr.dk"
+inherits_from: EU
+
+authority: "Færdselsstyrelsen (Færdselsstyrelsen)"
+inspection_name: "Periodisk syn (EU-syn)"
+approved_operators_type: "Autoriseret synshall (authorized inspection station)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/dk/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/dk/vehicle-inspection.md"

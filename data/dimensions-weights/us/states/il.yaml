@@ -1,0 +1,8 @@
+jurisdiction: US-IL
+topic: dimensions-weights
+regulation: "Illinois state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Illinois Tollway (I-Pass/E-ZPass); state inspection equiv. program"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

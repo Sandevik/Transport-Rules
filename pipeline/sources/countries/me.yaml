@@ -1,0 +1,44 @@
+country: Montenegro
+code: me
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: EUR
+notes: >
+  AETR signatory and EU accession candidate (advanced negotiations). Uses EUR as currency.
+  AETR governs driving/rest time and tachographs. Western Balkans transit/destination
+  country. CEMT/ITF multilateral permits required for most EU-ME freight operations.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.msi.gov.me/
+        description: Ministry of Capital Investments of Montenegro
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://www.msi.gov.me/
+        description: Ministry of Capital Investments — international transport permits
+        type: official
+  tolls:
+    standalone: true
+    sources:
+      - url: https://www.monteput.me/
+        description: Monteput — motorway toll operator Montenegro
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

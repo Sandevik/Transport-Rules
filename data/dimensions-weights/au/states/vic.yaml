@@ -1,0 +1,10 @@
+jurisdiction: AU-VIC
+topic: dimensions-weights
+regulation: "Victoria heavy vehicle legislation"
+last_verified: "2026-05-31"
+source_url: "https://www.nhvr.gov.au"
+inherits_from: au-federal
+
+state_max_gvw_standard_t: 42.5
+road_trains_permitted: false
+notes: "A-double max 36.5m; city/suburban access limits; CityLink, EastLink, West Gate Tunnel tolls; VicRoads vehicle inspection; roads managed by VicRoads and Regional Roads Victoria"

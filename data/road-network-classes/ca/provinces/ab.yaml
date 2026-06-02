@@ -1,0 +1,10 @@
+jurisdiction: CA-AB
+topic: road-network-classes
+regulation: "Alberta highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: false
+notes: "Spring weight restrictions March–May on provincial highways; Alberta Transportation vehicle inspection; no toll roads; significant oil/gas industry heavy transport; some roads allow higher loads (e.g., Pembina corridor)"

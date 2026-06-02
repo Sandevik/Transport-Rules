@@ -1,0 +1,8 @@
+jurisdiction: US-SC
+topic: dimensions-weights
+regulation: "South Carolina state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Some toll roads (SC-31, SC-526 mark Clark bridges)"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,14 @@
+jurisdiction: US-OH
+topic: road-network-classes
+regulation: "Ohio state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+lcv_turnpike_doubles: true
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Ohio Turnpike (I-90/80); spring restrictions on county roads; turnpike doubles + triples; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

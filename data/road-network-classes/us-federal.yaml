@@ -1,0 +1,49 @@
+jurisdiction: US
+topic: road-network-classes
+regulation: "23 USC 127; 23 CFR Part 658 (FHWA Truck Size and Weight)"
+last_verified: "2026-05-31"
+source_url: "https://ops.fhwa.dot.gov/freight/publications/brdg_frm_wghts/"
+inherits_from: null
+
+system_name: "Federal Bridge Formula + Interstate System Weight Limits"
+description: "The federal government controls truck size and weight on the Interstate System and Federal lands. States control non-Interstate roads. Federal Bridge Formula governs all multi-axle weight distribution nationally."
+
+interstate_limits:
+  max_gvw_lbs: 80000
+  max_gvw_kg: 36287
+  single_axle_lbs: 20000
+  tandem_axle_lbs: 34000
+
+bridge_formula:
+  name: "Bridge Formula B (Federal Bridge Gross Weight Formula)"
+  formula: "W = 500 × (LN / (N-1) + 12N + 36)"
+  W: "max weight (lbs) on any group of 2+ consecutive axles"
+  L: "distance (ft) between outer axles of the group"
+  N: "number of axles in the group"
+  note: "Most restrictive of bridge formula result or axle limit applies"
+
+lcv_freeze:
+  regulation: "ISTEA 1991 Section 1023"
+  description: "States cannot expand LCV (Longer Combination Vehicle) routes or increase LCV weight limits beyond June 1, 1991 baseline. Frozen in place."
+  lcv_types:
+    turnpike_doubles:
+      description: "Two 48ft trailers behind tractor; length typically 95–105ft"
+      states_permitted: [FL, IN, KS, MA, NY, OH, NV, UT, WY, and others]
+    triple_trailers:
+      description: "Three 28ft trailers behind tractor; length typically 95–100ft"
+      states_permitted: [AZ, CO, ID, IN, KS, MT, NE, NV, ND, OH, OK, OR, SD, UT, WY, and others]
+      note: "Only permitted on designated Interstate routes; typically 55–65 mph speed limit"
+    rocky_mountain_double:
+      description: "One long semitrailer + one short trailer; typical in western states"
+      states_permitted: [Western states — check state RN file]
+
+spring_restrictions:
+  no_federal_requirement: true
+  note: "States impose spring weight restrictions independently; no federal law governs these. See individual state road-network-classes files."
+  typically_affected_states: [MN, WI, MI, ND, SD, MT, ME, VT, NH, NY, PA, OH, IA, ID, WY, and others]
+
+national_network:
+  name: "National Network (NN)"
+  description: "Designated network of roads where 53ft semitrailers and 28.5ft twin trailers are allowed regardless of state default limits"
+  basis: "Surface Transportation Assistance Act (STAA) 1982"
+  access: "All Interstate highways + many other NHS routes"

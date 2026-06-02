@@ -1,0 +1,63 @@
+jurisdiction: TR
+topic: transit-permit-penalties
+regulation: "Road Transport Law No. 4925 and associated Ministry of Transport regulations (Karayolu Taşıma Kanunu)"
+last_verified: "2026-06-01"
+inherits_from: null
+currency: TRY
+
+note: "TRY amounts are indicative based on 2024–2025 enforcement practice. Turkey revalues transport fines annually due to inflation — verify current rates with UAB (Ministry of Transport and Infrastructure) or TOBB before operations."
+
+enforcement_authority: "UAB (Ulaştırma ve Altyapı Bakanlığı) — Ministry of Transport and Infrastructure; TOBB for TIR matters; Turkish Customs Administration at borders"
+
+violations:
+  - id: no_permit
+    description: "Operating without required bilateral permit (izin belgesi)"
+    amount_min: 15000
+    amount_max: 50000
+    currency: TRY
+    additional_sanction: "Vehicle may be immobilised until permit produced or fine paid"
+
+  - id: expired_permit
+    description: "Operating with expired bilateral permit"
+    amount_min: 10000
+    amount_max: 30000
+    currency: TRY
+
+  - id: permit_mismatch
+    description: "Permit does not match vehicle or load type"
+    amount_min: 10000
+    amount_max: 25000
+    currency: TRY
+
+  - id: no_tir_carnet
+    description: "Operating without TIR Carnet when required"
+    amount_min: 20000
+    amount_max: 60000
+    currency: TRY
+    additional_sanction: "Detention of vehicle and goods"
+
+  - id: cabotage_violation
+    description: "Cabotage violation — foreign haulier carrying Turkish domestic load"
+    amount_min: 30000
+    amount_max: 100000
+    currency: TRY
+    additional_sanction: "Vehicle detention"
+
+  - id: aetr_tachograph
+    description: "AETR tachograph violation (driving/rest time infringement)"
+    amount_min: 5000
+    amount_max: 20000
+    currency: TRY
+
+  - id: overweight
+    description: "Exceeding permitted weight limits"
+    amount_min: null
+    amount_max: null
+    currency: TRY
+    note: "Variable per tonne excess; additional axle load fines apply"
+
+fine_ranges:
+  no_permit_try: "15,000–50,000 TRY"
+  no_tir_carnet_try: "20,000–60,000 TRY"
+  cabotage_try: "30,000–100,000 TRY"
+  aetr_violation_try: "5,000–20,000 TRY"

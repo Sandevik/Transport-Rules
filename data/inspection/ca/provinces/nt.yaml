@@ -1,0 +1,8 @@
+jurisdiction: CA-NT
+topic: inspection
+regulation: "Northwest Territories Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Arctic territory; ice roads (mackenzie highway system in winter, closes in spring thaw); Dempster Highway; severe seasonal road conditions; HOS deviations for remote/Arctic operations; significant heavy equipment transport"

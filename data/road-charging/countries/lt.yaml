@@ -1,0 +1,14 @@
+jurisdiction: LT
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/lt/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.evinjeketai.lt"
+inherits_from: EU
+
+system: "e-vignette"
+authority: "LAKD (Lietuvos automobilių kelių direkcija)"
+currency: EUR
+applies_to: "National roads for vehicles >3.5t"
+notes: "Time-based vignette system."
+
+rates: "See references/countries/lt/tolls.md for current rate tables — rates updated frequently"

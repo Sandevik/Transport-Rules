@@ -1,0 +1,10 @@
+jurisdiction: US-GA
+topic: road-network-classes
+regulation: "Georgia state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "I-75/I-85 Express Lanes; GA-400 toll road"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

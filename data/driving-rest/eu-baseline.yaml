@@ -1,0 +1,50 @@
+jurisdiction: EU
+topic: driving-rest
+regulation: "Regulation (EC) 561/2006 as amended by Regulation (EU) 2020/1054 (Mobility Package I)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R0561-20200802"
+inherits_from: null
+
+driving:
+  daily_max_h: 9
+  daily_extended_h: 10
+  extended_days_per_week: 2
+  weekly_max_h: 56
+  fortnightly_max_h: 90
+  break_after_h: 4.5
+  break_duration_min: 45
+  split_break:
+    first_min: 15           # must come first
+    second_min: 30          # must come second
+
+rest:
+  daily_regular_h: 11
+  daily_reduced_h: 9
+  daily_reductions_per_week_max: 3
+  weekly_regular_h: 45
+  weekly_reduced_h: 24
+  weekly_reduced_compensation_within_weeks: 3
+  multi_manning_daily_rest_h: 9
+  multi_manning_min_h_in_cab: 3     # before reduced rest counts
+
+ferry_train_exception:
+  max_interruptions: 2
+  max_activity_before_after_h: 1
+  minimum_rest_period_h: 11
+  allows_reduced_daily_rest: true
+
+return_to_base_rule:
+  introduced: "2020/1054"
+  weekly_rest_location: "employer-provided accommodation or driver's home"
+  max_consecutive_weeks_away: 3
+
+scope:
+  applies_to: "Goods vehicles >3.5t GVW and passenger vehicles >9 seats used commercially"
+  international_and_domestic: true
+  regulation: "Art. 2 EU 561/2006"
+
+exemptions_key:
+  short_distance_radius_km: 100    # Art. 13 national exemption option
+  agricultural_vehicles: true
+  emergency_vehicles: true
+  note: "Full exemption list in Art. 13 — member states must notify Commission"

@@ -1,0 +1,93 @@
+jurisdiction: FR
+topic: road-charging
+regulation: "Code de la voirie routière; motorway concession contracts; Directive 2022/362/EU transposed"
+last_verified: "2026-06-01"
+source_url: "https://www.autoroutes.fr"
+inherits_from: EU
+
+system: "Péage autoroute (motorway toll) — concession-operated"
+authority: "DGITM (Direction générale des infrastructures, des transports et des mobilités) / ASFA"
+currency: EUR
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "Toll motorways (autoroutes à péage — AP prefix); NOT all motorways are tolled"
+  note: "No universal distance-based charge for all roads — only specific concession motorways"
+
+# French motorway tolls are set per concession section, not as a national per-km rate.
+# Vehicle classes for HGV:
+#   Class 3 (véhicules de classe 3): 2-axle vehicle >3.5t
+#   Class 4 (véhicules de classe 4): 3-axle vehicle / articulated with 3 axles
+#   Class 5 (véhicules de classe 5): 4+ axle combination (typical 5-axle artic)
+#
+# Average indicative rates (EUR/km) vary significantly by operator and route.
+# These are average observed rates based on ASFA published data and route calculators.
+
+vehicle_classes:
+  class_3:
+    description: "2-axle HGV >3.5t"
+    typical_rate_eur_per_km: 0.115
+    rate_range: "0.08–0.17 EUR/km depending on route"
+  class_4:
+    description: "3-axle truck / 3-axle artic"
+    typical_rate_eur_per_km: 0.165
+    rate_range: "0.11–0.24 EUR/km"
+  class_5:
+    description: "4+ axle combination (typical 40t artic)"
+    typical_rate_eur_per_km: 0.200
+    rate_range: "0.13–0.28 EUR/km"
+
+# Major operators and their main concession routes
+operators:
+  Vinci_Autoroutes:
+    routes: ["A10 (Paris–Bordeaux)", "A11 (Paris–Le Mans–Nantes)", "A6 (Paris–Lyon, shared)", "A71", "A75 (partially free)"]
+    brand: "Vinci Autoroutes (formerly ASF, Cofiroute, ESCOTA)"
+  APRR:
+    routes: ["A6 (Burgundy–Lyon)", "A36", "A39", "A40 (Alps)", "A71"]
+  Sanef_SAPN:
+    routes: ["A1 (Paris–Lille)", "A4 (Paris–Strasbourg)", "A26 (Calais–Reims)"]
+  Eiffage:
+    routes: ["A65 (Pau–Langon)", "A41"]
+
+# Indicative per-km rates on key international freight routes (Class 5 = 5-axle artic)
+key_route_rates:
+  A1_Paris_Lille:
+    distance_km: 225
+    class_5_total_eur: 45
+    class_5_avg_eur_per_km: 0.200
+  A4_Paris_Strasbourg:
+    distance_km: 490
+    class_5_total_eur: 75
+    class_5_avg_eur_per_km: 0.153
+  A6_A7_Paris_Lyon_Marseille:
+    distance_km: 775
+    class_5_total_eur: 140
+    class_5_avg_eur_per_km: 0.181
+  A10_Paris_Bordeaux:
+    distance_km: 580
+    class_5_total_eur: 95
+    class_5_avg_eur_per_km: 0.164
+  note: "Figures are indicative averages; use operator route calculators for exact amounts"
+
+payment:
+  libert_transponder:
+    description: "Liber-t (télépéage) electronic transponder — main method for HGV operators"
+    interoperability: "EETS-compatible"
+    providers: ["Axxès", "DKV", "UTA", "Eurotoll (Axxès)"]
+    note: "Register via toll service provider before entering France"
+  other: "Credit/debit card at unmanned toll booths; cash at staffed booths"
+
+emission_class_differentiation:
+  applicable: false
+  note: >
+    French motorway tolls are NOT currently differentiated by Euro emission class.
+    Vehicle class (axle count / weight) determines the rate. No air pollution or CO2
+    surcharge differentiation in the French péage system as of 2026.
+
+notes: >
+  France does not operate a universal national HGV distance-based charge (unlike Germany,
+  Belgium, Switzerland). Tolls apply only on concession motorways. Many French autoroutes
+  are free (e.g. most A-routes managed directly by the state).
+  The former 'Ecotaxe' poids lourds (national distance charge for all roads) was abandoned in 2014.
+  Liber-t / Axxès transponder strongly recommended for operators making regular French runs.
+  Route-specific toll calculators: autoroutes.fr, viamichelin.fr

@@ -1,0 +1,8 @@
+jurisdiction: CA-NB
+topic: inspection
+regulation: "New Brunswick Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Maritime province; cross-border with Maine (US); MVI (Motor Vehicle Inspection) program; no toll roads; forestry transport important"

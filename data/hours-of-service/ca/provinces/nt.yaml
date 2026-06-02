@@ -1,0 +1,9 @@
+jurisdiction: CA-NT
+topic: hours-of-service
+regulation: "Northwest Territories Commercial Vehicle Act / Motor Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+has_intrastate_variations: true
+notes: "Arctic territory; ice roads (mackenzie highway system in winter, closes in spring thaw); Dempster Highway; severe seasonal road conditions; HOS deviations for remote/Arctic operations; significant heavy equipment transport"
+note: "Remote/Arctic operations may have specific exemptions. Check provincial regulations."

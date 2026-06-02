@@ -1,0 +1,12 @@
+jurisdiction: US-NY
+topic: road-network-classes
+regulation: "New York state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_turnpike_doubles: true
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "NY State Thruway; bridges/tunnels; NYC MTA; turnpike doubles on Thruway; spring restrictions; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

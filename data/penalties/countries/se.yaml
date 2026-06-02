@@ -1,0 +1,45 @@
+jurisdiction: SE
+topic: penalties
+regulation: "TSFS 2016:105 (sanktionsavgifter); Lag (1972:435) om överlastavgift; Yrkestrafiklagen (2012:210)"
+last_verified: "2026-05-31"
+source_url: "https://www.transportstyrelsen.se/sanktionsavgifter"
+inherits_from: null
+currency: SEK
+
+driving_time_violations:
+  exceeded_daily_driving_up_to_1h:        {fine_sek: 2500, regulation: "TSFS 2016:105 §3"}
+  exceeded_daily_driving_over_1h:         {fine_sek: 4000, regulation: "TSFS 2016:105 §3"}
+  exceeded_weekly_driving_up_to_1h:       {fine_sek: 2500}
+  exceeded_weekly_driving_over_1h:        {fine_sek: 4000}
+  exceeded_fortnightly_limit:             {fine_sek: 4000}
+  insufficient_break_up_to_30min:         {fine_sek: 1500}
+  insufficient_break_over_30min:          {fine_sek: 2500}
+
+rest_violations:
+  insufficient_daily_rest_up_to_1h:      {fine_sek: 2500}
+  insufficient_daily_rest_over_1h:       {fine_sek: 4000}
+  insufficient_weekly_rest_up_to_2h:     {fine_sek: 2500}
+  insufficient_weekly_rest_over_2h:      {fine_sek: 4000}
+  weekly_rest_taken_in_cab_violation:    {fine_sek: 4000}
+
+tachograph_violations:
+  defective_tachograph_not_repaired:     {fine_sek: 4000}
+  missing_tachograph_data_up_to_1day:    {fine_sek: 1500}
+  missing_tachograph_data_over_1day:     {fine_sek: 4000}
+  tachograph_manipulation:               {fine_sek: 40000}
+  card_not_used_correctly:               {fine_sek: 2500}
+
+overload_charges:
+  system: "Överlastavgift — progressive charge per 100kg over limit"
+  per_100kg_over_limit_sek: 600
+  minimum_charge_sek: 2500
+  maximum_charge_sek: null    # no statutory cap
+  regulation: "Lag (1972:435) om överlastavgift"
+  note: "Overload charge is civil; separate from criminal prosecution for gross overloads"
+
+operator_sanctions:
+  company_fine_sek_max: 500000     # Transportstyrelsen administrative sanction
+  licence_suspension: true          # Yrkestrafiklagen — can suspend transport licence
+  note: "Company (operator) held liable for systemic violations; individual driver also liable"
+
+enforcement_authority: "Polisen (Police) + Transportstyrelsen (Transport Agency) roadside units"

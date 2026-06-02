@@ -1,0 +1,74 @@
+jurisdiction: EU
+topic: live-animals
+regulation: "Council Regulation (EC) 1/2005 on the protection of animals during transport"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32005R0001"
+inherits_from: null
+
+journey_time_limits_h:
+  cattle_adult:
+    short_journey_max: 8
+    long_journey_first_leg: 14
+    rest_at_station_h: 1
+    long_journey_subsequent_leg: 14
+    long_journey_total_max: 29    # after rest; then 24h rest required at approved station
+  pigs:
+    short_journey_max: 8
+    long_journey_max: 24          # then 24h rest
+  sheep_goats:
+    short_journey_max: 8
+    long_journey_max: 24
+  horses:
+    short_journey_max: 8
+    long_journey_max: 24          # with water every 8h + rest at 24h
+  poultry_domestic_birds:
+    max_h: 12                     # domestic transport
+    long_journey_max: 24          # with conditions (chicks)
+  day_old_chicks:
+    max_h: 24                     # total from hatching to arrival
+  dogs_cats:
+    max_h: 8                      # then water and feed
+    long_journey_rest_h: 24
+
+rest_intervals:
+  cattle_after_h: 14
+  pigs_after_h: 24
+  resting_duration_h: 1           # minimum at approved staging point
+
+space_allowances_m2_per_animal:
+  cattle_550kg: 1.6
+  cattle_650kg: 1.8
+  pigs_100kg: 0.65
+  pigs_average_25kg: 0.30
+  sheep_55kg_shorn: 0.40
+  sheep_55kg_unshorn: 0.50
+  horses_adult: 1.75
+
+water_feed_requirements:
+  cattle_access_to_water_h: 8
+  pigs_access_to_water_h: 8
+  note: "Liquid feed/water must be available during rest; solid feed at appropriate intervals"
+
+vehicle_requirements:
+  floor_non_slip: true
+  adequate_ventilation: true
+  partition_boards_available: true
+  ceiling_height_adequate: true
+  loading_density_respected: true
+  temperature_monitoring_long_journeys: true
+
+documentation:
+  journey_log_required: true   # for journeys >8h
+  journey_log_sections: [planning, departure, each_crossing, rest, arrival]
+  transporter_authorization_required: true
+  certificate_of_competence_driver_required: true
+
+authorization:
+  transporter_type_1: "Journeys ≤65km — no authorization required"
+  transporter_type_2: "All other journeys — Type 2 authorization required"
+  authorization_validity_years: 5
+  certificate_of_competence: "Required for drivers/handlers of livestock; 3-year validity"
+
+competent_authority: "National veterinary authority (e.g., Livsmedelsverket in SE; DEFRA in GB)"
+
+long_journey_definition_h: 8   # journey >8h = 'long journey' requiring journey log and higher standards

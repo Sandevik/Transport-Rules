@@ -1,0 +1,39 @@
+country: Morocco
+code: ma
+eu_member: false
+eea_member: false
+aetr_signatory: true
+framework_tier: 2
+currency: MAD
+notes: >
+  AETR signatory. AETR governs driving/rest time and tachographs for international
+  road transport to/from Morocco. Morocco has an EU Association Agreement and Advanced
+  Status. Road freight between EU and Morocco typically uses ferry crossings
+  (Spain-Morocco via Algeciras-Tanger Med or Almería-Nador). Bilateral permits
+  required; CEMT/ITF permits generally valid.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.mtl.gov.ma/
+        description: Moroccan Ministry of Transport and Logistics
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://www.mtl.gov.ma/
+        description: Ministry of Transport and Logistics Morocco — international permits
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

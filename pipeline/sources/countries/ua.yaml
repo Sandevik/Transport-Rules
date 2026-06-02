@@ -1,0 +1,47 @@
+country: Ukraine
+code: ua
+eu_member: false
+eea_member: false
+aetr_signatory: true
+framework_tier: 2
+currency: UAH
+notes: >
+  AETR signatory. AETR governs driving/rest time and tachographs for international
+  operations. All other topics are standalone Ukrainian national rules.
+  Note: Ukraine is an EU candidate country (since June 2022). Significant logistics
+  corridor for EU-Ukraine freight, especially post-2022 via road (rail gauge difference).
+  Bilateral EU-Ukraine transport agreement suspended normal cabotage/permit rules during
+  wartime; check current bilateral arrangements before operations.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://mtu.gov.ua/
+        description: Ministry of Infrastructure of Ukraine — official transport authority
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://mtu.gov.ua/
+        description: Ministry of Infrastructure of Ukraine — tachograph regulations
+        type: official
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://mtu.gov.ua/
+        description: Ministry of Infrastructure of Ukraine — international road transport permits
+        type: official
+      - url: https://ec.europa.eu/transport/themes/international/ukraine_en
+        description: EC DG MOVE — EU-Ukraine transport arrangements
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

@@ -1,0 +1,58 @@
+jurisdiction: EU
+topic: dimensions-weights
+regulation: "Council Directive 96/53/EC as amended by Directive (EU) 2015/719"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:01996L0053-20150611"
+inherits_from: null
+
+length_m:
+  single_vehicle: 12.0
+  single_vehicle_bus: 13.5
+  articulated_bus: 18.75
+  semi_trailer_and_tractor: 16.5
+  road_train: 18.75
+  alternative_fuel_length_bonus: 0.9  # for LNG/CNG/electric — 2015/719 amendment
+
+width_m:
+  standard: 2.55
+  refrigerated_body: 2.60
+  note: "No federal height limit — 4.0m is the common national standard in most member states"
+
+height_m:
+  common_national_standard: 4.0   # not EU-harmonised — set by member states individually
+  note: "EU does not set a maximum height; member states set their own (commonly 4.0-4.5m)"
+
+gross_weight_t:
+  two_axle_vehicle: 18
+  three_axle_vehicle: 25
+  three_axle_vehicle_pneumatic_suspension: 26
+  four_axle_rigid: 32
+  four_axle_semi: 36
+  five_axle_semi: 40
+  six_axle_semi_or_road_train: 40
+  combined_transport_bonus_t: 44   # 5-axle semi on CT operations
+  alternative_fuel_bonus_t: 1      # +1t for alt-fuel vehicles (LNG/electric/hydrogen)
+  road_train_5axle: 40
+  road_train_6axle: 40
+
+axle_loads_t:
+  single_non_driving: 10
+  single_driving_standard: 11.5
+  single_driving_pneumatic_or_equalised: 11.5
+  bogie_axle_spacing_less_1m: 11
+  bogie_axle_spacing_1_to_1_3m: 16
+  bogie_driving_axle_1_to_1_3m: 18
+  bogie_driving_axle_1_3_to_1_8m: 19     # with pneumatic suspension or ≥4 twin tyres
+  triple_axle_spacing_less_1_3m: 21
+  triple_axle_spacing_1_3_to_1_4m: 24
+
+nordic_exception:
+  applies_to: [FI, SE, DK, "NO (EEA)"]
+  max_gvw_t: 76
+  max_length_m: 25.25             # EMS standard; up to 34.5m with national permit
+  note: "Nordic countries may authorize vehicles exceeding EU limits on their national networks"
+
+interoperability:
+  cross_border_eu: "EU-baseline limits apply for cross-border operations between member states"
+  national_oversize: "Vehicles exceeding EU limits require special authorization when crossing borders"
+  combined_transport: "44t GVW allowed for 5-axle intermodal transport (Directive 92/106/EEC)"

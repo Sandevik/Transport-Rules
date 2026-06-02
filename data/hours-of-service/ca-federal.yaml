@@ -1,0 +1,37 @@
+jurisdiction: CA
+topic: hours-of-service
+regulation: "NSC Standard 9 — Hours of Service; Commercial Vehicle Drivers Hours of Service Regulations (SOR/2005-313)"
+last_verified: "2026-05-31"
+source_url: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2005-313/fulltext.html"
+inherits_from: null
+
+note: "Federal HOS applies to federally-regulated extra-provincial carriers. Provinces adopt NSC Standard 9 for intrastate; some provinces have variations."
+
+cycle_1_7day:
+  max_driving_h: 13
+  max_on_duty_h: 14
+  max_on_duty_in_7_day_cycle_h: 70
+  min_off_duty_reset_h: 24
+  daily_off_duty_min_h: 10
+
+cycle_2_14day:
+  max_driving_h: 13
+  max_on_duty_h: 14
+  max_on_duty_in_14_day_cycle_h: 120
+  min_off_duty_reset_h: 36
+  daily_off_duty_min_h: 10
+
+split_sleeper_berth:
+  allowed: true
+  split: "8h sleeper + 2h off-duty (or equivalent)"
+
+eld_mandate:
+  required: true
+  regulation: "NSC Standard 16 — Electronic Logging Devices"
+  effective: "January 1, 2023 (phased)"
+  exemptions: ["short-haul within 160km of home terminal", "vehicles manufactured before 2000"]
+
+short_haul_exemption:
+  radius_km: 160
+  max_on_duty_h: 14
+  no_log_required: true

@@ -1,0 +1,13 @@
+jurisdiction: US-KS
+topic: road-network-classes
+regulation: "Kansas state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+lcv_turnpike_doubles: true
+spring_weight_restrictions: false
+
+notes: "Kansas Turnpike (I-335) tolled; allows triples and turnpike doubles on Turnpike"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

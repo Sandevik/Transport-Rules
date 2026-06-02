@@ -1,0 +1,10 @@
+jurisdiction: AU-WA
+topic: road-charging
+regulation: "Western Australia toll road concession agreements"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+toll_system_exists: true
+notes: "Extensive road train network — most of rural WA outside Perth metro; up to 3 trailers (B-triple) on many outback roads; Main Roads WA own legislation (not HVNL); limited toll infrastructure; mining-related heavy vehicle routes"
+rate_note: "Toll rates vary by facility and vehicle class; heavy vehicles pay higher rates. See individual toll operator websites."

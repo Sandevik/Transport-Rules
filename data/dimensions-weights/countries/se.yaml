@@ -1,0 +1,66 @@
+jurisdiction: SE
+topic: dimensions-weights
+regulation: "Vägtrafikförordning (2023:622); TSFS 2013:61; TSFS 2025:17 (34.5m LCV)"
+last_verified: "2026-05-31"
+source_url: "https://www.transportstyrelsen.se/matt-och-vikt"
+inherits_from: EU
+
+overrides:
+  height_m: 4.5              # Swedish national standard (vs EU common 4.0m)
+  ems_length_m: 25.25        # EMS standard (A-train / B-train combinations)
+  lcv_length_m: 34.5         # 34.5m long combination vehicles (TSFS 2025:17; 590km approved network)
+  ems_gross_weight_t: 74     # for EMS/LCV with qualifying axle configuration
+  lcv_gross_weight_t: 74
+  standard_max_gvw_t: 64     # BK1 standard road combination
+
+bk_classes:
+  BK1:
+    description: "Standard national, regional and most municipal roads"
+    single_non_driving_t: 10
+    single_driving_t: 11.5
+    bogie_less_1m_t: 11
+    bogie_1_to_1_3m_t: 16
+    bogie_1_3_to_1_8m_t: 18
+    bogie_over_1_8m_t: 20
+    triple_less_1_3m_t: 21
+    triple_1_3_to_1_4m_t: 24
+    total_weight_t: 64
+  BK2:
+    description: "Secondary and rural roads with reduced bearing capacity"
+    single_non_driving_t: 8
+    single_driving_t: 10
+    bogie_less_1m_t: 11
+    bogie_1_to_1_3m_t: 14
+    bogie_over_1_3m_t: 16
+    triple_t: 18
+    total_weight_t: 51.4
+  BK3:
+    description: "Low-capacity rural and forest roads"
+    single_axle_t: 8
+    bogie_t: 12
+    triple_t: 16
+    total_weight_t: 37.5
+  BK4:
+    description: "High-capacity class enabling 74t; requires qualifying conditions"
+    single_driving_t: 11.5
+    total_weight_t: 74
+    conditions:
+      - "Minimum 4 axles on driving vehicle unit"
+      - "Air suspension or equivalent required"
+      - "Maximum speed 60 km/h"
+
+seasonal:
+  thaw_restriction: "Tjällossning — temporary BK downgrade on designated roads"
+  period_approx: "Approximately November 10 – April 10 (varies regionally)"
+  check_url: "https://www.trafikverket.se/forbud"
+  note: "Exact dates set annually by Trafikverket; check before each journey"
+
+special_networks:
+  lcv_34_5m_network:
+    max_length_m: 34.5
+    max_gvw_t: 74
+    regulation: "TSFS 2025:17"
+    network_km: 590
+    speed_limit_kmh: 80
+    configurations: "A-train, B-train; specific approved vehicle configurations"
+    network_url: "https://www.trafikverket.se/langa-fordon"

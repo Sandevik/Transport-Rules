@@ -1,0 +1,10 @@
+jurisdiction: AU-SA
+topic: road-network-classes
+regulation: "South Australia heavy vehicle network access rules"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+road_train_network: true
+notes: "Road train routes in remote SA (north and west); HVNL participant; Department for Infrastructure and Transport vehicle inspection; no major toll roads"
+state_network_map_url: "https://www.nhvr.gov.au/national-network-map"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check updated network access rules"

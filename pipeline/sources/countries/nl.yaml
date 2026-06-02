@@ -1,0 +1,109 @@
+country: Netherlands
+code: nl
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: ILT (Inspectie Leefomgeving en Transport)
+  primary_url: https://www.ilent.nl/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://business.gov.nl/regulations/driving-times-rest-periods/
+      description: Business.gov.nl — Driving times and rest periods (official government
+        portal)
+      type: official
+    - url: https://business.gov.nl/regulations/digital-tachograph/
+      description: Business.gov.nl — Digital tachograph requirements
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    national_deviations: true
+    notes: Netherlands permits LZV (Langere en Zwaardere Vrachtautocombinaties) —
+      25.25m, 60t
+    sources:
+    - url: https://www.government.nl/topics/freight-transportation/requiremenst-for-lorries
+      description: Government.nl — Requirements for lorries (dimensions and weights)
+      type: official
+    - url: https://www.rdw.nl/
+      description: RDW — Vehicle authority (vehicle registration and type approval)
+      type: official
+  posting-declaration:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.duos.nl/
+      description: DUOS — Dutch notification portal for posting of workers
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ilent.nl/
+      description: ILT — tachograaf Netherlands
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.rdw.nl/
+      description: RDW — APK keuring Netherlands
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.cbr.nl/
+      description: CBR — vakbekwaamheid CPC Netherlands
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ilent.nl/onderwerpen/vervoer-gevaarlijke-stoffen
+      description: ILT — gevaarlijke stoffen ADR Netherlands
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.rivm.nl/
+      description: RIVM Netherlands — emissions
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.nlarbeidsinspectie.nl/
+      description: NLA — posted workers Netherlands
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ilent.nl/
+      description: ILT — combined transport Netherlands
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.nvwa.nl/
+      description: NVWA — diertransport Netherlands
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ilent.nl/onderwerpen/wegtransport
+      description: ILT — vergunningen wegtransport Netherlands
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.rws.nl/en/topics/transport-and-traffic/goods-transport/
+      description: National oversize load permit authority
+      type: official
+  working-time:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.inspectieswl.nl/english/
+      description: ILT — working time enforcement Netherlands
+      type: official

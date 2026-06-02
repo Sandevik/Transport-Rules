@@ -1,0 +1,16 @@
+jurisdiction: BE
+topic: inspection
+regulation: "Koninklijk Besluit betreffende de technische controle; Code de la Route"
+last_verified: "2026-05-31"
+source_url: "https://mobilit.belgium.be"
+inherits_from: EU
+
+authority: "SPF Mobilité et Transports (SPF Mobilité)"
+inspection_name: "Technische Keuring / Contrôle technique"
+approved_operators_type: "GOCA / DIV accredited centres"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/be/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/be/vehicle-inspection.md"

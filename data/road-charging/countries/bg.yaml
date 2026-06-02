@@ -1,0 +1,14 @@
+jurisdiction: BG
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/bg/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.bgtoll.bg"
+inherits_from: EU
+
+system: "e-Toll"
+authority: "Агенция Пътна инфраструктура"
+currency: BGN
+applies_to: "All national roads for vehicles >3.5t"
+notes: "GNSS vignette-based system."
+
+rates: "See references/countries/bg/tolls.md for current rate tables — rates updated frequently"

@@ -1,0 +1,8 @@
+jurisdiction: US-AR
+topic: dimensions-weights
+regulation: "Arkansas state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "No general LCV program; no spring restrictions; no mandatory periodic inspection"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

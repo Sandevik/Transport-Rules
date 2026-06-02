@@ -1,0 +1,81 @@
+country: Portugal
+code: pt
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: IMT (Instituto da Mobilidade e dos Transportes)
+  primary_url: https://www.imt-ip.pt/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imt-ip.pt/
+      description: IMT — Portuguese mobility and transport institute
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.pttolls.com/en
+      description: PT Tolls / Via Verde — Portuguese toll system
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — tacógrafo Portugal
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — IPO inspeção periódica Portugal
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — CAM/CQM CPC Portugal
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — mercadorias perigosas ADR Portugal
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://apambiente.pt/
+      description: APA — Agência Portuguesa do Ambiente
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.act.gov.pt/(pt-PT)/Itens/Paginas/Destacamento.aspx
+      description: ACT — destacamento trabalhadores Portugal
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — transporte combinado Portugal
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.dgav.pt/
+      description: DGAV — transporte animal Portugal
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — pesos e dimensões Portugal
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.imtt.pt/
+      description: IMT — licença comunitária Portugal
+      type: official

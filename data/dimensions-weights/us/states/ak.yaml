@@ -1,0 +1,8 @@
+jurisdiction: US-AK
+topic: dimensions-weights
+regulation: "Alaska state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Arctic conditions; seasonal weight restrictions in spring/summer on secondary roads"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

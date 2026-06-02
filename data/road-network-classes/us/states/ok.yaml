@@ -1,0 +1,12 @@
+jurisdiction: US-OK
+topic: road-network-classes
+regulation: "Oklahoma state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+spring_weight_restrictions: false
+
+notes: "Oklahoma Turnpike Authority (Will Rogers, Turner, Kickapoo, etc.); allows triple trailers"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

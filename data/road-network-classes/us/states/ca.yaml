@@ -1,0 +1,10 @@
+jurisdiction: US-CA
+topic: road-network-classes
+regulation: "California state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "CARB emissions rules; strict enforcement; CHP BIT program; Bay Bridge/Golden Gate tolls; allows 28.5ft twin trailers (STAA)"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

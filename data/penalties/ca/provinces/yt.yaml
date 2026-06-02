@@ -1,0 +1,9 @@
+jurisdiction: CA-YT
+topic: penalties
+regulation: "Yukon Highway Traffic Act enforcement"
+last_verified: "2026-05-31"
+currency: CAD
+inherits_from: null
+
+note: "Penalty amounts set by provincial legislation. HOS violations typically CAD 500–5000; overweight charges per-tonne over limit."
+notes: "Arctic territory; limited road network; Alaska Highway; spring restrictions (ice roads thawing); significant seasonal road conditions; intrastate HOS variations for remote operations; vehicle inspection program"

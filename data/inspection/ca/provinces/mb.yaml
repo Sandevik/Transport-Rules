@@ -1,0 +1,8 @@
+jurisdiction: CA-MB
+topic: inspection
+regulation: "Manitoba Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Spring weight restrictions April–May; Manitoba Infrastructure vehicle inspection; no toll roads; agricultural heavy vehicles; Red River Valley road conditions vary seasonally"

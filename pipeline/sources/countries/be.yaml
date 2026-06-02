@@ -1,0 +1,95 @@
+country: Belgium
+code: be
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: SPF Mobilité et Transports
+  primary_url: https://mobilit.belgium.be/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/route/conduire/
+      description: SPF Mobilité — Conduire (driving rules including rest time enforcement)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.viapass.be/en/
+      description: Viapass — Belgian distance-based km-charge for HGVs
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/route/conduire/code-de-la-route-violations-et-sanctions/
+      description: SPF Mobilité — Violations and sanctions
+      type: official
+  posting-declaration:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.limosa.be/en/home.html
+      description: LIMOSA — Belgian social security declaration for posted workers
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/transport_terrestre/transport_routier/tachygraphe
+      description: SPF Mobilité — Tachygraphe Belgium
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/transport_terrestre/controle_technique
+      description: SPF Mobilité — Contrôle technique Belgium
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/transport_terrestre/transport_routier/qualification_conducteurs
+      description: SPF Mobilité — CPC Belgium
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/transport_terrestre/transport_marchandises_dangereuses
+      description: SPF Mobilité — ADR Belgium
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.federalplan.be/
+      description: Bureau fédéral du Plan — émissions Belgium
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.limosa.be
+      description: Limosa — posting declaration Belgium
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/transport_terrestre/transport_combine
+      description: SPF Mobilité — Transport combiné Belgium
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.favv-afsca.be
+      description: AFSCA — Transport d'animaux Belgium
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mobilit.belgium.be/fr/transport_terrestre/transport_exceptionnel
+      description: SPF Mobilité — Dimensions et masses Belgium
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official

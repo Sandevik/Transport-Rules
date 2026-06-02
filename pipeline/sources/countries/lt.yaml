@@ -1,0 +1,81 @@
+country: Lithuania
+code: lt
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: LTSA (Lithuanian Road Transport Safety Administration)
+  primary_url: https://ltsa.lrv.lt/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/en/
+      description: LTSA — Lithuanian road transport safety administration
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://vialietuva.lt/en/user-charge-vignettes
+      description: ViaLietuva — Lithuanian road user charge and vignette system
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — tachograph Lithuania
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — techninė apžiūra Lithuania
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — CPC Lithuania
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — ADR Lithuania
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://am.lrv.lt/
+      description: Aplinkos ministerija Lithuania
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://vdi.lrv.lt/
+      description: VDI — Labour Inspectorate Lithuania
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — combined transport Lithuania
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://vmvt.lt/
+      description: VMVT — animal transport Lithuania
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — dimensions and weights Lithuania
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ltsa.lrv.lt/
+      description: LTSA — licences Lithuania
+      type: official

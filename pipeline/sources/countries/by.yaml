@@ -1,0 +1,39 @@
+country: Belarus
+code: by
+eu_member: false
+eea_member: false
+aetr_signatory: true
+framework_tier: 2
+currency: BYR
+notes: >
+  AETR signatory. AETR governs driving/rest time and tachographs.
+  WARNING: EU/UK/US sanctions apply to Belarus since 2021–2022. Road transport between
+  the EU and Belarus has been severely restricted. Belarusian carriers are largely
+  prohibited from operating in the EU (Council Regulation 2022/576). Verify current
+  sanctions status before any operations involving Belarus.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.mintrans.gov.by/
+        description: Ministry of Transport and Communications of the Republic of Belarus
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://www.mintrans.gov.by/
+        description: Ministry of Transport Belarus — international permits
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

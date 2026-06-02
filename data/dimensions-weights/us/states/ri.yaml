@@ -1,0 +1,8 @@
+jurisdiction: US-RI
+topic: dimensions-weights
+regulation: "Rhode Island state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "State inspection equiv.; no general toll roads"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

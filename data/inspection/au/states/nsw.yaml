@@ -1,0 +1,10 @@
+jurisdiction: AU-NSW
+topic: inspection
+regulation: "New South Wales vehicle inspection standards"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+annual_inspection_required: true
+inspection_conducted_by: "Authorised Inspection Stations (AIS) — state approved"
+notes: "B-doubles widely allowed; Sydney toll network (M7, M2, NorthConnex, Harbour Bridge/Tunnel, WestConnex); heavy vehicle inspection via Transport for NSW; no road trains"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation may affect AIS approval requirements"

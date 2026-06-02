@@ -1,0 +1,14 @@
+jurisdiction: GR
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/gr/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.e-pass.gr"
+inherits_from: EU
+
+system: "E-pass / Kenfis"
+authority: "Hellenic Motor Highways (KEM)"
+currency: EUR
+applies_to: "National motorway network"
+notes: "Per-section tolls; e-pass transponder."
+
+rates: "See references/countries/gr/tolls.md for current rate tables — rates updated frequently"

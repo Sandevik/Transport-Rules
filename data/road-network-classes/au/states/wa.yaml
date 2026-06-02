@@ -1,0 +1,10 @@
+jurisdiction: AU-WA
+topic: road-network-classes
+regulation: "Western Australia heavy vehicle network access rules"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+road_train_network: true
+notes: "Extensive road train network — most of rural WA outside Perth metro; up to 3 trailers (B-triple) on many outback roads; Main Roads WA own legislation (not HVNL); limited toll infrastructure; mining-related heavy vehicle routes"
+state_network_map_url: "https://www.nhvr.gov.au/national-network-map"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check updated network access rules"

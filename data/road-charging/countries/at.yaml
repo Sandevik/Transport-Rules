@@ -1,0 +1,100 @@
+jurisdiction: AT
+topic: road-charging
+regulation: "Bundesstraßen-Mautgesetz 2002 (BStMG); ASFINAG GO Toll system"
+last_verified: "2026-06-01"
+source_url: "https://www.go-maut.at/en/paying-the-go-toll/go-toll-rates/"
+inherits_from: EU
+
+system: "GO-Maut (digital distance toll for HGVs)"
+authority: "ASFINAG (Autobahn- und Schnellstraßen-Finanzierungs-AG)"
+currency: EUR
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "All Austrian motorways (Autobahnen) and expressways (Schnellstraßen) — full ASFINAG network"
+  note: "GO-Box (DSRC microwave OBU) required"
+
+# Rates effective 1 January 2026
+# Source: go-maut.at official rate page
+# All rates in EUR/km, EXCLUDING 20% Austrian VAT
+# CO2 class (1–5) is combined with Euro emission standard in ASFINAG classification:
+#   Class 5 = Zero Emission vehicles
+#   Class 4 = Euro VI with best CO2 performance
+#   Class 3 = Euro VI mid CO2
+#   Class 2 = Euro VI standard CO2
+#   Class 1 = Euro VI lowest CO2 class / Euro V-EEV / Euro IV / Euro 0-III
+
+rates_eur_per_km:
+  # 2-axle vehicles (Category 2)
+  cat2_2axle:
+    zero_emission_class5:   0.0587
+    euro_vi_class4:         0.2486
+    euro_vi_class3:         0.2724
+    euro_vi_class2:         0.2740
+    euro_vi_class1:         0.2774
+    euro_v_eev:             0.2924
+    euro_iv:                0.3114
+    euro_0_to_iii:          0.3274
+
+  # 3-axle vehicles (Category 3)
+  cat3_3axle:
+    zero_emission_class5:   0.0806
+    euro_vi_class4:         0.3440
+    euro_vi_class3:         0.3788
+    euro_vi_class2:         0.3810
+    euro_vi_class1:         0.3856
+    euro_v_eev:             0.4086
+    euro_iv:                0.4296
+    euro_0_to_iii:          0.4536
+
+  # 4+ axle vehicles (Category 4+) — typical 5-axle artic
+  cat4plus_4plus_axle:
+    zero_emission_class5:   0.1189
+    euro_vi_class4:         0.5091
+    euro_vi_class3:         0.5625
+    euro_vi_class2:         0.5657
+    euro_vi_class1:         0.5724
+    euro_v_eev:             0.6024
+    euro_iv:                0.6324
+    euro_0_to_iii:          0.6654
+
+# Typical reference vehicle: 5-axle artic, Euro VI Class 1 = 0.5724 EUR/km (excl. VAT)
+typical_reference:
+  vehicle: "5-axle articulated HGV, Euro VI (CO2 class 1)"
+  rate_eur_per_km_excl_vat: 0.5724
+  rate_eur_per_km_incl_vat: 0.6869  # 0.5724 × 1.20
+  note: "Zero-emission 4+ axle: 0.1189 EUR/km; Euro 0-III 4+ axle: 0.6654 EUR/km"
+
+section_toll_surcharge:
+  surcharge_pct: 25
+  applies_to: "25% increase on the basic per-km rate on these sections"
+  sections:
+    - name: "Gleinalm Tunnel"
+      road: "A9"
+    - name: "Tauern Tunnel"
+      road: "A10"
+    - name: "Karawanken Tunnel"
+      road: "A11"
+    - name: "Lower Inn Valley / Brenner corridor"
+      road: "A12"
+    - name: "Arlberg Tunnel"
+      road: "A14"
+      note: "Fixed section toll applies separately"
+
+obu:
+  type: "GO-Box (DSRC microwave transponder)"
+  required: true
+  mounting: "Windscreen — must be correctly mounted and activated before entering ASFINAG network"
+  available_at: "175+ sales points, border crossings, ASFINAG webshop (shop.asfinag.at)"
+
+enforcement:
+  gantry_technology: "DSRC microwave gantries"
+  penalty: "Substitute toll charge + fine for non-compliance"
+
+notes: >
+  Rates are per km, excluding 20% Austrian VAT (VAT does not apply to foreign operators
+  registered outside Austria in most cases — verify with ASFINAG). Rates include
+  infrastructure, air pollution, noise, and CO2 cost components.
+  GO-Box must be registered with correct emission class — incorrect class declaration
+  results in back-payment + fine.
+  Rate table source: go-maut.at, effective 1 January 2026.

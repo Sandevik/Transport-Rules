@@ -1,0 +1,11 @@
+jurisdiction: US-OR
+topic: road-network-classes
+regulation: "Oregon state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Spring weight restrictions; Oregon allows 105,500 lbs on some routes with permit; no general tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,8 @@
+jurisdiction: CA-ON
+topic: inspection
+regulation: "Ontario Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Spring weight restrictions March–April (typical); Highway 407 ETR private toll; MTO (Ministry of Transportation Ontario) vehicle inspection at licensed facilities; largest truck fleet in Canada"

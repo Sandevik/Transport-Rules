@@ -1,0 +1,13 @@
+jurisdiction: US-SC
+topic: penalties
+regulation: "South Carolina state transportation and commerce code"
+last_verified: "2026-05-31"
+inherits_from: null
+currency: USD
+
+note: "State fines for HOS, weight, and inspection violations. See state DOT enforcement guidance."
+fine_ranges:
+  hos_violation_usd: "Typically 100–2500 USD; serious violations can exceed 10,000 USD"
+  overweight_per_lb_over_cents: "Typically 1–5 cents per pound over limit"
+  out_of_service_violation_usd: "Typically 1000–16000 USD"
+notes: "Some toll roads (SC-31, SC-526 mark Clark bridges)"

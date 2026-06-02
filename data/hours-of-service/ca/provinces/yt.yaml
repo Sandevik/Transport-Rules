@@ -1,0 +1,9 @@
+jurisdiction: CA-YT
+topic: hours-of-service
+regulation: "Yukon Commercial Vehicle Act / Motor Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+has_intrastate_variations: true
+notes: "Arctic territory; limited road network; Alaska Highway; spring restrictions (ice roads thawing); significant seasonal road conditions; intrastate HOS variations for remote operations; vehicle inspection program"
+note: "Remote/Arctic operations may have specific exemptions. Check provincial regulations."

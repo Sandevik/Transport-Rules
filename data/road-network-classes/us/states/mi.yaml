@@ -1,0 +1,11 @@
+jurisdiction: US-MI
+topic: road-network-classes
+regulation: "Michigan state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Strict spring frost laws (one of nation's most comprehensive); Ambassador Bridge; state inspection equiv. (annual commercial inspection)"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,98 @@
+---
+name: vehicle-classes
+description: EU vehicle category taxonomy shared across inspection, dimensions-weights, and tachograph topics
+metadata:
+  type: reference
+  regulation: "Directive 2007/46/EC (framework); superseded by 2018/858/EU"
+  last_verified: "2026-05-31"
+  source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R0858"
+---
+
+# EU Vehicle Classification (Regulation 2018/858/EU)
+
+categories:
+  M:
+    description: "Motor vehicles designed and constructed for the carriage of passengers"
+    M1:
+      seats_max: 8         # excluding driver
+      gvw_t: null          # no limit
+      examples: [car, MPV, minivan]
+      tachograph_required: false
+      periodic_inspection_required: false  # below commercial threshold
+    M2:
+      seats_min: 9         # excluding driver (>8 passengers)
+      gvw_t_max: 5
+      examples: [minibus, small_coach]
+      tachograph_required: true
+      periodic_inspection_required: true
+    M3:
+      seats_min: 9         # excluding driver
+      gvw_t_min: 5
+      examples: [coach, bus, articulated_bus]
+      tachograph_required: true
+      periodic_inspection_required: true
+      speed_limiter_kmh: 100
+
+  N:
+    description: "Motor vehicles designed and constructed for the carriage of goods"
+    N1:
+      gvw_t_max: 3.5
+      examples: [van, pickup, light_truck]
+      tachograph_required: false    # below threshold; some exemptions apply
+      periodic_inspection_required: false
+    N2:
+      gvw_t_min: 3.5
+      gvw_t_max: 12
+      examples: [medium_rigid_truck, box_truck]
+      tachograph_required: true
+      periodic_inspection_required: true
+    N3:
+      gvw_t_min: 12
+      examples: [heavy_rigid_truck, tractor_unit, heavy_drawbar]
+      tachograph_required: true
+      periodic_inspection_required: true
+      speed_limiter_kmh: 90
+
+  O:
+    description: "Trailers, including semi-trailers"
+    O1:
+      gvw_t_max: 0.75
+      examples: [small_trailer]
+      periodic_inspection_required: false
+    O2:
+      gvw_t_min: 0.75
+      gvw_t_max: 3.5
+      examples: [light_trailer, caravan]
+      periodic_inspection_required: false
+    O3:
+      gvw_t_min: 3.5
+      gvw_t_max: 10
+      examples: [medium_trailer]
+      periodic_inspection_required: true
+    O4:
+      gvw_t_min: 10
+      examples: [semi_trailer, full_trailer, heavy_drawbar_trailer]
+      periodic_inspection_required: true
+
+  L:
+    description: "Powered two/three-wheelers and quadricycles (out of scope for commercial freight)"
+    note: "L-category vehicles not covered in this project"
+
+# Tachograph scope (Regulation 561/2006 Art. 3 + Regulation 165/2014)
+tachograph_scope:
+  required_for:
+    - "N3 vehicles in international/domestic road transport"
+    - "N2 vehicles >3.5t in road transport of goods"
+    - "M2/M3 vehicles in passenger transport >9 passengers for hire or reward"
+  exempt_categories:
+    - "Vehicles ≤3.5t GVW"
+    - "Vehicles used in national transport exempt under 561/2006 Art. 13"
+    - "Agricultural/forestry tractors"
+    - "Emergency vehicles (ambulance, fire, police)"
+    - "Private (non-commercial) use"
+
+# Periodic roadworthiness test scope (Directive 2014/45/EU)
+inspection_scope:
+  mandatory_categories: [M2, M3, N2, N3, O3, O4]
+  optional_member_state_discretion: [N1, M1, O1, O2]
+  note: "Member states may extend mandatory inspection to N1/M1 at national discretion"

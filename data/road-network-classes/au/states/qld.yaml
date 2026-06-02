@@ -1,0 +1,10 @@
+jurisdiction: AU-QLD
+topic: road-network-classes
+regulation: "Queensland heavy vehicle network access rules"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+road_train_network: true
+notes: "Road train zone in western QLD (west of Charleville/Townsville line); Brisbane toll network (Logan, Gateway, Clem7, AirportLink); Transport and Main Roads QLD inspection"
+state_network_map_url: "https://www.nhvr.gov.au/national-network-map"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check updated network access rules"

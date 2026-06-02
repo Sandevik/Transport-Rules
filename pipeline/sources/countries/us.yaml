@@ -1,0 +1,45 @@
+country: United States
+code: us
+eu_member: false
+aetr_signatory: false
+framework_tier: 3
+currency: USD
+notes: >
+  Governed by FMCSA (Federal Motor Carrier Safety Administration) under USDOT.
+  Completely independent framework from EU/AETR. ELD (Electronic Logging Device) mandate since 2017.
+  All topic files are standalone — never cross-reference EU or AETR.
+
+topics:
+  hours-of-service:
+    standalone: true
+    sources:
+      - url: https://www.fmcsa.dot.gov/regulations/hours-of-service
+        description: FMCSA — Hours of Service regulations overview
+        type: official
+      - url: https://www.fmcsa.dot.gov/regulations/hours-service/summary-hours-service-regulations
+        description: FMCSA — Summary of HOS regulations (11h driving, 14h window, 10h off-duty)
+        type: official
+      - url: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395
+        description: eCFR — 49 CFR Part 395 (HOS full regulatory text)
+        type: official
+  dimensions-weights:
+    standalone: true
+    sources:
+      - url: https://ops.fhwa.dot.gov/freight/sw/overview/index.htm
+        description: FHWA — Size and weight overview (federal limits)
+        type: official
+      - url: https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658
+        description: eCFR — 23 CFR Part 658 (truck size and weight regulations)
+        type: official
+  commercial-license:
+    standalone: true
+    sources:
+      - url: https://www.fmcsa.dot.gov/registration/get-mc-number-authority
+        description: FMCSA — Motor Carrier Registration (MC number and operating authority)
+        type: official
+  penalties:
+    standalone: true
+    sources:
+      - url: https://www.fmcsa.dot.gov/regulations/penalties
+        description: FMCSA — Civil penalty amounts for HOS and other violations
+        type: official

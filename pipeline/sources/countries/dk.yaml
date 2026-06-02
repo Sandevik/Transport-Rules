@@ -1,0 +1,102 @@
+country: Denmark
+code: dk
+eu_member: true
+framework_tier: 1
+currency: DKK
+authorities:
+  primary: Færdselsstyrelsen (Danish Road Traffic Authority)
+  primary_url: https://vejafgifter.dk/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://tachografservice.dk/en/toolbox/drive-and-rest-time/
+      description: Tachografservice.dk — Drive and rest time rules (authoritative
+        Danish guidance)
+      type: trusted-nongovernmental
+    - url: https://tachografservice.dk/en/toolbox/exceptions-drive-and-rest-time/
+      description: Tachografservice.dk — Exceptions to drive and rest time in Denmark
+      type: trusted-nongovernmental
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://vejafgifter.dk/en/weight/
+      description: Færdselsstyrelsen — Weight limits
+      type: official
+  tolls:
+    standalone: true
+    notes: Denmark has no general motorway toll for trucks. Øresund Bridge and Great
+      Belt have tolls.
+    sources:
+    - url: https://vejafgifter.dk/en/
+      description: Færdselsstyrelsen — Road fees portal
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://tachografservice.dk/en/toolbox/boeder-og-sanktioner/
+      description: Tachografservice.dk — Fines and sanctions for driving/rest violations
+      type: trusted-nongovernmental
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fstyr.dk/da/koeretoejer/takograf
+      description: Færdselsstyrelsen — Takograf Denmark
+      type: official
+    - url: https://www.tachografservice.dk/
+      description: Tachografservice.dk — workshop info
+      type: trusted-nongovernmental
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fstyr.dk/da/koeretoejer/syn
+      description: Færdselsstyrelsen — Syn Denmark
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fstyr.dk/da/koeretoejer/chauffoerkort
+      description: Færdselsstyrelsen — Chaufførkort CPC Denmark
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fstyr.dk/da/transport/farligt-gods
+      description: Færdselsstyrelsen — Farligt gods ADR Denmark
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mst.dk/erhverv/transport/koeretoejers-udledning/
+      description: Miljøstyrelsen — køretøjsemissioner Denmark
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.workindenmark.dk/Working-in-DK/For-employers/Posting-of-workers
+      description: Work in Denmark — posting
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vejdirektoratet.dk/
+      description: Vejdirektoratet — combined transport Denmark
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fvst.dk/transport-af-dyr/
+      description: Fødevarestyrelsen — transport af dyr Denmark
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fstyr.dk/da/koeretoejer/tilladelser
+      description: Færdselsstyrelsen — Tilladelser Denmark
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official

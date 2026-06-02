@@ -1,0 +1,36 @@
+jurisdiction: DE
+topic: road-network-classes
+regulation: "§70 StVZO (special permits); BMWK regulation on Lang-Lkw Positivnetz"
+last_verified: "2026-05-31"
+source_url: "https://www.bmwk.de/Redaktion/DE/Artikel/Verkehr/lang-lkw.html"
+inherits_from: null
+
+system_name: "Positivnetz (Lang-Lkw) + §70 StVZO Special Permits"
+description: "Germany has no BK-style road class system. Standard EU limits (96/53/EC) apply to all roads. Longer (Lang-Lkw) combinations up to 25.25m may operate on the Positivnetz (approved route network). Vehicles exceeding standard limits require individual §70 StVZO permits."
+
+standard_network:
+  max_length_m: 18.75
+  max_gvw_t: 40              # EU baseline; 44t for 6-axle combined transport
+  applies_to: "All Federal roads (Bundesautobahn + Bundesstraßen)"
+
+positivnetz_lang_lkw:
+  name: "Lang-Lkw Positivnetz"
+  max_length_m: 25.25
+  max_gvw_t: 40              # same GVW as standard — no weight increase allowed
+  permit_required: false     # no permit needed; route compliance sufficient
+  permitted_configurations: 5    # only approved Lang-Lkw configurations (BMWK defined)
+  note: "Lang-Lkw are longer but not heavier than standard vehicles; Positivnetz routes actively maintained"
+  route_info_url: "https://www.bmwk.de/Redaktion/DE/Downloads/J-L/lang-lkw-strecken.html"
+
+oversized_overweight_transport:
+  regulation: "§70 StVZO (Schwertransport / Großraumtransport)"
+  permit_authority: "Landesbehörden (state road authorities) — each German Land separately"
+  portal: "VEMAGS (Verfahrensmanagement für Großraum- und Schwertransporte)"
+  portal_url: "https://www.vemags.de"
+  note: "Germany has 16 Länder (federal states) each with own permit authority; VEMAGS is the unified application portal"
+  typical_permit_time_days: 5    # standard processing
+
+federal_road_network:
+  motorways_km: 13200        # approximate Bundesautobahn network
+  federal_roads_km: 39000    # approximate Bundesstraßen network
+  note: "Toll (LKW-Maut) applies on all federal roads for N3 ≥7.5t — see road-charging/countries/de.yaml"

@@ -1,0 +1,81 @@
+country: Hungary
+code: hu
+eu_member: true
+framework_tier: 1
+currency: HUF
+authorities:
+  primary: NKH (Nemzeti Közlekedési Hatóság)
+  primary_url: https://www.nkh.gov.hu/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.nkh.gov.hu/web/english/road-transport
+      description: NKH — Road transport (English section)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.hu-go.hu/?language=eng
+      description: HU-GO — Hungarian electronic toll system for HGVs
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://internet.kozut.hu/en/general-information/
+      description: Magyar Közút — Route authorization for oversized/overweight vehicles
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://kh.gov.hu/
+      description: Közlekedési Hatóság — tachograph Hungary
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://kh.gov.hu/
+      description: Közlekedési Hatóság — járművizsga Hungary
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://kh.gov.hu/
+      description: Közlekedési Hatóság — CPC Hungary
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://kh.gov.hu/
+      description: Közlekedési Hatóság — ADR Hungary
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.kormany.hu/en/ministry-of-technology-and-industry
+      description: Ministry of Technology — emissions Hungary
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ommf.gov.hu/
+      description: Munkavédelmi Hatóság — posted workers Hungary
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://kh.gov.hu/
+      description: Közlekedési Hatóság — combined transport Hungary
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://nebih.gov.hu/en
+      description: NÉBIH — animal transport Hungary
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://kh.gov.hu/
+      description: Közlekedési Hatóság — engedélyek Hungary
+      type: official

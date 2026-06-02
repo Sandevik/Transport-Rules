@@ -1,0 +1,50 @@
+jurisdiction: FI
+topic: road-network-classes
+regulation: "Finnish Road Traffic Act; Government Decree 407/2013; Traficom regulations"
+last_verified: "2026-05-31"
+source_url: "https://www.traficom.fi/en/transport/road/vehicle-dimensions-and-masses"
+inherits_from: null
+
+system_name: "Road Structure Classes + Kelirikko (Spring Thaw) Restrictions"
+description: "Finland classifies roads by structural bearing capacity, with seasonal restrictions during spring thaw (kelirikko). Most of the national road network allows 76t HCT vehicles."
+
+structure_classes:
+  class_I:
+    target_bearing_capacity_mn_m2: 80
+    year_round_heavy_traffic: true
+    spring_thaw_heavy_traffic: true
+    description: "Strongest roads — no seasonal restrictions"
+  class_II:
+    target_bearing_capacity_mn_m2: 60
+    year_round_heavy_traffic: true
+    spring_thaw_heavy_traffic: true
+    description: "Moderate bearing capacity — year-round access for heavy vehicles"
+  class_III:
+    year_round_heavy_traffic: false
+    spring_thaw_heavy_traffic: false
+    description: "Restricted bearing capacity — weight restrictions during spring thaw on weak subgrade classes D-F"
+  class_IV:
+    year_round_heavy_traffic: false
+    spring_thaw_heavy_traffic: false
+    description: "Weakest roads — no heavy traffic during spring thaw"
+
+forest_road_classes:
+  note: "Forest service roads (metsätiet) have their own classification maintained by Metsähallitus and private forest owners; separate from public road classes"
+
+seasonal_restrictions:
+  name: "Kelirikko (Spring Thaw)"
+  period_approx: "March – May (earlier in south; later in north/Lapland)"
+  effect: "Weight restrictions imposed on Class III/IV roads; some road closures"
+  check_url: "https://www.vayla.fi/kelirikkorajoitukset"
+  sign: "Road closure/restriction signs posted on affected roads"
+  managing_authority: "ELY-centres (regional authorities) + Väylävirasto (national)"
+
+hct_network:
+  name: "High Capacity Transport (HCT) Network"
+  max_gvw_t: 76
+  max_length_m: 34.5
+  applies_on: "Most of national road network (approved network)"
+  exclusions: "Some municipal roads, older bridges, city centre streets"
+  network_url: "https://vayla.fi/tieverkko/erikoiskuljetukset"
+  note: "76t/34.5m allowed since 2013; applies to qualifying multi-axle combinations"
+  international_limit: "Cross-border: EU 96/53/EC applies (40t / 16.5m semi)"

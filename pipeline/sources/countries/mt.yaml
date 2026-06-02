@@ -1,0 +1,81 @@
+country: Malta
+code: mt
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: Transport Malta
+  primary_url: https://www.transport.gov.mt
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt
+      description: Transport Malta — national transport authority
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — tachograph
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — vehicle inspection
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — CPC
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — ADR
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://era.org.mt/
+      description: ERA Malta — emissions
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://jobsplus.gov.mt/
+      description: Jobsplus Malta — posted workers
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — combined transport
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.veterinary.gov.mt/
+      description: Department of Veterinary Affairs Malta
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — dimensions and weights
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — operator licensing
+      type: official
+  overview:
+    standalone: true
+    sources:
+    - url: https://www.transport.gov.mt/
+      description: Transport Malta — national transport authority overview
+      type: official

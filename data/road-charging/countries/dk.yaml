@@ -1,0 +1,14 @@
+jurisdiction: DK
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/dk/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.storebaelt.dk"
+inherits_from: EU
+
+system: "Storebæltsbroen + Øresundsbron + Fynske motorvejer"
+authority: "Sund & Bælt / Øresundsbro Konsortiet"
+currency: DKK
+applies_to: "Storebælt bridge; Øresund bridge; some Funen motorways"
+notes: "Fixed bridge/tunnel tolls. No general motorway toll in Denmark."
+
+rates: "See references/countries/dk/tolls.md for current rate tables — rates updated frequently"

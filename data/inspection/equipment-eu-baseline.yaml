@@ -1,0 +1,75 @@
+jurisdiction: EU
+topic: equipment-inspection
+regulation: "Various — see per-equipment entries"
+last_verified: "2026-05-31"
+inherits_from: null
+note: "EU harmonises CE marking and type-approval requirements; inspection intervals are nationally set by member states unless otherwise specified."
+
+tachograph_calibration:
+  regulation: "Regulation (EU) 165/2014 Art. 23; Annex IC"
+  interval_years: 2
+  seal_check_years: 6
+  first_calibration: "at installation"
+  after_repair_or_modification: "recalibrate immediately"
+  workshop_type: "Approved tachograph workshop (Art. 24 Reg. 165/2014)"
+  certificate_required: true
+  certificate_validity_years: 2
+
+speed_limiter:
+  regulation: "Council Directive 92/6/EEC as amended by 2002/85/EC"
+  N3_set_point_kmh: 90
+  M3_set_point_kmh: 100
+  checked_at: "periodic vehicle inspection"
+  seal_required: true
+  tampering_prohibited: true
+
+taillift:
+  regulation: "Machinery Directive 2006/42/EC"
+  standards:
+    - "EN 1756-1:2001+A1 — Tail lifts for goods carrying vehicles; platform tail lifts"
+    - "EN 1756-2:2004+A1 — Tail lifts for goods carrying vehicles; column tail lifts"
+  ce_marking_required: true
+  declaration_of_conformity_required: true
+  rated_capacity_must_be_marked: true
+  operator_manual_required: true
+  inspection_interval_months: null
+  note: "EU Machinery Directive requires CE marking; periodic inspection interval is set by member states (typically 6–12 months). See country files."
+  log_required: true
+
+loader_crane:
+  standard: "EN 12999:2011+A1 (Cranes — Loader cranes)"
+  ce_marking_required: true
+  inspection_interval_months: null
+  note: "Inspection interval set by member states; typically 12 months. See country files."
+  pre_use_check_required: true
+
+adr_vehicle_equipment:
+  regulation: "ADR 2025, Chapter 9.1 (Certificate of Approval for vehicles carrying dangerous goods)"
+  certificate_name: "Certificate of Approval (ADR)"
+  initial_validity_years: 1
+  renewal_interval_years: 1
+  inspector_type: "ADR-approved inspection station (national designation)"
+  applies_to: "Vehicles carrying Class 1 explosives, Class 7 radioactive, tank vehicles, battery vehicles"
+  note: "Non-tank vehicles carrying certain classes may be exempt from ADR CoA requirement"
+
+atp_refrigeration:
+  agreement: "Agreement on the International Carriage of Perishable Foodstuffs (ATP) — UNECE"
+  applicable_to: "Refrigerated vehicles and insulated vehicles in international ATP-regulated transport"
+  atp_certificate_validity:
+    initial_years: 6
+    note: "Initial validity set at 6 years from date of manufacture (if tested within 3 years of manufacture)"
+  renewal_interval:
+    before_year_12: {interval_years: 3}
+    after_year_12:  {interval_years: 1.5}   # 18 months
+  inspection_type: "ATP-accredited laboratory test (heat transfer coefficient / temperature maintenance)"
+  marking: "ATP plate must be displayed on vehicle"
+
+pressure_equipment_lpg_cng:
+  regulation: "Pressure Equipment Directive (PED) 2014/68/EU; ADR provisions for pressure vessels"
+  inspection_interval_varies: true
+  note: "CNG/LNG/LPG pressure vessels on vehicles inspected per ADR/PED; typically every 5 years for fixed tanks"
+
+fire_extinguisher:
+  adr_requirement: "Required on ADR vehicles (ADR 8.1.4)"
+  inspection: "Regular check; replace or service per manufacturer schedule (typically annual)"
+  note: "Most member states require fire extinguisher on N2/N3 trucks as national rule"

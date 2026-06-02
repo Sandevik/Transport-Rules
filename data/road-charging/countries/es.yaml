@@ -1,0 +1,86 @@
+jurisdiction: ES
+topic: road-charging
+regulation: "Ley 8/1972 de autopistas (concession law); individual AP concession contracts; Dirección General de Carreteras"
+last_verified: "2026-06-01"
+source_url: "https://www.mitma.gob.es"
+inherits_from: EU
+
+system: "Peaje de autopista (motorway toll) — concession-operated, not universal"
+authority: "MITMA / Dirección General de Carreteras + individual concessionaires"
+currency: EUR
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "Only AP (autopista de peaje) concession motorways — NOT all motorways"
+  note: "Many Spanish motorways are free autovías (A-prefix); only AP/AC roads are tolled"
+
+# IMPORTANT: Spain has been progressively removing motorway tolls as concessions expire.
+# Many formerly tolled AP motorways are now FREE after concession expiry.
+# Key changes:
+#   - 2021: AP-1 Burgos–Armiñón section, AP-4 Sevilla–Cádiz, AP-7 Barcelona–Tarragona all became FREE
+#   - Several radial AP routes around Madrid (R-2, R-3, R-4, R-5) became free
+#   - AP-41, AP-36 became free
+# As of 2025/2026, a significant portion of the former toll network is now free.
+
+# Currently tolled routes (major routes for HGV international freight, as of 2026)
+tolled_routes_current:
+  AP_7_north:
+    description: "AP-7 France border (La Junquera) to Tarragona — TOLLED"
+    note: "Section south of Tarragona to Valencia free; Valencia–Alicante: check current status"
+  AP_2:
+    description: "AP-2 Zaragoza–Barcelona"
+    status: "Tolled"
+  AP_68:
+    description: "AP-68 Zaragoza–Bilbao"
+    status: "Tolled (some sections)"
+  Túnel_de_Cadi:
+    description: "C-16 Túnel del Cadí (Berga–Puigcerdà)"
+    status: "Tolled fixed rate"
+  various_bridges_tunnels:
+    description: "Various bridge and tunnel tolls remain in place"
+
+free_routes_formerly_tolled:
+  - "AP-1 Burgos–Armiñón (free since 2018)"
+  - "AP-4 Sevilla–Cádiz (free since 2019)"
+  - "AP-7 Barcelona–Tarragona (free since 2021)"
+  - "AP-7 Tarragona–Valencia (free since 2021)"
+  - "AP-7 Valencia–Alicante (free since 2021)"
+  - "AP-41, AP-36 (free)"
+  - "R-2, R-3, R-4, R-5 Madrid radials (free since 2021)"
+  - note: "Confirm current status — AP-9 Galicia and several tunnel routes remain tolled"
+
+# Vehicle classes for currently tolled AP motorways
+vehicle_classes:
+  class_3:
+    description: "2-axle HGV >3.5t"
+    typical_rate_eur_per_km: 0.09
+    range: "0.07–0.14 EUR/km"
+  class_4:
+    description: "3-axle truck"
+    typical_rate_eur_per_km: 0.12
+    range: "0.09–0.17 EUR/km"
+  class_5:
+    description: "4+ axle combination (5-axle artic)"
+    typical_rate_eur_per_km: 0.14
+    range: "0.11–0.20 EUR/km"
+
+emission_class_differentiation:
+  applicable: false
+  note: "Spanish AP tolls are not differentiated by Euro emission class (as of 2026)"
+
+payment:
+  via_t_telepeaje:
+    description: "Via-T electronic transponder — OBU for automated toll payment"
+    interoperability: "EETS-compatible"
+  card_payment: "Credit/debit card at toll booths"
+  cash: "Available at staffed booths on most routes"
+
+notes: >
+  CRITICAL: Spain's toll landscape changed dramatically from 2019–2021 when numerous
+  AP concessions expired and roads became free. Before planning a route, always verify
+  current toll status — the DGT route planner and individual concessionaire websites
+  should be checked. AP-9 (Galicia), AP-2, AP-7 north, AP-68, and tunnel/bridge tolls
+  remain in place.
+  Spain has NO universal national HGV distance charge (no equivalent to DE Maut or BE km-charge).
+  The government committed to not renewing major AP concessions with tolls in 2020s.
+  For current toll road map: dgt.es and mitma.gob.es

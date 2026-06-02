@@ -1,0 +1,8 @@
+jurisdiction: CA-MB
+topic: dimensions-weights
+regulation: "Manitoba highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Spring weight restrictions April–May; Manitoba Infrastructure vehicle inspection; no toll roads; agricultural heavy vehicles; Red River Valley road conditions vary seasonally"

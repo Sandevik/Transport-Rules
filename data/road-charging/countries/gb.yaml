@@ -1,0 +1,14 @@
+jurisdiction: GB
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/gb/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.gov.uk/browse/driving/parking-public-transport-environment"
+inherits_from: EU
+
+system: "M6 Toll + ULEZ/CAZ + Dartford"
+authority: "Highways England / Local authorities"
+currency: GBP
+applies_to: "M6 Toll; Dartford Crossing; London ULEZ; various city CAZs"
+notes: "Mixture: road tolls (Dartford, M6) + Clean Air Zone charges in multiple cities."
+
+rates: "See references/countries/gb/tolls.md for current rate tables — rates updated frequently"

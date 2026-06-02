@@ -1,0 +1,118 @@
+country: Austria
+code: at
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: BMK (Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation
+    und Technologie)
+  primary_url: https://www.bmk.gv.at/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/verkehr/gueterverkehr.html
+      description: BMK — Güterverkehr Austria (includes driving time rules)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.asfinag.at/en/toll/
+      description: ASFINAG — Austrian motorway toll authority
+      type: official
+    - url: https://www.asfinag.at/en/toll/go-toll/
+      description: ASFINAG — GO Toll for trucks (distance-based, mandatory >3.5t)
+      type: official
+  posting-declaration:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.sozialministerium.at/Themen/Arbeit/Arbeitsrecht/Entsendung.html
+      description: Sozialministerium Austria — Entsendung (posting of workers)
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/verkehr/gueterverkehr/tachograph.html
+      description: BMK — Tachograph Austria
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/verkehr/strasse/fahrzeuge.html
+      description: BMK — §57a KFG Begutachtung Austria
+      type: official
+    - url: https://www.oeamtc.at/thema/pickerl/
+      description: ÖAMTC — §57a Begutachtung (Pickerl) guide
+      type: trusted-nongovernmental
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.wko.at/gruendung-betrieb/transport-verkehr
+      description: WKO — Transport und Verkehr (CPC Berufskraftfahrer)
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/verkehr/gueterverkehr/gefahrgut.html
+      description: BMK — Gefahrguttransport ADR Austria
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/klima_umwelt/klimaschutz.html
+      description: BMK — Klimaschutz und Emissionen Austria
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.sozialministerium.at/Themen/Arbeit/Arbeitsrecht/Entsendung.html
+      description: Sozialministerium Austria — Entsendung (posting/ZKO)
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/verkehr/gueterverkehr/kombinierter_verkehr.html
+      description: BMK — Kombinierter Verkehr Austria
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ages.at/mensch-gesundheit-umwelt/tiergesundheit
+      description: AGES — Tiergesundheit und Tiertransporte Austria
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmk.gv.at/themen/verkehr/strasse/fahrzeuge.html
+      description: BMK — Fahrzeuge und Maße Austria
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.wko.at/gruendung-betrieb/transport-verkehr/gewerbliche-gueterbefoerderung
+      description: WKO — Gewerbliche Güterbeförderung (operator licensing) Austria
+      type: official
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.bmk.gv.at/en/topics/mobility/traffic-management/goods-transport/driving-bans.html
+      description: BMK — Austrian driving bans
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://www.bmk.gv.at/en/topics/mobility/traffic-management/goods-transport/winter-equipment.html
+      description: BMK — winter equipment
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.bmk.gv.at/en/topics/mobility/traffic-management/goods-transport/exceptional-transport.html
+      description: National oversize load permit authority
+      type: official

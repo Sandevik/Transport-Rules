@@ -1,0 +1,14 @@
+jurisdiction: HR
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/hr/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.hac.hr"
+inherits_from: EU
+
+system: "HAC eC toll"
+authority: "HAC (Autocesta Rijeka–Zagreb) + ARZ"
+currency: EUR (since 2023)
+applies_to: "Motorways"
+notes: "Per-distance tolls on HAC and ARZ motorways."
+
+rates: "See references/countries/hr/tolls.md for current rate tables — rates updated frequently"

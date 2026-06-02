@@ -1,0 +1,14 @@
+jurisdiction: SE
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/se/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.transportstyrelsen.se/trangselskatt"
+inherits_from: EU
+
+system: "Trängselskatt (Congestion Tax) + infrastrukturavgifter"
+authority: "Transportstyrelsen"
+currency: SEK
+applies_to: "Stockholm + Gothenburg city entries; Öresund bridge; E4 Sundsvall"
+notes: "Time-based congestion tax in Stockholm/Gothenburg. Heavy trucks pay higher rates."
+
+rates: "See references/countries/se/tolls.md for current rate tables — rates updated frequently"

@@ -1,0 +1,8 @@
+jurisdiction: US-CO
+topic: dimensions-weights
+regulation: "Colorado state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Allows triple trailers on I-25/I-70 corridor; spring weight restrictions on mountain roads"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

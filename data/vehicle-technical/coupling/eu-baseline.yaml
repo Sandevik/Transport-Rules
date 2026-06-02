@@ -1,0 +1,95 @@
+description: EU/UN-ECE baseline technical specifications for vehicle coupling devices
+standard_references:
+  - "UN-ECE Regulation 55 (R055) — Mechanical coupling components of combinations of vehicles"
+  - "ISO 337 — Kingpin (fifth-wheel) dimensions"
+  - "ISO 1102 — Drawbar hook coupling"
+  - "ISO 1728 — Pneumatic connections between towing vehicle and trailer"
+  - "ISO 7638 — Electrical connections: ABS/EBS (7-pin, 24V)"
+  - "ISO 11446 — Electrical connections: multiplex/auxiliary (15-pin)"
+  - "ISO 11033 — Ball couplings"
+
+last_verified: "2026-06-01"
+
+# ─── Kingpin (ISO 337) ────────────────────────────────────────────────
+kingpin_standard_mm: 50
+kingpin_standard_class: "A"
+kingpin_standard_note: "Standard for all road articulated lorry combinations"
+
+kingpin_heavy_mm: 90
+kingpin_heavy_class: "G"
+kingpin_heavy_note: "Heavy haul, off-highway, GCW typically >60 t"
+
+# Maximum permissible jaw clearance around kingpin at inspection
+fifth_wheel_jaw_max_clearance_mm: 10
+
+# ─── D-Value (Coupling Characteristic Value) ─────────────────────────
+d_value_formula: "D = g * (mc * ms) / (mc + ms)"
+d_value_unit: "kN"
+d_value_formula_variables:
+  g: "9.81 m/s² (gravitational acceleration)"
+  mc: "technically permissible maximum mass of motor vehicle (tonnes)"
+  ms: "technically permissible maximum mass of trailer/semi-trailer (tonnes)"
+
+# ─── S-Value (Vertical Static Load on Drawbar Coupling) ───────────────
+s_value_unit: "kg"
+s_value_note: "Vertical static nose load of trailer on coupling; must not exceed coupling rated S-value"
+typical_s_value_range_kg: [1000, 4000]
+
+# ─── V-Value (Vertical Dynamic Load) ─────────────────────────────────
+v_value_formula: "V = D * a/g"
+v_value_unit: "kN"
+v_value_formula_variables:
+  D: "D-value of coupling (kN)"
+  a: "vertical acceleration (m/s²)"
+  g: "9.81 m/s²"
+
+# ─── Ball Coupling (ISO 11033) ────────────────────────────────────────
+ball_coupling:
+  class_a_b_diameter_mm: 50
+  class_a_b_max_trailer_mass_kg: 3500
+  class_g_diameter_mm: 80
+  class_g_max_trailer_mass_kg: 6000
+
+# ─── Air (Pneumatic) Connections (ISO 1728) ───────────────────────────
+air_coupling:
+  supply_emergency_line_colour: "Red"
+  supply_emergency_line_function: "Charges trailer reservoir; emergency brake on pressure loss"
+  supply_pressure_bar: 8.5
+
+  service_control_line_colour: "Yellow"
+  service_control_line_function: "Modulates trailer service brakes"
+  service_pressure_bar: 8.5
+
+  cross_connection_defect_severity: "Safety-critical; immediate prohibition"
+
+# ─── Electrical Connections ───────────────────────────────────────────
+electrical_iso_7638:
+  description: "ABS/EBS connector"
+  pin_count: 7
+  voltage_V: 24
+  function: "ABS/EBS data and power for trailer braking electronics"
+  mandatory_for: "All heavy vehicles equipped with ABS/EBS"
+
+electrical_iso_11446:
+  description: "Multiplex/auxiliary connector"
+  pin_count: 15
+  voltage_V: 24
+  function: "Lighting, auxiliary power, CAN data, TPMS, temperature monitoring"
+
+# ─── Inspection Thresholds ────────────────────────────────────────────
+inspection:
+  frequency: "Annual for commercial vehicles (Directive 2014/45/EU)"
+  fifth_wheel_jaw_max_clearance_mm: 10
+  kingpin_wear_max_reduction_pct: 10
+  cracked_fifth_wheel_plate: "Major defect — prohibit from use"
+  cross_connected_air_lines: "Major defect — prohibit from use"
+  missing_coupling_dust_cap: "Minor defect — advisory"
+
+# ─── Type-Approval Markings (R055) ────────────────────────────────────
+type_approval_markings:
+  - "E-mark or e-mark (country approval code)"
+  - "Approval number"
+  - "D-value in kN"
+  - "S-value in kg (where applicable)"
+  - "V-value in kN (where applicable)"
+  note: "Markings must be permanent, legible, and not on removable parts"

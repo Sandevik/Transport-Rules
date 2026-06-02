@@ -1,0 +1,10 @@
+jurisdiction: US-VA
+topic: road-network-classes
+regulation: "Virginia state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "I-66/I-95/I-495 Express Lanes; Dulles Toll Road; Chesapeake Bay Bridge-Tunnel; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

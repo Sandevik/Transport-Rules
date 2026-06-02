@@ -1,0 +1,8 @@
+jurisdiction: US-FL
+topic: dimensions-weights
+regulation: "Florida state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Turnpike doubles on Florida Turnpike; extensive toll network (SunPass/E-ZPass); I-75, I-4, I-95 express lanes"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

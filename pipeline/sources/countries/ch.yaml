@@ -1,0 +1,59 @@
+country: Switzerland
+code: ch
+eu_member: false
+eea_member: false
+aetr_signatory: true
+framework_tier: 2
+currency: CHF
+notes: 'Bilateral agreements with EU on land transport. AETR governs driving/rest
+  time and tachographs. All other topics are purely Swiss national rules — no EU baseline
+  applies.
+
+  '
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+    - url: https://www.astra.admin.ch/astra/en/home/services/fahrzeuge/sonderbewilligungen.html
+      description: ASTRA — Special authorisations for vehicles (dimensions, routing)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.bazg.admin.ch/bazg/en/home/informationen-firmen/verkehrsabgaben-und-strassenverkehrsrecht/schwerverkehrsabgaben-lsva-und-psva.html
+      description: BAZG — Heavy vehicle charges (LSVA and PSVA)
+      type: official
+    - url: https://www.ezv.admin.ch/ezv/en/home/information-companies/transport--travel-documents--road-taxes/heavy-vehicle-charges--performance-related-and-lump-sum-.html
+      description: EZV — LSVA performance-related heavy vehicle fee (standalone Swiss
+        rule)
+      type: official
+  tachograph:
+    aetr_baseline_applies: true
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.astra.admin.ch/astra/en/home/themes/commercial-vehicles/driving-restrictions.html
+      description: ASTRA — Swiss driving restrictions
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://www.astra.admin.ch/astra/en/home/themes/commercial-vehicles/driving-restrictions/winter-driving-restrictions.html
+      description: ASTRA — winter driving restrictions
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.astra.admin.ch/astra/en/home/themes/commercial-vehicles/special-transport-permits.html
+      description: National oversize load permit authority
+      type: official

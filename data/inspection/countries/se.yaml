@@ -1,0 +1,47 @@
+jurisdiction: SE
+topic: inspection
+regulation: "Lagen (1994:2043) om viss vägtrafiktillsyn; Fordonslagen (2002:574); TSFS 2018:57"
+last_verified: "2026-05-31"
+source_url: "https://www.transportstyrelsen.se/fordonsbesiktning"
+inherits_from: EU
+
+authority: "Transportstyrelsen (Swedish Transport Agency) — oversight and approval of inspection operators"
+approved_operators:
+  - name: "Bilprovningen"
+    url: "https://www.bilprovningen.se"
+  - name: "Opus Bilprovning"
+    url: "https://www.opusbilprovning.se"
+  - name: "DEKRA Automotive"
+    url: "https://www.dekra.se"
+  - name: "Besikta Bilprovning"
+    url: "https://www.besikta.se"
+  - name: "Carspect"
+    url: "https://www.carspect.se"
+
+periodic_inspection:
+  system: "Competitive market — multiple approved operators; driver chooses operator"
+  booking: "Online or phone via individual operators"
+  intervals:
+    N2_M2: {first_after_years: 4, subsequent_years: 2}
+    N3_M3: {first_after_years: 1, subsequent_years: 1}
+    O3:    {first_after_years: 4, subsequent_years: 2}
+    O4:    {first_after_years: 2, subsequent_years: 1}
+
+equipment_inspection:
+  taillift:
+    inspection_interval_months: 12
+    regulation: "Transportstyrelsen regulation (TSFS)"
+    inspector_type: "Ackrediterat kontrollorgan (accredited inspection body)"
+    log_required: true
+    note: "Annual inspection mandatory for all commercial taillifts"
+  loader_crane:
+    inspection_interval_months: 12
+    regulation: "AFS 2011:1 §20 (Arbetsmiljöverket — Swedish Work Environment Authority)"
+    inspector: "Kompetent person (as defined in AFS 2011:1)"
+    note: "Annual inspection by competent person; log maintained by operator"
+  tachograph_workshops_url: "https://www.transportstyrelsen.se/godkanda-verkstader"
+
+fees_approx:
+  N2_periodic_sek: 800       # approximate — varies by operator and vehicle
+  N3_periodic_sek: 1200
+  note: "Fees set by market competition between approved operators"

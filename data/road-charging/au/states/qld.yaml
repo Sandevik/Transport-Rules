@@ -1,0 +1,10 @@
+jurisdiction: AU-QLD
+topic: road-charging
+regulation: "Queensland toll road concession agreements"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+toll_system_exists: true
+notes: "Road train zone in western QLD (west of Charleville/Townsville line); Brisbane toll network (Logan, Gateway, Clem7, AirportLink); Transport and Main Roads QLD inspection"
+rate_note: "Toll rates vary by facility and vehicle class; heavy vehicles pay higher rates. See individual toll operator websites."

@@ -1,0 +1,53 @@
+jurisdiction: EU
+topic: professional-driver
+regulation: "Directive 2003/59/EC (Driver CPC) as amended by Directive 2022/2561/EU"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0059"
+inherits_from: null
+
+cpc_initial_qualification:
+  truck_category: "C/C1/CE/C1E"
+  bus_category: "D/D1/DE/D1E"
+  training_hours: 280
+  or_theory_exam_plus_practical: true
+  note: "Initial CPC obtained via theory test + practical test (accelerated) OR 280h training course"
+  dqi_card_issued: true    # Driver Qualification Card
+
+cpc_periodic_training:
+  interval_years: 5
+  training_hours: 35       # 7 hours per year OR 35 hours in one block
+  delivery: "Approved training centre"
+  modules_min_h: 7         # each module minimum 7 hours
+  online_allowed: true     # partial online delivery permitted post-2022 amendment
+  topics_include:
+    - advanced_driving_and_fuel_efficiency
+    - cargo_securing
+    - passenger_safety
+    - emergency_procedures
+    - regulations_and_compliance
+    - health_and_safety
+    - road_safety
+
+driver_qualification_card:
+  name: "DQC (Driver Qualification Card) / CPC card"
+  validity_years: 5        # renewed after periodic training
+  format: "Credit-card size; carries EC harmonised code 95"
+  mutual_recognition: true # valid in all EU member states
+
+driving_licence_codes:
+  code_95: "Confirms holder has valid CPC — printed on driving licence as harmonised Community code"
+  code_95_expiry: "Date of CPC expiry (max 5 years from training)"
+
+exemptions:
+  - "Vehicles with max speed ≤45 km/h"
+  - "Vehicles used by armed forces, civil protection, fire, police"
+  - "Vehicles undergoing road tests for repair/maintenance"
+  - "Non-commercial carriage of passengers/goods (private use)"
+  - "Vehicles carrying material or equipment for driver's own use, provided driving not principal activity"
+
+age_requirements:
+  C_CE_minimum_age: 18     # with CPC
+  C_CE_without_CPC: 21
+  D_DE_minimum_age: 21     # with CPC
+  D_DE_without_CPC: 24
+  note: "Member states may allow lower ages for C/CE in some circumstances"

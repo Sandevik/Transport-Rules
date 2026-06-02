@@ -1,0 +1,10 @@
+jurisdiction: AU-NT
+topic: inspection
+regulation: "Northern Territory vehicle inspection standards"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+annual_inspection_required: true
+inspection_conducted_by: "Authorised Inspection Stations (AIS) — state approved"
+notes: "Most remote territory; road trains extremely common including quad-trailer (4 trailers) combinations; own legislation (not HVNL); Darwin to Alice Springs corridor; seasonal road closures (wet season flooding)"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation may affect AIS approval requirements"

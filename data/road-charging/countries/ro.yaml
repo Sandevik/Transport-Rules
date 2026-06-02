@@ -1,0 +1,14 @@
+jurisdiction: RO
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/ro/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.roviniete.ro"
+inherits_from: EU
+
+system: "e-Rovinieta / Ro-e-Toll"
+authority: "CNAIR (Compania Națională de Administrare a Infrastructurii Rutiere)"
+currency: RON
+applies_to: "Motorways (distance) + national roads (vignette)"
+notes: "e-vignette for national roads; per-km toll on motorways for trucks >3.5t."
+
+rates: "See references/countries/ro/tolls.md for current rate tables — rates updated frequently"

@@ -1,0 +1,50 @@
+jurisdiction: US
+topic: dimensions-weights
+regulation: "23 USC 127 (vehicle weight limits); 23 CFR Part 658 (truck size and weight); FHWA"
+last_verified: "2026-05-31"
+source_url: "https://ops.fhwa.dot.gov/freight/policy/rpt_congress/truck_sw_laws/index.htm"
+inherits_from: null
+scope: "Interstate System and Federal-aid National Highway System (NHS). States set own limits on non-NHS roads."
+
+length_ft:
+  semitrailer_minimum_on_interstate: 48    # minimum 48ft semi must be allowed on Interstate
+  twin_trailers_each_maximum: 28           # each trailer in 28+28 twin-trailer set
+  note: "No federal length limit on single vehicles (tractors/straight trucks) — states set their own"
+
+length_m:
+  semitrailer_minimum: 14.63              # 48ft
+  twin_trailer_each_maximum: 8.53         # 28ft
+
+width_ft: 8.5                             # 102 inches
+width_m: 2.59
+
+height: "No federal height limit; states typically set 13ft 6in (4.11m) or 14ft (4.27m)"
+
+gross_weight_lbs: 80000                   # ~36.3t
+gross_weight_kg: 36287
+
+axle_limits_lbs:
+  single_axle: 20000                      # ~9.1t
+  tandem_axle: 34000                      # ~15.4t
+
+bridge_formula:
+  name: "Federal Bridge Gross Weight Formula (Bridge Formula B)"
+  formula: "W = 500 × (LN / (N-1) + 12N + 36)"
+  parameters:
+    W: "Maximum weight in pounds on any group of 2 or more consecutive axles"
+    L: "Distance in feet between outer axles of any group of 2+ axles"
+    N: "Number of axles in the group"
+  note: "Bridge formula may be more restrictive than 80,000 lb limit for certain axle configurations"
+
+lcv_freeze:
+  applies: true
+  regulation: "ISTEA 1991 Section 1023 (LCV Freeze)"
+  note: "States cannot increase weight limits or expand LCV routes beyond what was in place on June 1, 1991. States allowing triples/turnpike doubles in 1991 may continue; others may not add them."
+
+grandfathered_limits:
+  note: "States with pre-1975 higher limits on non-Interstate non-NHS roads may maintain them"
+
+state_authority:
+  interstate_cannot_be_more_restrictive: true
+  non_interstate_state_discretion: true
+  spring_restrictions: "Northern states impose seasonal weight reductions; no federal requirement"

@@ -1,0 +1,64 @@
+jurisdiction: US
+topic: hours-of-service
+regulation: "49 CFR Part 395 (FMCSA Hours of Service of Drivers)"
+last_verified: "2026-05-31"
+source_url: "https://www.fmcsa.dot.gov/regulations/hours-service/summary-hours-service-regulations"
+inherits_from: null
+scope: "Applies to commercial motor vehicles (CMV) in interstate commerce. Intrastate commerce governed by state law (most states adopt federal rules)."
+
+property_carrying_drivers:
+  driving_limit_h: 11
+  on_duty_window_h: 14        # 14-hour on-duty window from time of first duty
+  off_duty_required_before_restart_h: 10
+  weekly_limit_60h: 60        # 60 hours in any 7 consecutive days
+  weekly_limit_70h: 70        # 70 hours in any 8 consecutive days (if carrier operates 7 days/week)
+  sleeper_berth_splits:
+    option_A: "8h sleeper + 2h off-duty (or 8+2 split — 2h off-duty can be used anywhere)"
+    option_B: "7h sleeper + 3h off-duty"
+    note: "Neither split period counts against 14-hour window"
+
+passenger_carrying_drivers:
+  driving_limit_h: 10
+  on_duty_window_h: 15
+  off_duty_required_before_restart_h: 8
+  weekly_7day_limit_h: 60
+  weekly_8day_limit_h: 70
+
+mandatory_break:
+  required_after_driving_h: 8
+  break_duration_min: 30
+  exempt_if: "Using sleeper berth provision"
+
+restart_provision:
+  consecutive_off_duty_h: 34
+  must_include_two_1am_5am_periods: true
+  note: "34-hour restart resets the 60/70-hour weekly clock"
+
+eld_mandate:
+  required: true
+  regulation: "49 CFR Part 395.8"
+  effective_date: "December 18, 2017 (phased implementation)"
+  exceptions:
+    - "Short-haul drivers operating within 150 air miles of normal work reporting location"
+    - "Driveaway-towaway operations"
+    - "Vehicles manufactured before model year 2000"
+    - "Drivers who use paper RODS ≤8 days in any 30-day period (short-haul exemption)"
+
+short_haul_exemption:
+  radius_air_miles: 150
+  max_on_duty_h: 14
+  no_eld_required: true
+  no_log_required: true
+  conditions: "Return to normal work reporting location each day; not exceeding 14h on duty"
+
+key_exemptions:
+  agricultural:
+    radius_air_miles: 150
+    note: "Agricultural vehicles within 150 air miles of source exempt from HOS during planting/harvest"
+  oilfield:
+    description: "Special provisions for oilfield operations — waiting time rules differ"
+  adverse_driving:
+    extra_driving_h: 2
+    note: "In adverse driving conditions, drivers may extend driving by 2h"
+  short_haul_100_air_mile:
+    description: "Drivers in 100 air mile radius using 12-hour shift with no ELD required"

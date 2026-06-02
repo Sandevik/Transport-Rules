@@ -1,0 +1,10 @@
+jurisdiction: AU-NSW
+topic: road-charging
+regulation: "New South Wales toll road concession agreements"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+toll_system_exists: true
+notes: "B-doubles widely allowed; Sydney toll network (M7, M2, NorthConnex, Harbour Bridge/Tunnel, WestConnex); heavy vehicle inspection via Transport for NSW; no road trains"
+rate_note: "Toll rates vary by facility and vehicle class; heavy vehicles pay higher rates. See individual toll operator websites."

@@ -1,0 +1,51 @@
+jurisdiction: UA
+topic: transit-permit-penalties
+regulation: "Ukrainian Law on Road Transport (Закон про автомобільний транспорт) and Ukrtransinspekciya regulations"
+last_verified: "2026-06-01"
+inherits_from: null
+currency: UAH
+
+note: "UAH amounts are indicative. Note: EU and Ukrainian hauliers operating under the EU-Ukraine wartime transport liberalisation arrangement (since June 2022) do not require bilateral permits for bilateral EU-Ukraine operations — the no_permit violation below applies only to third-country operators or when the liberalisation arrangement is not applicable. Wartime conditions may affect enforcement priorities. Verify current rates with Ukrtransinspekciya."
+
+enforcement_authority: "State Inspectorate for Safety on Land Transport (Ukrtransinspekciya / ДIBT); State Customs Service of Ukraine at borders"
+
+violations:
+  - id: no_permit
+    description: "Operating without required bilateral permit (applies to non-EU/non-Ukrainian third-country operators, or when liberalisation arrangement does not apply)"
+    amount_min: 34000
+    amount_max: 68000
+    currency: UAH
+    additional_sanction: "Vehicle may be detained"
+
+  - id: permit_conditions_exceeded
+    description: "Permit conditions exceeded (weight, route, load type)"
+    amount_min: 17000
+    amount_max: 34000
+    currency: UAH
+
+  - id: no_tir_carnet
+    description: "Operating without TIR Carnet when required"
+    amount_min: 34000
+    amount_max: 68000
+    currency: UAH
+    additional_sanction: "Goods detention"
+
+  - id: aetr_tachograph
+    description: "AETR tachograph violation (driving/rest time infringement)"
+    amount_min: 17000
+    amount_max: 51000
+    currency: UAH
+
+  - id: no_cpc
+    description: "Driving without required CPC documentation"
+    amount_min: 8500
+    amount_max: 17000
+    currency: UAH
+
+fine_ranges:
+  no_permit_uah: "34,000–68,000 UAH"
+  no_tir_carnet_uah: "34,000–68,000 UAH"
+  aetr_violation_uah: "17,000–51,000 UAH"
+  no_cpc_uah: "8,500–17,000 UAH"
+
+liberalisation_note: "Since June 2022: EU hauliers (with EU Community Licence) and Ukrainian hauliers operating bilateral EU-Ukraine transport do not require a bilateral permit under the EU-Ukraine wartime transport liberalisation arrangement. The arrangement has been extended repeatedly; verify current validity at https://transport.ec.europa.eu"

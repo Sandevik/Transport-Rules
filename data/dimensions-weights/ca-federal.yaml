@@ -1,0 +1,22 @@
+jurisdiction: CA
+topic: dimensions-weights
+regulation: "NSC Standard 14 — Vehicle Weights and Dimensions Compliance Requirements; Motor Vehicle Transport Act (MVTA)"
+last_verified: "2026-05-31"
+source_url: "https://www.ccmta.ca/en/national-safety-code/standards"
+inherits_from: null
+
+note: "Canada has no federal truck weight law. Transport Canada has jurisdiction over extra-provincial (interprovincial and international) carriers. NSC Standard 14 is a model standard adopted by provinces with variations. MOU on Interprovincial Transport harmonises dimensions."
+
+mou_harmonised_limits:
+  max_gvw_t: 63.5
+  semi_trailer_length_m: 16.2
+  width_m: 2.6
+  height_m: 4.15
+  single_axle_t: 9.0          # varies by province
+  tandem_axle_t: 17.0         # varies by province
+
+note_on_variations: "Each province sets its own limits; MOU provides harmonised baseline for interprovincial travel. See individual province files for deviations."
+
+interprovincial:
+  governed_by: "Federal Transport Canada jurisdiction for extra-provincial carriers"
+  dimensions_apply: "MOU harmonised limits at provincial boundaries"

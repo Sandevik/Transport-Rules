@@ -1,0 +1,13 @@
+jurisdiction: SK
+topic: inspection
+regulation: "National implementation of Directive 2014/45/EU"
+last_verified: "2026-05-31"
+source_url: "https://ec.europa.eu/transport/road_safety/topics/vehicles/technical_inspections_en"
+inherits_from: EU
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "Intervals follow EU Directive 2014/45/EU mandatory schedule for M2/M3/N2/N3/O3/O4"
+
+authority: "National transport/road authority — see references/countries/sk/vehicle-inspection.md"
+fees_approx: "See references/countries/sk/vehicle-inspection.md"

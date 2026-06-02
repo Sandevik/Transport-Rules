@@ -1,0 +1,8 @@
+jurisdiction: CA-AB
+topic: inspection
+regulation: "Alberta Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Spring weight restrictions March–May on provincial highways; Alberta Transportation vehicle inspection; no toll roads; significant oil/gas industry heavy transport; some roads allow higher loads (e.g., Pembina corridor)"

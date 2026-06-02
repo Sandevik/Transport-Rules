@@ -1,0 +1,10 @@
+jurisdiction: AU-ACT
+topic: inspection
+regulation: "Australian Capital Territory vehicle inspection standards"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+annual_inspection_required: true
+inspection_conducted_by: "Authorised Inspection Stations (AIS) — state approved"
+notes: "Urban territory; follows NSW rules effectively; HVNL participant; no road trains; no toll roads"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation may affect AIS approval requirements"

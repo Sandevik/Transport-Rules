@@ -1,0 +1,21 @@
+country: Australia
+code: au
+eu_member: false
+aetr_signatory: false
+framework_tier: 3
+currency: AUD
+notes: NHVR (National Heavy Vehicle Regulator) governs fatigue management via Chain of Responsibility model. Standalone — no EU or AETR reference.
+
+topics:
+  hours-of-service:
+    standalone: true
+    sources:
+      - url: https://www.nhvr.gov.au/safety-accreditation-compliance/fatigue-management/work-and-rest-requirements
+        description: NHVR — Work and rest requirements for heavy vehicle drivers
+        type: official
+      - url: https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility
+        description: NHVR — Chain of Responsibility (shared duty of care model)
+        type: official
+      - url: https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/faqs
+        description: NHVR — Chain of Responsibility FAQs
+        type: official

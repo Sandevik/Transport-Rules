@@ -1,0 +1,9 @@
+jurisdiction: CA-NL
+topic: penalties
+regulation: "Newfoundland and Labrador Highway Traffic Act enforcement"
+last_verified: "2026-05-31"
+currency: CAD
+inherits_from: null
+
+note: "Penalty amounts set by provincial legislation. HOS violations typically CAD 500–5000; overweight charges per-tonne over limit."
+notes: "Island province (Newfoundland) + mainland Labrador; ferry connections; spring restrictions; logging roads in Labrador; limited road network; no toll roads"

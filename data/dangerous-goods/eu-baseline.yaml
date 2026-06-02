@@ -1,0 +1,67 @@
+jurisdiction: EU
+topic: dangerous-goods
+regulation: "Directive 2008/68/EC on inland transport of dangerous goods; ADR 2025 (road annex)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0068"
+inherits_from: null
+
+framework:
+  adr_incorporated: true
+  adr_edition: "ADR 2025 (biennial update)"
+  applies_to: "Road transport of dangerous goods within and between EU member states"
+  excludes: "Private use in quantities below exemption thresholds"
+
+hazard_classes:
+  "1": "Explosives"
+  "2": "Gases (flammable, non-flammable, toxic)"
+  "3": "Flammable liquids"
+  "4.1": "Flammable solids"
+  "4.2": "Substances liable to spontaneous combustion"
+  "4.3": "Substances which emit flammable gases when wet"
+  "5.1": "Oxidising substances"
+  "5.2": "Organic peroxides"
+  "6.1": "Toxic substances"
+  "6.2": "Infectious substances"
+  "7": "Radioactive material"
+  "8": "Corrosive substances"
+  "9": "Miscellaneous dangerous substances and articles"
+
+limited_quantities_kg_exemption:
+  note: "LQ exemption applies when total quantity per transport unit below threshold per ADR 3.4"
+  lq_marking: "Diamond LQ mark required on package and vehicle"
+  typical_thresholds_kg_per_package:
+    class_3_flammable_liquids: 5
+    class_8_corrosives: 5
+    class_9_misc: 5
+
+excepted_quantities_exemption:
+  note: "EQ exemption for very small quantities (ADR 3.5); no placarding required"
+
+tunnel_restrictions:
+  categories: [A, B, C, D, E]
+  A: "No restrictions"
+  B: "Explosives Class 1 restricted (except 1.4S)"
+  C: "Classes 1, 7 restricted; large flammable gas quantities"
+  D: "Classes 1, 7, large quantities Class 2/3/4/5/6/8/9 restricted"
+  E: "All dangerous goods in quantities requiring orange plates restricted"
+
+vehicle_requirements:
+  n3_tank_vehicle: "ADR Certificate of Approval required (see inspection/equipment-eu-baseline.yaml)"
+  marking: "Orange reflective plates (front + rear); hazard identification number (Kemler code)"
+  placards: "Diamond hazard labels on all 4 sides of tank; rectangular labels on packages"
+
+driver_requirements:
+  adr_certificate: true
+  training_frequency_years: 5
+  certificate_categories:
+    core: "All dangerous goods road transport"
+    tank: "Tank vehicles (additional)"
+    explosives: "Class 1 (additional)"
+    radioactive: "Class 7 (additional)"
+
+accompanying_documents:
+  - "Transport document (consignment note)"
+  - "ADR Certificate of Approval (where required)"
+  - "Driver ADR certificate"
+  - "Instructions in writing (Tremcard equivalent)"
+  - "Container packing certificate (where applicable)"

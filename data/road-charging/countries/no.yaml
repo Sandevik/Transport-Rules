@@ -1,0 +1,89 @@
+jurisdiction: NO
+topic: road-charging
+regulation: "Vegfinansieringsordning (road financing scheme); bompengeloven; individual toll company agreements"
+last_verified: "2026-06-01"
+source_url: "https://www.autopass.no/en/user/foreign-vehicles-2/"
+inherits_from: null   # Norway is EEA, not EU member — no EU Eurovignette obligation
+
+system: "AutoPASS bompengar (electronic toll collection)"
+authority: "Statens vegvesen (Norwegian Public Roads Administration) + individual toll companies"
+currency: NOK
+
+applies_to:
+  vehicle_gvw_t_min: 3.5   # mandatory tag threshold
+  road_types: "Individual toll stations on national/county roads, bridges, tunnels, city toll rings"
+  note: "No national motorway vignette — Norway uses point tolls at specific locations"
+
+transponder_requirement:
+  mandatory_for: "All vehicles heavier than 3,500 kg"
+  tag_type: "AutoPASS transponder (tag)"
+  discount_with_tag: "20% on each toll transaction + other discounts possible"
+  without_tag: "Invoice sent to registered keeper; registration lookup fee charged additionally"
+
+# Norwegian toll rates vary significantly by location, tunnel, bridge, or city ring.
+# There is no uniform per-km rate. Examples below are indicative.
+# Heavy vehicles typically pay 2–5× the passenger car rate at any given point.
+
+toll_structure:
+  type: "Per-passage (not per-km)"
+  differentiation_factors:
+    - "Vehicle weight class (light <3.5t; heavy >3.5t)"
+    - "Environmental class (emission level — affects city ring charges)"
+    - "Time of day (rush hour surcharges in urban toll rings)"
+    - "Specific toll location (each project has own tariff)"
+
+# City toll rings (bompengering) — major urban areas
+city_toll_rings:
+  Oslo:
+    system: "Oslo bomring"
+    note: "Environmental differentiation; electric/zero-emission vehicles pay reduced rate"
+    heavy_vehicle_rate_nok_approx: 50–100   # per passage, depending on environmental class
+    rush_hour_surcharge: true
+  Bergen:
+    system: "Bergen bomring"
+    heavy_vehicle_rate_nok_approx: 40–80
+    rush_hour_surcharge: true
+  Stavanger:
+    system: "Nord-Jæren bompengepakke"
+    heavy_vehicle_rate_nok_approx: 35–70
+    rush_hour_surcharge: true
+  Trondheim:
+    system: "Miljøpakke Trondheim"
+    heavy_vehicle_rate_nok_approx: 35–70
+    rush_hour_surcharge: true
+
+# Major infrastructure tolls
+infrastructure_examples:
+  Ryfast_tunnel_Stavanger:
+    note: "World's longest undersea road tunnel; heavy vehicles pay premium"
+    car_rate_nok_approx: 120
+    hgv_multiplier: "2–3×"
+  Bompengefinansiert_projects:
+    note: "Many bridges, tunnels and road widening projects are toll-financed"
+
+# Foreign operator registration options
+foreign_vehicle_options:
+  option_1_user_agreement:
+    description: "Register with AutoPASS toll service provider; receive transponder"
+    discount: "20% on all transactions"
+    recommended_for: "Regular Norway operations"
+  option_2_epass24:
+    description: "Register at epass24.com — can drive without physical tag"
+    discount: "No discount"
+    note: "Invoice-based service"
+  option_3_no_registration:
+    description: "Invoice sent via vehicle registry lookup"
+    lookup_fee_eur:
+      german_registered: 5.10
+      austrian_registered: 14.00
+    note: "Additional fees apply on top of toll amount"
+
+notes: >
+  Norway does not have a national per-km distance toll for HGVs.
+  All tolls are per-passage at specific locations (bomstasjoner).
+  AutoPASS transponder is mandatory for vehicles >3,500 kg — failure to have one
+  results in higher charges and potential fines.
+  Urban toll rings use environmental differentiation: zero-emission/electric vehicles
+  pay reduced or zero rate; diesel HGVs pay full (or higher) rate.
+  Rates are set by individual toll companies and vary widely.
+  Check autopass.no and individual toll company websites for specific rates.

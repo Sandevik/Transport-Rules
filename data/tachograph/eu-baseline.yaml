@@ -1,0 +1,71 @@
+jurisdiction: EU
+topic: tachograph
+regulation: "Regulation (EU) 165/2014 as amended by 2020/1054; Commission Implementing Regulation (EU) 2021/1228 (smart tachograph v2)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R1228"
+inherits_from: null
+
+types:
+  analog:
+    status: "Legacy — no longer fitted to new vehicles; must be retained where installed"
+    calibration_interval_years: 2
+    seal_check_years: 2
+  digital_v1:
+    name: "Digital tachograph (first generation)"
+    regulation: "165/2014"
+    calibration_interval_years: 2
+    seal_check_years: 6
+    installation_deadline: "Mandatory from 2004 for new type approvals"
+  smart_v1:
+    name: "Smart tachograph v1 (ITS Directive)"
+    regulation: "2021/1228 transitional"
+    features: [GNSS_position, remote_communication, border_crossing_recording]
+    installation_deadline: "New type approvals from June 2019; all new vehicles from June 2020"
+    retrofit_deadline_existing_vehicles: "2023-06-21 (vehicles first registered before June 2019)"
+  smart_v2:
+    name: "Smart tachograph v2"
+    regulation: "2021/1228"
+    features:
+      - "Galileo OSNMA (Open Service Navigation Message Authentication)"
+      - "Automatic border crossing recording"
+      - "Automatic recording of loading/unloading (cabotage)"
+      - "Improved remote early detection interface (REDI)"
+    installation_deadlines:
+      new_type_approvals: "2023-08-21"
+      all_new_N3_M3_vehicles: "2024-08-21"
+      retrofit_smart_v1_vehicles: "2025-08-21"
+      retrofit_pre_smart_vehicles_international: "2025-08-21"
+      retrofit_domestic_only: "2026-08-21"
+
+calibration:
+  interval_years: 2
+  seal_check_years: 6
+  first_calibration: "at installation"
+  after_repair: "recalibration required"
+  workshop_type: "Approved tachograph workshop (Art. 24 Regulation 165/2014)"
+  workshop_approval: "National authority approves workshops; list maintained per member state"
+
+card_types:
+  driver_card:
+    validity_years: 5
+    issued_by: "Member state authority (country of driver's normal residence)"
+    data_retention_days: 28   # minimum driving data stored on card
+  workshop_card:
+    issued_by: "National authority"
+    use: "Calibration and activation only"
+  company_card:
+    use: "Downloading and locking vehicle unit data"
+    data_retention_years: 12  # company must retain downloaded data
+  control_card:
+    issued_to: "Enforcement authorities (police, transport inspectors)"
+
+data_retention:
+  vehicle_unit_days: 365      # minimum 365 days driving data
+  driver_card_days: 28
+  company_download_years: 12
+  driver_data_protection: "GDPR applies — data only for compliance/enforcement"
+
+tampering:
+  prohibited: true
+  classification: "Criminal offence in all member states"
+  detection: "REDI allows roadside remote detection without stopping vehicle"

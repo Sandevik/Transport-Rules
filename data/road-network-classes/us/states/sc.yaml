@@ -1,0 +1,10 @@
+jurisdiction: US-SC
+topic: road-network-classes
+regulation: "South Carolina state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "Some toll roads (SC-31, SC-526 mark Clark bridges)"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

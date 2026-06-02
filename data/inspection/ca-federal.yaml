@@ -1,0 +1,25 @@
+jurisdiction: CA
+topic: inspection
+regulation: "NSC Standard 11 — Periodic Commercial Vehicle Inspection; NSC Standard 13 — Trip Inspection"
+last_verified: "2026-05-31"
+source_url: "https://www.ccmta.ca/en/national-safety-code/standards"
+inherits_from: null
+
+periodic_inspection:
+  standard: "NSC Standard 11"
+  mandatory: true
+  interval: "Annual (at minimum)"
+  adopted_by: "All provinces and territories"
+  conducted_by: "Authorized inspection stations (provincial licensing)"
+
+trip_inspection:
+  standard: "NSC Standard 13"
+  requirement: "Pre-trip inspection before each trip; post-trip inspection if defect found"
+  record_retention_days: 30
+
+cvsa_inspections:
+  note: "Canada participates in CVSA North American Standard Inspections program; level I–VI roadside inspections conducted by provincial enforcement officers"
+  url: "https://cvsa.org"
+
+eld_link:
+  note: "See hours-of-service/ca-federal.yaml for ELD mandate details"

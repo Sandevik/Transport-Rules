@@ -1,0 +1,50 @@
+jurisdiction: AU
+topic: road-network-classes
+regulation: "Heavy Vehicle National Law (HVNL) 2013; Heavy Vehicle (Mass, Dimensions and Loading) National Regulation"
+last_verified: "2026-05-31"
+source_url: "https://www.nhvr.gov.au/road-access/access-management"
+inherits_from: null
+
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check post-reform vehicle class definitions"
+
+vehicle_classes:
+  Class_1_Oversize:
+    description: "Vehicles exceeding standard mass or dimensions requiring individual permits"
+    permit_required: true
+    managed_by: "NHVR + state/territory road agencies"
+  Class_2:
+    description: "Vehicles within prescribed mass/dimension limits — nationally approved route access"
+    sub_classes:
+      Class_2A:
+        max_length_m: 19.0
+        description: "Standard semi-trailer or B-double first element — most roads"
+      Class_2B:
+        max_length_m: 26.0
+        max_gvw_t: 62.5
+        description: "B-double — approved network"
+        permit_required: false    # if on national network
+      Class_2C:
+        max_length_m: 36.5
+        description: "A-double road train"
+        route_network: "NHVR National Network Map"
+      Class_2D:
+        max_length_m: 53.5
+        description: "B-triple or AB-triple road train"
+        route_network: "Designated outback routes only"
+  Class_3_Miscellaneous:
+    description: "Vehicles not fitting Class 1 or 2 — route-specific permit required"
+    permit_required: true
+
+national_network_map:
+  url: "https://www.nhvr.gov.au/national-network-map"
+  description: "Interactive map showing approved routes for each vehicle class"
+  note: "Green routes = approved; check before journey"
+
+pbs_scheme:
+  name: "Performance Based Standards"
+  description: "Alternative to prescriptive class limits; vehicle must meet performance outcomes"
+  url: "https://www.nhvr.gov.au/road-access/performance-based-standards"
+
+state_variations:
+  wa_nt_own_law: "WA and NT not HVNL participants; own road train legislation applies"
+  state_road_access: "Each state/territory manages access to its own road network within NHVL framework"

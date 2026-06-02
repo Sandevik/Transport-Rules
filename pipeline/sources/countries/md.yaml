@@ -1,0 +1,40 @@
+country: Moldova
+code: md
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: MDL
+notes: >
+  AETR signatory and EU candidate (since June 2022). AETR governs driving/rest time
+  and tachographs. Key transit corridor for EU-Ukraine freight. Moldova has an
+  EU Association Agreement and Deep and Comprehensive Free Trade Area (DCFTA).
+  Some EU transport regulations are being progressively adopted. Verify current
+  bilateral EU-MD transport arrangements for up-to-date permit requirements.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://mtid.gov.md/
+        description: Ministry of Infrastructure and Regional Development of Moldova
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://mtid.gov.md/
+        description: Ministry of Infrastructure Moldova — international transport
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

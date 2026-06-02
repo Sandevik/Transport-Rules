@@ -1,0 +1,10 @@
+jurisdiction: AU-QLD
+topic: penalties
+regulation: "Queensland Heavy Vehicle enforcement"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+note: "Penalty amounts set by HVNL (nationally consistent in participating states) + state-specific rules"
+notes: "Road train zone in western QLD (west of Charleville/Townsville line); Brisbane toll network (Logan, Gateway, Clem7, AirportLink); Transport and Main Roads QLD inspection"
+nhvl_infringement_notices: "NHVR and state enforcement officers can issue infringement notices; see nhvr.gov.au/penalties"

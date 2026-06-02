@@ -1,0 +1,39 @@
+jurisdiction: EU
+topic: working-time
+regulation: "Directive 2002/15/EC (Working Time of Mobile Workers in Road Transport)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32002L0015"
+inherits_from: null
+note: "This directive applies to mobile workers (drivers and crew). Distinct from driving time under Reg. 561/2006 — working time includes driving + loading/unloading + admin + waiting time."
+
+weekly_working_time:
+  average_max_h: 48         # averaged over reference period
+  reference_period_months: 4  # default; may extend to 6 months via collective agreement
+  absolute_max_in_single_week_h: 60
+  note: "48h average — the opt-out available under general Working Time Directive 2003/88/EC does NOT apply to mobile workers"
+
+daily_working_time:
+  max_without_break_h: 6
+  max_before_break_at_6h_min: 30
+  max_before_break_at_9h_min: 45
+
+night_work:
+  definition: "Any working time between 00:00 and 04:00 (goods) or 01:00 and 05:00 (passengers)"
+  max_daily_h_if_night_work_performed: 10
+  reference_period_days: 14  # 10h limit applies per 24h period that includes night work
+
+rest:
+  note: "Daily and weekly rest periods under Regulation 561/2006 apply; this directive adds working time limits on top"
+
+record_keeping:
+  employer_obligation: true
+  tachograph_as_record: true
+  retention_years: 2
+
+self_employed_drivers:
+  included_since: "2009 (Directive 2002/15/EC extended scope)"
+  note: "Self-employed drivers are included in scope; member states had option to exclude until 2012"
+
+exemptions:
+  - "Self-employed drivers (member states could exempt until 2012 — most no longer do)"
+  - "Military, police, emergency services"

@@ -1,0 +1,10 @@
+jurisdiction: AU-NSW
+topic: dimensions-weights
+regulation: "New South Wales heavy vehicle legislation"
+last_verified: "2026-05-31"
+source_url: "https://www.nhvr.gov.au"
+inherits_from: au-federal
+
+state_max_gvw_standard_t: 42.5
+road_trains_permitted: false
+notes: "B-doubles widely allowed; Sydney toll network (M7, M2, NorthConnex, Harbour Bridge/Tunnel, WestConnex); heavy vehicle inspection via Transport for NSW; no road trains"

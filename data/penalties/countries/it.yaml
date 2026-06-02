@@ -1,0 +1,16 @@
+jurisdiction: IT
+topic: penalties
+regulation: "National transport enforcement legislation — see references/countries/it/penalties.md (if exists)"
+last_verified: "2026-05-31"
+inherits_from: null
+currency: "See references file"
+
+note: "Penalty amounts are highly country-specific and updated frequently. See references/countries/it/ for detailed penalty tables. This file provides the structural entry; populate from official sources via pipeline."
+
+enforcement_authority: "See references/countries/it/ for national enforcement body details"
+
+fine_ranges:
+  driving_time_violation_minor_eur: "Typically 100–500 EUR equivalent (varies significantly)"
+  driving_time_violation_serious_eur: "Typically 500–5000 EUR equivalent"
+  tachograph_manipulation_eur: "Typically 5000–15000 EUR equivalent; possible prosecution"
+  overload_per_tonne_over_eur: "Country-specific; see references file"

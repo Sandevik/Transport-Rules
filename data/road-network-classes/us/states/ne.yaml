@@ -1,0 +1,12 @@
+jurisdiction: US-NE
+topic: road-network-classes
+regulation: "Nebraska state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+spring_weight_restrictions: false
+
+notes: "Allows triple trailers on I-80 corridor; no mandatory inspection; no tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

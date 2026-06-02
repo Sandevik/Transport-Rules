@@ -1,0 +1,105 @@
+country: United Kingdom
+code: gb
+eu_member: false
+aetr_signatory: false
+framework_tier: 3
+currency: GBP
+notes: 'Post-Brexit. Retained EU 561/2006 as GB domestic law via EU Withdrawal Act
+  2018. No longer subject to EU regulation updates (Mobility Package provisions may
+  differ). Completely standalone from EU enforcement network and ERRU risk rating
+  system.
+
+  '
+topics:
+  driving-rest:
+    standalone: true
+    notes: GB retained EU 561/2006 as domestic law. Rules largely mirror EU but check
+      for divergence.
+    sources:
+    - url: https://www.gov.uk/guidance/drivers-hours-goods-vehicles
+      description: GOV.UK / DVSA — Drivers' hours rules for goods vehicles
+      type: official
+    - url: https://www.gov.uk/guidance/drivers-hours
+      description: GOV.UK / DVSA — Drivers' hours overview
+      type: official
+  dimensions-weights:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/vehicle-weights-explained
+      description: GOV.UK — Vehicle weights explained
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/hgv-levy
+      description: GOV.UK — HGV Road User Levy (annual charge by weight/axles)
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/guidance/drivers-hours-enforcement
+      description: GOV.UK / DVSA — Enforcement and fixed penalty amounts
+      type: official
+  commercial-license:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/apply-for-a-standard-national-or-international-licence
+      description: GOV.UK — Standard national or international operator's licence
+      type: official
+  cabotage:
+    standalone: true
+    notes: Post-Brexit — max 2 cabotage operations within 7 days after international
+      delivery. Not the EU 3-in-7 rule.
+    sources:
+    - url: https://www.gov.uk/guidance/taking-goods-to-the-eu-by-lorry
+      description: GOV.UK — Taking goods to the EU by lorry (post-Brexit cabotage
+        rules)
+      type: official
+  tachograph:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/guidance/tachographs-the-rules
+      description: Gov.uk — Tachographs GB
+      type: official
+  vehicle-inspection:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/get-vehicle-inspected
+      description: Gov.uk — DVSA vehicle inspection GB
+      type: official
+  professional-driver:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/driver-cpc-training
+      description: Gov.uk — Driver CPC GB
+      type: official
+  dangerous-goods:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/dangerous-goods-vehicles
+      description: Gov.uk — Dangerous goods vehicles GB
+      type: official
+  emissions:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/clean-air-zones
+      description: Gov.uk — Clean Air Zones ULEZ/CAZ GB
+      type: official
+  combined-transport:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/guidance/combined-transport-arrangements
+      description: Gov.uk — Combined transport GB
+      type: official
+  live-animals:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/guidance/transporting-animals
+      description: Gov.uk — Transporting animals GB
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.gov.uk/guidance/special-types-of-vehicles-on-public-roads
+      description: National oversize load permit authority
+      type: official

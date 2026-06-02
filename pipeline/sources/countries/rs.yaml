@@ -1,0 +1,50 @@
+country: Serbia
+code: rs
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: RSD
+notes: >
+  AETR signatory and EU accession candidate country. AETR governs driving/rest time
+  and tachographs. Serbia is progressively aligning with EU transport acquis but formal
+  EU membership has not yet occurred — EU baseline regulations are not directly applicable.
+  Key transit country on the E75 corridor (Hungary → Serbia → North Macedonia → Greece).
+  CEMT/ITF multilateral permits or bilateral permits required for road freight.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.mgsi.gov.rs/en
+        description: Ministry of Construction, Transport and Infrastructure of Serbia
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.mgsi.gov.rs/en
+        description: Ministry of Construction, Transport and Infrastructure — tachograph Serbia
+        type: official
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://www.mgsi.gov.rs/en
+        description: Ministry of Construction, Transport and Infrastructure — international permits
+        type: official
+  tolls:
+    standalone: true
+    sources:
+      - url: https://www.jp.putevi-srbije.rs/index.php/en/
+        description: PE Roads of Serbia — toll information
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

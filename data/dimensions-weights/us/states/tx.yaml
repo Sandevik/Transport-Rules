@@ -1,0 +1,9 @@
+jurisdiction: US-TX
+topic: dimensions-weights
+regulation: "Texas state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+override_max_gvw_lbs: 84000  # state non-Interstate limit with permit
+
+state_notes: "Up to 84,000 lbs on non-Interstate with TxDMV permit; extensive toll network (TxTAG); state inspection equiv. (commercial vehicles)"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

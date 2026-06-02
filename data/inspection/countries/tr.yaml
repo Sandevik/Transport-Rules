@@ -1,0 +1,16 @@
+jurisdiction: TR
+topic: inspection
+regulation: "2918 Sayılı Karayolları Trafik Kanunu; Araç Muayeneleri Hakkında Yönetmelik"
+last_verified: "2026-05-31"
+source_url: "https://www.turkiye.gov.tr/arac-muayene"
+inherits_from: EU
+
+authority: "Ulaştırma ve Altyapı Bakanlığı (Ulaştırma Bakanlığı)"
+inspection_name: "Araç Muayenesi"
+approved_operators_type: "TÜVTÜRK istasyonları (private operator TÜVTÜRK runs national network)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/tr/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/tr/vehicle-inspection.md"

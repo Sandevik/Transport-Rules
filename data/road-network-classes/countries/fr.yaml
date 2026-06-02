@@ -1,0 +1,54 @@
+jurisdiction: FR
+topic: road-network-classes
+regulation: "Code de la route Art. R433; Arrêté du 4 mai 2006 relatif aux transports exceptionnels"
+last_verified: "2026-05-31"
+source_url: "https://entreprendre.service-public.gouv.fr/vosdroits/F23661"
+inherits_from: null
+
+system_name: "Convois Exceptionnels — Categories 1–4"
+description: "France categorises oversize/overweight transport into four categories with progressively stricter requirements. Standard EU limits apply otherwise; some national roads also have specific restrictions."
+
+standard_transport:
+  max_gvw_t: 40              # EU baseline (France)
+  max_length_m: 18.75
+  max_width_m: 2.55
+  max_height_m: 4.0
+
+exceptional_transport_categories:
+  category_1:
+    max_gvw_t: 48
+    max_width_m: 3.0
+    max_length_m: 20.0
+    requirements: "Préavis (advance declaration) only — no route authorisation needed"
+    authority: "None — operator self-declares"
+  category_2:
+    max_width_m: 4.0
+    max_length_m: 25.0
+    max_gvw_t: null          # no hard GVW cap; governed by dimensions
+    requirements: "Autorisation de circulation (route authorisation from prefecture/DIRM)"
+    advance_notice_days: 5
+    authority: "Préfecture / DREAL"
+  category_3:
+    max_width_m: 5.0
+    max_length_m: null       # governed by permit
+    requirements: "Autorisation + véhicule éclaireur (pilot vehicle)"
+    authority: "DREAL (Direction Régionale de l'Environnement, de l'Aménagement et du Logement)"
+  category_4:
+    description: "Exceptionally large/heavy transport requiring individual ministerial authorization"
+    requirements: "Arrêté individuel (individual order from DGITM — Ministère des Transports)"
+    authority: "DGITM (Direction Générale des Infrastructures, des Transports et des Mobilités)"
+    advance_notice_months: 3
+
+route_specific_restrictions:
+  note: "Some French national roads (routes nationales) have specific weight restrictions for transit"
+  examples:
+    - "N59 / N66 (Lunéville–Sélestat–Remiremont): vehicles >3.5t transit prohibited"
+    - "Various mountain routes: seasonal restrictions (Col restrictions in winter)"
+  check_url: "https://bison-fute.gouv.fr"
+
+weekend_and_holiday_bans:
+  applies_to: "Vehicles >7.5t GVW"
+  saturdays: "Prohibited 10:00–22:00 (July–August)"
+  sundays_holidays: "Prohibited 00:00–22:00"
+  seasonal_bans: "Additional bans during summer and public holiday weekends — check Bison Futé schedule"
+  exemptions: "Perishable goods, ADR, livestock, emergency — check annual schedule"

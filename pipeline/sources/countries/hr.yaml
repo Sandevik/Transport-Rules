@@ -1,0 +1,84 @@
+country: Croatia
+code: hr
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: HAK (Hrvatski Autoklub)
+  primary_url: https://www.hak.hr
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.hak.hr
+      description: HAK — Croatian Auto Club (driving rules and enforcement guidance)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.hac.hr/en/toll
+      description: HAC — Croatian motorway toll system (HAC)
+      type: official
+    - url: https://www.hac.hr/en/toll-rates/eets
+      description: HAC — EETS electronic toll collection for Croatia
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — Tahografi Croatia
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — Tehnički pregled Croatia
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — CPC Croatia
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — ADR Croatia
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mingor.gov.hr/
+      description: MINGOR — Environment Croatia
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://minrad.gov.hr/en/posting-of-workers/3870
+      description: MINRAD — Posting of workers Croatia
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — Combined transport Croatia
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.veterina.hr/
+      description: Veterinarstvo Croatia — animal transport
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — Dimensions and weights Croatia
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmpi.gov.hr/
+      description: MMPI — Licences Croatia
+      type: official

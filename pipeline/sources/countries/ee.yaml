@@ -1,0 +1,75 @@
+country: Estonia
+code: ee
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: Transpordiamet (Estonian Transport Administration)
+  primary_url: https://transpordiamet.ee
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://transpordiamet.ee
+      description: Transpordiamet — Estonian Transport Administration
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — tachograph Estonia
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — vehicle inspection Estonia
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — CPC Estonia
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — dangerous goods Estonia
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.envir.ee/en
+      description: Ministry of Environment Estonia
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ti.ee/en/labour-relations-work-environment/employment-relationship/posting-workers
+      description: Labour Inspectorate Estonia
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — combined transport Estonia
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vet.agri.ee/en
+      description: Veterinary and Food Board Estonia
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — dimensions and weights Estonia
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.transpordiamet.ee/en
+      description: Transpordiamet — licences Estonia
+      type: official

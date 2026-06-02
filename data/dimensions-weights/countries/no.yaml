@@ -1,0 +1,38 @@
+jurisdiction: NO
+topic: dimensions-weights
+regulation: "Vegtrafikkloven; Forskrift om bruk av kjøretøy (FBK); Statens vegvesen road lists"
+last_verified: "2026-05-31"
+source_url: "https://www.vegvesen.no/kjoretoy/yrkestransport/mål-og-vekt/"
+inherits_from: EU
+note: "Norway is EEA member — EU Directive 96/53/EC baseline applies; national deviations listed below."
+
+overrides:
+  height_m: 4.5              # Norwegian standard (same as SE)
+  max_gvw_standard_network_t: 50   # standard national roads (BK10)
+
+approved_networks:
+  standard_50t:
+    max_gvw_t: 50
+    applies_to: "Most national roads"
+  approved_60t:
+    max_gvw_t: 60
+    max_length_m: 24
+    description: "National roads approved for timber/modular transport (60t/60-tonne route list)"
+    network: "Per Statens vegvesen approved road list"
+    network_url: "https://www.vegvesen.no/kjoretoy/yrkestransport/mal-og-vekt/tillatte-dimensjoner-og-vekter-riksveier/"
+  nordic_ems_from_2026:
+    max_gvw_t: 74
+    max_length_m: 25.25
+    description: "Nordic EMS trial routes approved from February 2026"
+    status: "Trial; check current approved road list"
+    note: "Subject to Statens vegvesen road list updates"
+
+axle_loads_t:
+  single_non_driving: 10
+  single_driving: 11.5       # EU baseline
+  bogie_axle_BK10: 18        # standard bogie on 10t axle roads
+  note: "Norway uses BK10/BK50 classification (10t axle / 50t GVW as standard)"
+
+international_transport:
+  note: "Cross-border transport with EU uses EU 96/53/EC limits (40t / 16.5m for semi)"
+  eu_limit_applies_at_border: true

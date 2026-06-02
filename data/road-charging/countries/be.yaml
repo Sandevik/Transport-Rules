@@ -1,0 +1,152 @@
+jurisdiction: BE
+topic: road-charging
+regulation: "Flemish Decree on road charging; Brussels ordinance; Walloon decree — Viapass interregional agreement"
+last_verified: "2026-06-01"
+source_url: "https://www.viapass.be/en/rates"
+inherits_from: EU
+
+system: "Viapass kilometre charge"
+authority: "Viapass (interregional entity for all three Belgian regions)"
+currency: EUR
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "All public roads in Belgium (motorways + national roads + significant regional roads in all 3 regions)"
+  note: "One of broadest toll coverages in Europe — not limited to motorways"
+
+# Rates effective 1 January 2026
+# Source: viapass.be/en/rates — official rate table
+# Rates in EUR/km, excl. VAT (Wallonia subject to VAT; Flanders and Brussels are taxes, VAT-exempt)
+# Weight categories: 3.5–12t | 12–32t | >32t
+# From 1 July 2026: CO2 surcharge added for Flanders
+
+rates_eur_per_km:
+  wallonia:
+    euro_0_to_2:
+      gvw_3_5_to_12t:  0.113
+      gvw_12_to_32t:   0.220
+      gvw_over_32t:    0.251
+    euro_3:
+      gvw_3_5_to_12t:  0.113
+      gvw_12_to_32t:   0.220
+      gvw_over_32t:    0.251
+    euro_4:
+      gvw_3_5_to_12t:  0.084
+      gvw_12_to_32t:   0.191
+      gvw_over_32t:    0.222
+    euro_5:
+      gvw_3_5_to_12t:  0.070
+      gvw_12_to_32t:   0.177
+      gvw_over_32t:    0.208
+    euro_6:
+      gvw_3_5_to_12t:  0.056
+      gvw_12_to_32t:   0.163
+      gvw_over_32t:    0.194
+    zev:
+      gvw_3_5_to_12t:  0.056
+      gvw_12_to_32t:   0.163
+      gvw_over_32t:    0.194
+
+  flanders:
+    euro_0_to_2:
+      gvw_3_5_to_12t:  0.158
+      gvw_12_to_32t:   0.268
+      gvw_over_32t:    0.301
+    euro_3:
+      gvw_3_5_to_12t:  0.132
+      gvw_12_to_32t:   0.242
+      gvw_over_32t:    0.275
+    euro_4:
+      gvw_3_5_to_12t:  0.089
+      gvw_12_to_32t:   0.200
+      gvw_over_32t:    0.233
+    euro_5:
+      gvw_3_5_to_12t:  0.074
+      gvw_12_to_32t:   0.184
+      gvw_over_32t:    0.217
+    euro_6:
+      gvw_3_5_to_12t:  0.060
+      gvw_12_to_32t:   0.171
+      gvw_over_32t:    0.204
+    zev:
+      gvw_3_5_to_12t:  0.009
+      gvw_12_to_32t:   0.031
+      gvw_over_32t:    0.038
+
+  brussels_highway:
+    euro_0_to_2:
+      gvw_3_5_to_12t:  0.192
+      gvw_12_to_32t:   0.258
+      gvw_over_32t:    0.263
+    euro_3:
+      gvw_3_5_to_12t:  0.166
+      gvw_12_to_32t:   0.231
+      gvw_over_32t:    0.237
+    euro_4:
+      gvw_3_5_to_12t:  0.125
+      gvw_12_to_32t:   0.191
+      gvw_over_32t:    0.196
+    euro_5:
+      gvw_3_5_to_12t:  0.110
+      gvw_12_to_32t:   0.176
+      gvw_over_32t:    0.181
+    euro_6:
+      gvw_3_5_to_12t:  0.097
+      gvw_12_to_32t:   0.163
+      gvw_over_32t:    0.168
+    zev:
+      gvw_3_5_to_12t:  0.017
+      gvw_12_to_32t:   0.030
+      gvw_over_32t:    0.031
+
+  brussels_urban:
+    euro_0_to_2:
+      gvw_3_5_to_12t:  0.247
+      gvw_12_to_32t:   0.346
+      gvw_over_32t:    0.384
+    euro_3:
+      gvw_3_5_to_12t:  0.214
+      gvw_12_to_32t:   0.313
+      gvw_over_32t:    0.351
+    euro_4:
+      gvw_3_5_to_12t:  0.174
+      gvw_12_to_32t:   0.272
+      gvw_over_32t:    0.310
+    euro_5:
+      gvw_3_5_to_12t:  0.156
+      gvw_12_to_32t:   0.255
+      gvw_over_32t:    0.293
+    euro_6:
+      gvw_3_5_to_12t:  0.130
+      gvw_12_to_32t:   0.229
+      gvw_over_32t:    0.267
+    zev:
+      gvw_3_5_to_12t:  0.023
+      gvw_12_to_32t:   0.043
+      gvw_over_32t:    0.050
+
+# Typical reference vehicle: Euro VI, >32t (typical 40t artic), Wallonia
+typical_reference:
+  vehicle: "40t 5-axle artic, Euro VI, Wallonia"
+  rate_eur_per_km: 0.194
+  note: "Flanders Euro VI >32t: 0.204 EUR/km; Brussels urban Euro VI >32t: 0.267 EUR/km"
+
+upcoming_changes:
+  flanders_co2_surcharge:
+    effective: "2026-07-01"
+    description: "Additional CO2 surcharge on Flemish rates from 1 July 2026"
+
+obu:
+  required: true
+  providers:
+    - "Satellic"
+    - "Axxès (new devices only — legacy Kapsch S5310/S3290 invalid from 2026-01-01)"
+    - "DKV"
+    - "EETS-compatible devices"
+
+notes: >
+  Rates effective 1 January 2026, sourced from viapass.be official rate table.
+  Wallonia rates are ex-VAT (subject to Belgian VAT); Flanders and Brussels rates
+  are taxes (VAT-exempt). The Belgian km-charge applies on all public roads, not
+  just motorways — making it one of the widest-coverage systems in Europe.
+  GVW is total vehicle+trailer weight.

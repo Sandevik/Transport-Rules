@@ -1,0 +1,13 @@
+jurisdiction: US-IN
+topic: road-network-classes
+regulation: "Indiana state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+lcv_turnpike_doubles: true
+spring_weight_restrictions: false
+
+notes: "Both triple trailers and turnpike doubles allowed on Indiana Toll Road; I-69 Toll"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,116 @@
+country: Norway
+code: 'no'
+eu_member: false
+eea_member: true
+framework_tier: 1
+currency: NOK
+authorities:
+  primary: Statens vegvesen
+  primary_url: https://www.vegvesen.no/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vegvesen.no/en/vehicles/professional-transport/driving-time-and-rest-periods/
+      description: Statens vegvesen — Driving time and rest periods
+      type: official
+    - url: https://www.vegvesen.no/en/vehicles/professional-transport/driving-time-and-rest-periods/violation-of-the-regulations/
+      description: Statens vegvesen — Violations and penalties
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    national_deviations: true
+    sources:
+    - url: https://www.vegvesen.no/en/vehicles/professional-transport/list-of-roads-and-dimensions/
+      description: Statens vegvesen — Roads and dimensions overview
+      type: official
+    - url: https://www.vegvesen.no/en/vehicles/professional-transport/list-of-roads-and-dimensions/modular-vehicle-combinations/
+      description: Statens vegvesen — Modular vehicle combinations (up to 25.25m)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.autopass.no/en/
+      description: AutoPASS — Norwegian electronic toll collection system
+      type: official
+    - url: https://www.autopass.no/en/user/foreign-vehicles-2/
+      description: AutoPASS — Information for foreign vehicles
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://www.vegvesen.no/en/vehicles/professional-transport/international-transport-and-cabotage-by-road/international-transport-cabotage-and-penalties/
+      description: Statens vegvesen — International transport, cabotage and penalties
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vegvesen.no/kjoretoy/yrkestransport/farts-og-kjoretidsregistrering/
+      description: Statens vegvesen — fartsskriver Norway
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/kontroll-og-godkjenning/periodisk-kjoretoykontroll/
+      description: Statens vegvesen — periodisk kjøretøykontroll Norway
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vegvesen.no/kjoretoy/yrkestransport/yrkeskompetansebevis/
+      description: Statens vegvesen — yrkeskompetansebevis CPC Norway
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.dsb.no/
+      description: DSB — ADR Norway
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.miljodirektoratet.no/
+      description: Miljødirektoratet — emissions Norway
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.arbeidstilsynet.no/
+      description: Arbeidstilsynet — utstasjonering Norway
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vegvesen.no/
+      description: Statens vegvesen — combined transport Norway
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mattilsynet.no/
+      description: Mattilsynet — transport av levende dyr Norway
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.vegvesen.no/kjoretoy/yrkestransport/loyvepliktig-transport/
+      description: Statens vegvesen — løyvepliktig transport Norway
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://www.vegvesen.no/en/vehicles/own-and-maintain/tyres-and-wheels/winter-tyres/
+      description: Vegvesen — winter tyres
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official
+  spring-weight-restrictions:
+    standalone: true
+    sources:
+    - url: https://www.vegvesen.no/
+      description: Statens vegvesen — bæreevneperiode (spring weight restrictions)
+      type: official

@@ -1,0 +1,74 @@
+jurisdiction: SE
+topic: road-network-classes
+regulation: "Trafikförordningen (1998:1276) kap. 4; TSFS 2010:171 (vägmärken); Vägmärkes-förordning"
+last_verified: "2026-05-31"
+source_url: "https://www.trafikverket.se/trafik-och-resor/lastbil-och-buss/kora-lastbil/bk-klass/"
+inherits_from: null
+
+system_name: "Bärighetsklass (BK) — Road Bearing Capacity Class"
+description: "Swedish national road classification defining maximum axle, bogie, and gross vehicle weight by road type. Posted as road sign C31 (black text on white background)."
+
+classes:
+  BK1:
+    description: "Standard — applies to most national roads (riksvägar), regional roads (länsvägar) and main municipal roads"
+    sign: "C31 — no BK designation (BK1 is default)"
+    single_non_driving_axle_t: 10
+    single_driving_axle_t: 11.5
+    bogie_axle_spacing_less_1m_t: 11
+    bogie_axle_spacing_1_to_1_3m_t: 16
+    bogie_axle_spacing_1_3_to_1_8m_t: 18
+    bogie_axle_spacing_over_1_8m_t: 20
+    triple_axle_spacing_less_1_3m_t: 21
+    triple_axle_spacing_1_3_to_1_4m_t: 24
+    total_gvw_t: 64
+  BK2:
+    description: "Reduced capacity — secondary and rural roads"
+    sign: "C31 BK2"
+    single_non_driving_axle_t: 8
+    single_driving_axle_t: 10
+    bogie_axle_spacing_less_1m_t: 11
+    bogie_axle_spacing_1_to_1_3m_t: 14
+    bogie_axle_spacing_over_1_3m_t: 16
+    triple_axle_t: 18
+    total_gvw_t: 51.4
+  BK3:
+    description: "Low bearing capacity — rural and forest roads; agricultural areas"
+    sign: "C31 BK3"
+    single_axle_t: 8
+    bogie_t: 12
+    triple_axle_t: 16
+    total_gvw_t: 37.5
+  BK4:
+    description: "High capacity — enables 74t gross weight for qualifying EMS/LCV vehicles"
+    sign: "C31 BK4"
+    single_driving_axle_t: 11.5
+    total_gvw_t: 74
+    qualifying_conditions:
+      - "Minimum 4 axles on the driving vehicle unit"
+      - "Air suspension or equivalent on all driving and trailer axles"
+      - "Maximum speed 60 km/h on BK4 roads"
+
+seasonal_restrictions:
+  name: "Tjällossning (Spring Thaw Restriction)"
+  description: "Temporary downgrade of BK class during spring thaw when frost leaves the ground; road surface weakened"
+  period_approx: "Approximately November 10 – April 10 (varies by region and year)"
+  sign: "C37 — temporary restriction sign posted on affected roads"
+  effect: "Roads may be posted as BK2 or BK3 during tjällossning period"
+  check_url: "https://www.trafikverket.se/forbud"
+  update_source: "Trafikverket (Swedish Transport Administration) — updated annually"
+  note: "Always check current restrictions before journey; restrictions vary year by year"
+
+special_networks:
+  lcv_34_5m_590km_network:
+    name: "34.5m LCV approved network (TSFS 2025:17)"
+    max_length_m: 34.5
+    max_gvw_t: 74
+    network_km: 590
+    speed_limit_kmh: 80
+    applies_on: "Designated routes only — see Trafikverket network map"
+    network_url: "https://www.trafikverket.se/langa-fordon"
+  ems_25_25m_network:
+    name: "EMS 25.25m standard network"
+    max_length_m: 25.25
+    max_gvw_t: 74
+    applies_on: "Most BK1 roads nationally"

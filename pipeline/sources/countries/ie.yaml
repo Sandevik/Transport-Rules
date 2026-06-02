@@ -1,0 +1,90 @@
+country: Ireland
+code: ie
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: RSA (Road Safety Authority)
+  primary_url: https://www.rsa.ie/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Drivers-Hours/
+      description: CVRT — Driver hours obligations in Ireland
+      type: official
+    - url: https://www.cvrt.ie/en-US/Operator-Driver-Obligations/About-Tachographs-and-Exemptions/
+      description: CVRT — Tachograph rules and exemptions in Ireland
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions
+      description: RSA — Weights and dimensions for vehicles in Ireland
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://etoll.ie/toll-rates/
+      description: eToll.ie — Irish toll rates
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://www.rsa.ie/services/licensed-drivers/penalty-points/types-of-offences
+      description: RSA — Types of offences and penalty points
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.rsa.ie/en/RSA/Professional-Drivers/Tachographs/
+      description: RSA — Tachographs Ireland
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.nct.ie/
+      description: NCT/CVRT Ireland — vehicle inspection
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.rsa.ie/en/RSA/Professional-Drivers/CPC/
+      description: RSA — CPC Ireland
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.rsa.ie/en/RSA/Professional-Drivers/ADR/
+      description: RSA — ADR Ireland
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.epa.ie/our-services/monitoring--assessment/climate-change/ghg/transport/
+      description: EPA Ireland — transport emissions
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.workplacerelations.ie/en/
+      description: WRC Ireland — posted workers
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.ie/en/organisation/department-of-transport/
+      description: Department of Transport Ireland
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.ie/en/service/9b2c02-live-animal-transport/
+      description: Department of Agriculture Ireland — live animals
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.nationaltransport.ie/public-transport-services/licensing-enforcement/road-freight-licensing/
+      description: NTA — Road Freight Licensing Ireland
+      type: official

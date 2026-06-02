@@ -1,0 +1,41 @@
+country: North Macedonia
+code: mk
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: MKD
+notes: >
+  AETR signatory and EU accession candidate (negotiations ongoing). AETR governs
+  driving/rest time and tachographs. Important transit country on the E75 Corridor X
+  (Serbia → North Macedonia → Greece). CEMT/ITF multilateral permits or bilateral
+  Serbia-MK-Greece corridor permits commonly used.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://mtc.gov.mk/
+        description: Ministry of Transport and Communications of North Macedonia
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://mtc.gov.mk/
+        description: Ministry of Transport and Communications — international permits
+        type: official
+  tolls:
+    standalone: true
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

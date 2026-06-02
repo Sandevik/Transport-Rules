@@ -1,0 +1,25 @@
+jurisdiction: NL
+topic: dimensions-weights
+regulation: "Voertuigreglement (Vehicle Regulations); Regeling voertuigen"
+last_verified: "2026-05-31"
+source_url: "https://www.government.nl/topics/freight-transportation/requiremenst-for-lorries"
+inherits_from: EU
+
+overrides:
+  lzv_length_m: 25.25        # LZV (Langere en Zwaardere Vrachtautocombinatie / EcoCombi)
+  lzv_max_gvw_t: 60          # LZV/EcoCombi — heavier than EU 40t standard
+
+lzv_network:
+  max_length_m: 25.25
+  max_gvw_t: 60
+  permit_required: true
+  permit_type: "RDW Ontheffing LZV"
+  permit_url: "https://www.rdw.nl/ontheffing-lzv"
+  route_map: "Digitale Wegenkaart Ontheffingen (DWO) — filter: LZV (green routes)"
+  route_map_url: "https://www.rdw.nl/dwo"
+  driver_additional_test_required: true
+  note: "LZV permits are per vehicle combination; driver must pass LZV-specific test"
+
+standard_network:
+  max_length_m: 18.75
+  max_gvw_t: 40              # EU baseline

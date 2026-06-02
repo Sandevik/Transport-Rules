@@ -1,0 +1,10 @@
+jurisdiction: US-WA
+topic: inspection
+regulation: "Washington motor vehicle inspection regulations"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+fmcsa_equivalent_program: true
+scope: "State periodic inspection program meets or exceeds FMCSA 49 CFR Part 396 Appendix A"
+notes: "Tacoma Narrows Bridge; I-90/I-405 express lanes; spring restrictions on some roads; state inspection; CARB-aligned emissions rules"
+state_authority_url: "https://www.transportation.gov/state-dot-links"

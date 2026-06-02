@@ -1,0 +1,126 @@
+country: Germany
+code: de
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: BALM (Bundesamt für Logistik und Mobilität)
+  primary_url: https://www.balm.bund.de/EN/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.balm.bund.de/EN/Topics/Controls/ControlsRoadsidecontrolServiceRoadTollcontrolService/RoadsideInspectionService/
+      description: BALM — Roadside inspection (includes driving/rest time enforcement)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.balm.bund.de/EN/Topics/HGVTolls/hgvtolls.html
+      description: BALM — HGV Toll (LKW-Maut) overview
+      type: official
+    - url: https://www.toll-collect.de/en/
+      description: Toll Collect — HGV toll payment system
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://www.balm.bund.de/EN/Service/QuickService/CatalogueOfFines/catalogueoffines_node.html
+      description: BALM — Catalogue of Fines (Bußgeldkatalog)
+      type: official
+  posting-declaration:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fms-portal.de/
+      description: FMS — Fahrermeldestellen-Portal (German posting declaration portal)
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.balm.bund.de/EN/Topics/Controls/
+      description: BALM — Licensing and controls overview
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.balm.bund.de/DE/Aufgaben/Fahrpersonal/fahrpersonal_node.html
+      description: BALM — Tachograph Germany
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.kba.de/DE/Themen/FahrzeugeUndHalter/PruefungUndBegutachtung/Hauptuntersuchung/hauptuntersuchung_node.html
+      description: KBA — Hauptuntersuchung Germany
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.balm.bund.de/DE/Aufgaben/Fahrpersonal/Grundqualifikation/grundqualifikation_node.html
+      description: BALM — Berufskraftfahrer CPC Germany
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.balm.bund.de/DE/Aufgaben/GefahrgutUndSicherheit/gefahrgutundsicherheit_node.html
+      description: BALM — Gefahrgut ADR Germany
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.umweltbundesamt.de/themen/verkehr-laerm/emissionsstandards
+      description: UBA — Emissionsstandards Germany
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.fms-portal.de/
+      description: FMS Portal — Fahrermeldestellen Germany
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmwk.de/Redaktion/DE/Artikel/Verkehr/kombinierter-verkehr.html
+      description: BMWK — Kombinierter Verkehr Germany
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmel.de/DE/themen/tiere/tierschutz/tiertransporte.html
+      description: BMEL — Tiertransporte Germany
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bmwk.de/Redaktion/DE/Artikel/Verkehr/lang-lkw.html
+      description: BMWK — LKW Maße und Gewichte Germany
+      type: official
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.bag.bund.de/EN/Tasks/FreightTransport/SundayDrivingBan/sundaydrivingban_node.html
+      description: BALM — Sunday driving ban
+      type: official
+  winter-requirements:
+    standalone: true
+    sources:
+    - url: https://www.adac.de/rund-ums-fahrzeug/reifen/winterreifen/winterreifenpflicht/
+      description: ADAC — winter tyre requirement DE
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.bag.bund.de/EN/Tasks/FreightTransport/ExceptionalTransport/exceptionaltransport_node.html
+      description: National oversize load permit authority
+      type: official
+  working-time:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bundesarbeitsgericht.de
+      description: BAG — working time enforcement Germany
+      type: official

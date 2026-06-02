@@ -1,0 +1,8 @@
+jurisdiction: CA-SK
+topic: dimensions-weights
+regulation: "Saskatchewan highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Spring weight restrictions April–May; agricultural exemptions for farm vehicles; SGI (Saskatchewan Government Insurance) vehicle inspection; no toll roads; vast agricultural road network"

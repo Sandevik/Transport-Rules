@@ -1,0 +1,10 @@
+jurisdiction: US-RI
+topic: road-network-classes
+regulation: "Rhode Island state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "State inspection equiv.; no general toll roads"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

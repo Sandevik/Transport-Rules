@@ -1,0 +1,88 @@
+jurisdiction: EU
+topic: inspection
+regulation: "Directive 2014/45/EU (periodic roadworthiness tests); Directive 2014/47/EU (roadside inspections)"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0045"
+inherits_from: null
+
+periodic_roadworthiness_test:
+  regulation: "2014/45/EU"
+  mandatory_categories: [M2, M3, N2, N3, O3, O4]
+  intervals:
+    M2:
+      first_test_after_registration_years: 4
+      subsequent_interval_years: 2
+    M3:
+      first_test_after_registration_years: 1
+      subsequent_interval_years: 1
+    N2:
+      first_test_after_registration_years: 4
+      subsequent_interval_years: 2
+    N3:
+      first_test_after_registration_years: 1
+      subsequent_interval_years: 1
+    O3:
+      first_test_after_registration_years: 4
+      subsequent_interval_years: 2
+    O4:
+      first_test_after_registration_years: 2
+      subsequent_interval_years: 1
+  note: "Member states may apply more frequent inspection intervals at national discretion"
+
+defect_classification:
+  minor:
+    description: "No significant effect on safety or the environment; vehicle may remain in service"
+    action: "Rectify at next service"
+  major:
+    description: "May prejudice road safety or affect the environment; vehicle use permitted but must be repaired"
+    action: "Repair within prescribed deadline set by member state"
+  dangerous:
+    description: "Constitutes direct risk to road safety; vehicle must be immobilised immediately"
+    action: "Immobilise vehicle until defect is repaired"
+
+items_tested:
+  - braking_system
+  - steering_and_suspension
+  - visibility_and_lighting
+  - axles_wheels_tyres
+  - chassis_body
+  - nuisances_exhaust_emissions
+  - tachograph_presence_and_calibration
+  - speed_limiter_presence
+  - seat_belts
+  - load_securing_equipment
+
+tachograph_at_inspection:
+  checked: true
+  calibration_certificate_required: true
+  interval_years: 2
+  seal_intact_required: true
+
+speed_limiter_at_inspection:
+  checked: true
+  N3_set_point_kmh: 90
+  M3_set_point_kmh: 100
+  seal_intact_required: true
+
+erru_database:
+  name: "European Register of Road Transport Undertakings (ERRU)"
+  purpose: "Cross-border exchange of inspection/enforcement data"
+  connected_to: "All EU member state national registers"
+
+roadside_inspection:
+  regulation: "2014/47/EU"
+  annual_target_pct_commercial_vehicles: 5
+  inspection_levels:
+    level_I:
+      description: "Walk-around — visual check without tools; driver document check"
+      duration_min: 15
+    level_II:
+      description: "Technical check with portable equipment; includes brake test"
+    level_III:
+      description: "Comprehensive check at authorised inspection station (roadside or nearby)"
+  defective_vehicle_actions:
+    dangerous_defect: "Immobilisation until repaired"
+    major_defect: "Driver may complete journey if safe; repair prescribed"
+  risk_rating:
+    method: "RSR (Risk Score Ranking) based on roadside check history"
+    high_risk_threshold: "Company with ≥1.0 RSR score targeted for increased checks"

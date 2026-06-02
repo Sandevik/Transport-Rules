@@ -1,0 +1,8 @@
+jurisdiction: CA-PE
+topic: dimensions-weights
+regulation: "Prince Edward Island highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Small island province; Confederation Bridge (toll for outbound only — Nova Scotia side); vehicle inspection program; agricultural province"

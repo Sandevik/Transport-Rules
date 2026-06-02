@@ -1,0 +1,8 @@
+jurisdiction: CA-ON
+topic: dimensions-weights
+regulation: "Ontario highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Spring weight restrictions March–April (typical); Highway 407 ETR private toll; MTO (Ministry of Transportation Ontario) vehicle inspection at licensed facilities; largest truck fleet in Canada"

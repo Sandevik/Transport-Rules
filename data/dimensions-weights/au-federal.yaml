@@ -1,0 +1,41 @@
+jurisdiction: AU
+topic: dimensions-weights
+regulation: "Heavy Vehicle National Law (HVNL) 2013; Road Transport (Mass, Dimensions and Loading) National Regulation"
+last_verified: "2026-05-31"
+source_url: "https://www.nhvr.gov.au/road-access/mass-dimension-and-loading/general-mass-and-dimension-limits"
+inherits_from: null
+
+note: "HVNL applies in QLD, NSW, VIC, SA, TAS, ACT. WA and NT have own legislation but broadly similar rules."
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — outcome-based safety duties replace prescriptive rules; confirm post-August 2026"
+
+length_m:
+  rigid_truck: 12.5
+  semi_trailer: 19.0         # including prime mover
+  b_double: 26.0
+  b_triple: 53.5
+  a_double_road_train: 36.5
+  ab_triple_road_train: 53.5
+
+width_m: 2.5
+
+height_m: 4.3
+
+gross_weight_t:
+  standard: 42.5             # standard network
+  b_double: 62.5
+  a_double_road_train: 100   # varies by state network
+  b_triple_road_train: 115.5 # outback/NT/WA only
+
+axle_limits_t:
+  single: 9.0
+  tandem: 16.5
+  tridem: 20.0
+
+pbs_scheme:
+  name: "Performance Based Standards (PBS)"
+  description: "Vehicles exceeding standard limits may operate if they meet performance criteria (swept path, stability, braking)"
+  permit_url: "https://www.nhvr.gov.au/road-access/performance-based-standards"
+
+class_1_oversize:
+  permit_required: true
+  managed_by: "NHVR (nationally) + state/territory road agencies"

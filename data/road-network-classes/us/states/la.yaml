@@ -1,0 +1,10 @@
+jurisdiction: US-LA
+topic: road-network-classes
+regulation: "Louisiana state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: false
+
+notes: "Crescent City Connection bridge toll; state inspection equiv. program"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

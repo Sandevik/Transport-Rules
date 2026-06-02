@@ -1,0 +1,8 @@
+jurisdiction: CA-NB
+topic: dimensions-weights
+regulation: "New Brunswick highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Maritime province; cross-border with Maine (US); MVI (Motor Vehicle Inspection) program; no toll roads; forestry transport important"

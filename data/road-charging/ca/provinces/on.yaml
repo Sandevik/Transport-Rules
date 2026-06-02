@@ -1,0 +1,9 @@
+jurisdiction: CA-ON
+topic: road-charging
+regulation: "Ontario toll facility legislation"
+last_verified: "2026-05-31"
+currency: CAD
+inherits_from: null
+
+toll_system_exists: true
+notes: "Spring weight restrictions March–April (typical); Highway 407 ETR private toll; MTO (Ministry of Transportation Ontario) vehicle inspection at licensed facilities; largest truck fleet in Canada"

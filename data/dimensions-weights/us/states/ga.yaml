@@ -1,0 +1,8 @@
+jurisdiction: US-GA
+topic: dimensions-weights
+regulation: "Georgia state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "I-75/I-85 Express Lanes; GA-400 toll road"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,10 @@
+jurisdiction: AU-NSW
+topic: road-network-classes
+regulation: "New South Wales heavy vehicle network access rules"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+road_train_network: false
+notes: "B-doubles widely allowed; Sydney toll network (M7, M2, NorthConnex, Harbour Bridge/Tunnel, WestConnex); heavy vehicle inspection via Transport for NSW; no road trains"
+state_network_map_url: "https://www.nhvr.gov.au/national-network-map"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check updated network access rules"

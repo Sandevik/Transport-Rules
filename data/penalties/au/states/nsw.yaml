@@ -1,0 +1,10 @@
+jurisdiction: AU-NSW
+topic: penalties
+regulation: "New South Wales Heavy Vehicle enforcement"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+note: "Penalty amounts set by HVNL (nationally consistent in participating states) + state-specific rules"
+notes: "B-doubles widely allowed; Sydney toll network (M7, M2, NorthConnex, Harbour Bridge/Tunnel, WestConnex); heavy vehicle inspection via Transport for NSW; no road trains"
+nhvl_infringement_notices: "NHVR and state enforcement officers can issue infringement notices; see nhvr.gov.au/penalties"

@@ -1,0 +1,9 @@
+jurisdiction: CA-QC
+topic: road-charging
+regulation: "Quebec toll facility legislation"
+last_verified: "2026-05-31"
+currency: CAD
+inherits_from: null
+
+toll_system_exists: true
+notes: "Spring weight restrictions among most comprehensive in Canada (March–May); A-25 and A-30 bridge concessions (toll); SAAQ (Société de l'assurance automobile du Québec) vehicle inspection; French-language regulations; unique permit system for oversize"

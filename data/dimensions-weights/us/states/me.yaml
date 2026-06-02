@@ -1,0 +1,8 @@
+jurisdiction: US-ME
+topic: dimensions-weights
+regulation: "Maine state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Maine Turnpike toll (I-95); spring weight restrictions; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

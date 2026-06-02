@@ -1,0 +1,10 @@
+jurisdiction: CA-BC
+topic: road-network-classes
+regulation: "British Columbia highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: true
+notes: "BC Forest Service Roads (FSR) — logging truck routes separate from public highways; spring weight restrictions Feb–April; CVSE (Commercial Vehicle Safety and Enforcement); no major toll roads (Port Mann/Golden Ears bridges free since 2023)"

@@ -1,0 +1,82 @@
+jurisdiction: CH
+topic: road-charging
+regulation: "Bundesgesetz über eine leistungsabhängige Schwerverkehrsabgabe (SVAG); SR 641.81"
+last_verified: "2026-06-01"
+source_url: "https://www.bazg.admin.ch/bazg/en/home/informationen-firmen/verkehrsabgaben-und-strassenverkehrsrecht/schwerverkehrsabgaben-lsva-und-psva.html"
+inherits_from: null   # Switzerland is not EU — standalone system
+
+system: "LSVA (Leistungsabhängige Schwerverkehrsabgabe — Performance-related Heavy Vehicle Charge)"
+authority: "BAZG (Bundesamt für Zoll und Grenzsicherheit — Federal Office for Customs and Border Security)"
+currency: CHF
+
+applies_to:
+  vehicle_gvw_t_min: 3.5
+  road_types: "All Swiss public roads — not limited to motorways"
+  note: "Applies to both domestic and foreign vehicles, laden and unladen"
+
+# LSVA calculation formula:
+# LSVA = distance_km × max_GVW_t × rate_CHF_per_tonne_km
+#
+# Rates by emission category (CHF per tonne-km):
+# Source: BAZG; rates current as of 2024–2026 (periodic review by Federal Council)
+# Note: Rates for LSVA III (digital OBU system, introduced 2025) may differ slightly
+# from earlier LSVA II rates — verify current rates at bazg.admin.ch
+
+rates_chf_per_tonne_km:
+  # The LSVA has historically used 3 emission categories:
+  # Category 1 (dirtiest) — Euro 0 / pre-Euro
+  # Category 2 — Euro I / Euro II / Euro III / Euro IV
+  # Category 3 (cleanest) — Euro V, Euro EEV, Euro VI, ZEV
+  #
+  # Rates have been adjusted over time; figures below are established published rates
+  # from the Federal Council ordinance on LSVA (SVAV, SR 641.811)
+
+  category_1_euro_0:            0.0369   # pre-Euro / Euro 0 — highest rate
+  category_2_euro_i_to_iv:      0.0276   # Euro I through Euro IV
+  category_3_euro_v_and_above:  0.0184   # Euro V, EEV, Euro VI — lowest rate
+  zero_emission_electric:        0.0       # ZEV exempt (0 CHF/tkm for LSVA III)
+
+  note: >
+    These rates reflect the established three-tier LSVA structure.
+    The exact CHF/tkm values are set by Federal Council ordinance and subject to
+    periodic revision. Verify current rates at bazg.admin.ch before operational use.
+    LSVA III (new digital system from 2025) introduced updated rate structures.
+
+# Example calculations
+examples:
+  - description: "40t truck (max GVW), Euro VI, 100km transit"
+    calculation: "100 km × 40 t × 0.0184 CHF/tkm = CHF 73.60"
+  - description: "40t truck, Euro 0, 100km"
+    calculation: "100 km × 40 t × 0.0369 CHF/tkm = CHF 147.60"
+  - description: "26t rigid HGV, Euro VI, 300km cross-Switzerland"
+    calculation: "300 km × 26 t × 0.0184 CHF/tkm = CHF 143.52"
+
+psva_flat_rate:
+  name: "PSVA (Pauschale Schwerverkehrsabgabe — flat-rate heavy vehicle charge)"
+  applies_when: "Vehicle without LSVA OBU; applicable to foreign vehicles not equipped with approved OBU"
+  basis: "Flat-rate per day based on GVW — significantly more expensive than LSVA"
+  note: "PSVA is the exception; LSVA via OBU is the norm for all regular traffic"
+
+lsva_iii_digital_system:
+  introduced: "2025"
+  obu_requirement: "Approved NETS (National Electronic Tolling System) or EETS provider OBU"
+  registration: "Foreign operators register via BAZG ePortal or authorized NETS/EETS provider"
+  recording: "GPS-based distance recording within Swiss customs territory"
+
+obu_options:
+  - "BAZG-approved LSVA III OBU from authorized provider"
+  - "EETS-compatible OBU (EETS providers approved for Swiss LSVA)"
+  - "PSVA flat-rate declaration (if no OBU)"
+
+enforcement:
+  authority: "BAZG border officers and customs patrol"
+  penalty: "Retroactive LSVA + penalty surcharge; criminal sanctions possible"
+
+notes: >
+  Switzerland's LSVA is one of the most comprehensive heavy vehicle charges globally:
+  it applies to ALL Swiss roads (not just motorways), covers all vehicles >3.5t,
+  and is based on actual distance × GVW × emission class rate.
+  The LSVA III digital system (from 2025) replaced the older OBU technology.
+  ZEV (zero emission vehicles) currently exempt from LSVA distance charge component.
+  Verify exact current rates at https://www.bazg.admin.ch before use.
+  Switzerland is NOT an EU member; this system is independent of the EU Eurovignette framework.

@@ -1,0 +1,81 @@
+country: Luxembourg
+code: lu
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: Administration des transports
+  primary_url: https://transports.public.lu/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://transports.public.lu/en/transporter/transports-marchandises/transport-par-route/poids-lourd.html
+      description: Transports.lu — Poids lourds (heavy goods vehicles rules)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://guichet.public.lu/en/entreprises/import-export/transit/transit-ue/e-vignette-poids-lourds.html
+      description: Guichet.lu — E-vignette for heavy goods vehicles in Luxembourg
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmtp.gouvernement.lu/
+      description: MMTP Luxembourg — tachograph
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.secuRoute.lu/
+      description: SecuRoute — contrôle technique Luxembourg
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmtp.gouvernement.lu/
+      description: MMTP Luxembourg — CPC
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmtp.gouvernement.lu/
+      description: MMTP Luxembourg — ADR
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://environnement.public.lu/
+      description: Administration de l'Environnement Luxembourg
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://itm.public.lu/fr/relations-de-travail/detachement.html
+      description: ITM Luxembourg — détachement
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmtp.gouvernement.lu/
+      description: MMTP Luxembourg — transport combiné
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://agriculture.public.lu/
+      description: Services vétérinaires Luxembourg
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmtp.gouvernement.lu/
+      description: MMTP Luxembourg — masses et dimensions
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmtp.gouvernement.lu/
+      description: MMTP Luxembourg — licences transport
+      type: official

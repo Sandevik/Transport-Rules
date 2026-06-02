@@ -1,0 +1,16 @@
+jurisdiction: GB
+topic: inspection
+regulation: "Road Traffic Act 1988 Section 45; Motor Vehicles (Tests) Regulations 1981 (SI 1981/1694)"
+last_verified: "2026-05-31"
+source_url: "https://www.gov.uk/get-vehicle-inspected"
+inherits_from: EU
+
+authority: "DVSA (Driver and Vehicle Standards Agency) (DVSA)"
+inspection_name: "MOT / HGV Annual Test"
+approved_operators_type: "DVSA Authorised Testing Facilities (ATF); DVSA-employed Vehicle Examiners"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/gb/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/gb/vehicle-inspection.md"

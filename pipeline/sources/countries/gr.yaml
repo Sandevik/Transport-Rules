@@ -1,0 +1,81 @@
+country: Greece
+code: gr
+eu_member: true
+framework_tier: 1
+currency: EUR
+authorities:
+  primary: Ministry of Infrastructure and Transport
+  primary_url: https://www.gov.gr/en/upourgeia/upourgeio-upodomon-kai-metaphoron
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.gr/en/upourgeia/upourgeio-upodomon-kai-metaphoron
+      description: Greek Ministry of Infrastructure and Transport
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.aodos.gr/en/
+      description: Attiki Odos — main Attica motorway toll operator
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.yme.gr/
+      description: YME — Tachograph Greece
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.kteo.gr/
+      description: KTEO — Technical inspection Greece
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.yme.gr/
+      description: YME — ΠΕΙ CPC Greece
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.yme.gr/
+      description: YME — ADR Greece
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://ypen.gov.gr/
+      description: YPEN — Environment Greece
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.sepe.gr/
+      description: SEPE — Labour Inspectorate Greece
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.yme.gr/
+      description: YME — Combined transport Greece
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.minagric.gr/
+      description: Ministry of Agriculture Greece — animal transport
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.yme.gr/
+      description: YME — Dimensions and weights Greece
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.yme.gr/
+      description: YME — Transport licensing Greece
+      type: official

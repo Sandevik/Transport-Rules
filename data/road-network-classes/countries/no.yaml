@@ -1,0 +1,45 @@
+jurisdiction: NO
+topic: road-network-classes
+regulation: "Vegtrafikkloven; Forskrift om bruk av kjøretøy (FBK); Statens vegvesen road lists"
+last_verified: "2026-05-31"
+source_url: "https://www.vegvesen.no/kjoretoy/yrkestransport/mal-og-vekt/tillatte-dimensjoner-og-vekter-riksveier/"
+inherits_from: null
+
+system_name: "Norwegian Road Bearing Capacity (BK) and Approved Route Lists"
+description: "Norway uses a BK10/BK50 classification system (10t axle load / 50t GVW on standard roads). Statens vegvesen (SVV) publishes approved route lists for heavier combinations. County and municipal roads may impose lower limits."
+
+standard_bk10_bk50:
+  name: "Standard national roads (BK10)"
+  max_axle_t: 10
+  max_gvw_t: 50
+  applies_to: "Most national roads (riksveier) not specifically approved for heavier loads"
+
+approved_60t_network:
+  max_gvw_t: 60
+  max_length_m: 24
+  description: "National roads approved for timber, agricultural, and modular combinations"
+  permit_required: false     # on approved network with correct vehicle
+  network_list_url: "https://www.vegvesen.no/globalassets/fag/kjøretøy/yrkestransport/vektliste-riksveier.pdf"
+  note: "Check current Statens vegvesen list — updated regularly"
+
+nordic_ems_from_2026:
+  max_gvw_t: 74
+  max_length_m: 25.25
+  description: "Nordic EMS (modular combination) trial routes approved from February 2026"
+  status: "Trial — approved roads only"
+  notes: "Check current SVV approved route list; expanded progressively"
+
+county_municipal_roads:
+  note: "County roads (fylkesveier) and municipal roads may have lower limits — check local authority"
+  typical_axle_limit_t: 8    # many county roads
+  bridge_restrictions: "Individual bridge weight limits posted on signs"
+
+seasonal_restrictions:
+  name: "Vårdønn / Spring restrictions"
+  description: "Similar to Nordic neighbours — some roads impose spring weight limits during thaw"
+  applies: "Selected county and municipal roads; rarely national roads"
+  check_url: "https://www.vegvesen.no"
+
+route_check:
+  authority: "Statens vegvesen (national roads); Statsforvalteren (county); municipalities"
+  note: "Always check SVV weight and dimension lists before journey on routes outside standard BK10/50"

@@ -1,0 +1,10 @@
+jurisdiction: CA-NL
+topic: road-network-classes
+regulation: "Newfoundland and Labrador highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: true
+notes: "Island province (Newfoundland) + mainland Labrador; ferry connections; spring restrictions; logging roads in Labrador; limited road network; no toll roads"

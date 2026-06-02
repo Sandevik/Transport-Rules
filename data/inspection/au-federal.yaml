@@ -1,0 +1,34 @@
+jurisdiction: AU
+topic: inspection
+regulation: "Heavy Vehicle National Law (HVNL) 2013; Heavy Vehicle (Inspection) National Standard"
+last_verified: "2026-05-31"
+source_url: "https://www.nhvr.gov.au/safety-accreditation-compliance/vehicle-inspection"
+inherits_from: null
+
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — two-tiered accreditation framework introduced"
+
+periodic_inspection:
+  mandatory: true
+  interval: "Annual"
+  applies_to: "All heavy vehicles ≥4.5t GVW"
+  conducted_by: "Authorised Inspection Stations (AIS) — approved by state/territory road agencies"
+
+inspection_items:
+  - braking_system
+  - steering
+  - tyres_and_wheels
+  - suspension
+  - lights_and_reflectors
+  - coupling_and_towing
+  - body_and_chassis
+  - safety_equipment
+
+nhvr_check_app:
+  name: "NHVR Check App"
+  purpose: "Operators can record pre-departure inspections electronically"
+  url: "https://www.nhvr.gov.au/nhvr-check"
+
+states_with_hvnl: [QLD, NSW, VIC, SA, TAS, ACT]
+states_own_law:
+  WA: "Main Roads WA — annual inspection required at licenced testing stations"
+  NT: "Department of Infrastructure NT — vehicle inspection requirements"

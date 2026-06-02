@@ -1,0 +1,81 @@
+country: Romania
+code: ro
+eu_member: true
+framework_tier: 1
+currency: RON
+authorities:
+  primary: ARR (Autoritatea Rutieră Română)
+  primary_url: https://en.arr.ro/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://en.arr.ro/
+      description: ARR — Romanian Road Authority
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.cnair.ro/
+      description: CNAIR — National motorway and roads company (Rovinieta vignette)
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://licente.arr.ro/en
+      description: ARR — Transport operators register and licences
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.arr.ro/
+      description: ARR — tahograf Romania
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.arr.ro/
+      description: ARR/RAR — ITP Romania
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.arr.ro/
+      description: ARR — calificare CPC Romania
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.arr.ro/
+      description: ARR/ISCTR — ADR Romania
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmediu.ro/
+      description: MMAP — emisii Romania
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mmuncii.gov.ro/
+      description: Ministerul Muncii — detașare lucrători Romania
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mt.gov.ro/
+      description: MT — transport combinat Romania
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.ansvsa.ro/
+      description: ANSVSA — transport animale Romania
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://mt.gov.ro/
+      description: MT — gabarite și mase Romania
+      type: official

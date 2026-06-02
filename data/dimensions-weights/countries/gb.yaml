@@ -1,0 +1,43 @@
+jurisdiction: GB
+topic: dimensions-weights
+regulation: "Road Vehicles (Authorised Weight) Regulations 1998 (SI 1998/3111) as amended; Road Vehicles (Construction and Use) Regulations 1986"
+last_verified: "2026-05-31"
+source_url: "https://www.gov.uk/government/publications/hgv-maximum-weights/hgv-maximum-weights"
+inherits_from: null
+note: "UK is standalone (Tier 3) post-Brexit. UK retained EU weight limits as domestic law but no longer receives EU updates. Rules are broadly equivalent to EU 96/53/EC."
+
+length_m:
+  single_vehicle: 12.0
+  semi_trailer_and_tractor: 16.5
+  road_train: 18.75
+  drawbar_combination: 18.75
+
+width_m:
+  standard: 2.55
+  refrigerated: 2.60
+
+height_m:
+  note: "No statutory maximum height in UK; practical limit ~4.9m due to bridge/overhead structures"
+
+gross_weight_t:
+  two_axle_vehicle: 18
+  three_axle_vehicle: 26         # UK allows 26t for 3-axle vehicles (vs EU 25t)
+  four_axle_rigid: 32
+  four_axle_semi: 36
+  five_axle_semi: 40
+  six_axle_semi_road_train: 44   # UK max — achieved at 44t for 6-axle artic on standard roads
+  note: "UK maximum is 44t for a 6-axle articulated vehicle"
+
+axle_loads_t:
+  single_axle: 10.0
+  single_driving_pneumatic_or_road_friendly: 11.5
+  tandem_axle: 18               # bogie
+  triple_axle: 24
+
+stgo_special_types:
+  Cat_1: {max_gvw_t: 80, requirements: "Highway authority notice (Section 59 agreement)"}
+  Cat_2: {max_gvw_t: 150, requirements: "Notice + police notification (2 days advance)"}
+  Cat_3: {max_gvw_t: null, requirements: "Secretary of State order + police escort"}
+
+authority: "DVSA (Driver and Vehicle Standards Agency)"
+legislation_note: "UK-REACH and retained EU law apply; Road Vehicles (Authorised Weight) (Amendment) Regulations 2023 updated some limits"

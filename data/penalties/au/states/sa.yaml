@@ -1,0 +1,10 @@
+jurisdiction: AU-SA
+topic: penalties
+regulation: "South Australia Heavy Vehicle enforcement"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+note: "Penalty amounts set by HVNL (nationally consistent in participating states) + state-specific rules"
+notes: "Road train routes in remote SA (north and west); HVNL participant; Department for Infrastructure and Transport vehicle inspection; no major toll roads"
+nhvl_infringement_notices: "NHVR and state enforcement officers can issue infringement notices; see nhvr.gov.au/penalties"

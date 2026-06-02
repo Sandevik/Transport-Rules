@@ -1,0 +1,10 @@
+jurisdiction: AU-TAS
+topic: road-network-classes
+regulation: "Tasmania heavy vehicle network access rules"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+road_train_network: false
+notes: "Island state — no road trains; lower mass limits due to bridge network; ferry connections to mainland; DIER vehicle inspection; no toll roads"
+state_network_map_url: "https://www.nhvr.gov.au/national-network-map"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check updated network access rules"

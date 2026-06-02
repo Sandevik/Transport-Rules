@@ -1,0 +1,8 @@
+jurisdiction: US-PA
+topic: dimensions-weights
+regulation: "Pennsylvania state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "PA Turnpike; bridges; spring restrictions; turnpike doubles on PA Turnpike; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

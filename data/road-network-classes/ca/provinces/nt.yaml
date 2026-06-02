@@ -1,0 +1,10 @@
+jurisdiction: CA-NT
+topic: road-network-classes
+regulation: "Northwest Territories highway and road regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+spring_weight_restrictions: true
+spring_period: "March–May (typical); check provincial ministry of transportation"
+logging_truck_routes: true
+notes: "Arctic territory; ice roads (mackenzie highway system in winter, closes in spring thaw); Dempster Highway; severe seasonal road conditions; HOS deviations for remote/Arctic operations; significant heavy equipment transport"

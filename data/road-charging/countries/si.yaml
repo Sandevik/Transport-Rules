@@ -1,0 +1,14 @@
+jurisdiction: SI
+topic: road-charging
+regulation: "National tolling legislation — see references/countries/si/tolls.md"
+last_verified: "2026-05-31"
+source_url: "https://www.darsgo.si"
+inherits_from: EU
+
+system: "DarsGo"
+authority: "DARS (Družba za avtoceste)"
+currency: EUR
+applies_to: "Motorways for vehicles >3.5t"
+notes: "OBU-based per-km toll."
+
+rates: "See references/countries/si/tolls.md for current rate tables — rates updated frequently"

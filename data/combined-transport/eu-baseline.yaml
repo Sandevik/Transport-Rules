@@ -1,0 +1,45 @@
+jurisdiction: EU
+topic: combined-transport
+regulation: "Council Directive 92/106/EEC (combined transport) — under revision as of 2026"
+last_verified: "2026-05-31"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31992L0106"
+inherits_from: null
+note: "Directive 92/106/EEC is undergoing revision (COM/2022/493); new proposal would expand scope. Values here reflect current 92/106/EEC."
+
+definition:
+  combined_transport: "Transport where the vehicle uses road for initial/final leg and rail, inland waterway or short-sea shipping for the main haul"
+  intermodal_loading_unit: "Swap body, container, semi-trailer suitable for transfer between modes"
+
+road_leg_limits:
+  max_road_leg_km: 150       # as-the-crow-flies from initial loading/final delivery
+  note: "If both the loading and unloading terminals are within 150km air distance from each other, the road leg is exempt from cabotage restrictions"
+  alternative: "Road leg must be within member state of origin/destination of the combined transport operation"
+
+benefits_of_ct_status:
+  weight_allowance_bonus_t: 44   # 5-axle semi qualifies for 44t GVW instead of 40t on EU roads
+  cabotage_exemption: true        # road legs in CT are exempt from cabotage rules (within 150km)
+  posting_workers_exemption:
+    road_leg_exempt: true         # short road leg not treated as posting
+  vignette_discount: "Some member states grant combined transport discount"
+
+documentation_required:
+  - "Railway waybill (CIM) or bill of lading (intermodal)"
+  - "Proof of rail/IWW/sea shipment booking"
+  - "Transport document showing intermodal loading unit transfer"
+  - "Date and place of intermodal transfer"
+
+rail_requirement:
+  minimum_rail_leg: "No minimum distance — must cross at least one national border or be ≥100km within one country (proposed revision)"
+  current_rule: "The non-road leg must be more than 100km or cross a national border"
+
+member_state_obligations:
+  fiscal_incentives_optional: true
+  infrastructure_obligations: "Member states must facilitate intermodal terminal access"
+
+revision_proposal_2022:
+  status: "Under review — expanded scope proposed"
+  key_proposals:
+    - "Digital documentation (e-CMR compatible)"
+    - "Extended road leg to 300km in some cases"
+    - "New 'hub-and-spoke' combined transport definition"
+    - "Reporting obligations for CT operations"

@@ -1,0 +1,13 @@
+jurisdiction: US-ND
+topic: road-network-classes
+regulation: "North Dakota state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+lcv_triple_trailers: true
+lcv_designated_routes: true
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Allows triple trailers; spring weight restrictions; no tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

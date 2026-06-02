@@ -1,0 +1,140 @@
+jurisdiction: DE
+topic: road-charging
+regulation: "Bundesfernstraßenmautgesetz (BFStrMG); third amendment law BGBl. I Nr. 315 vom 24.11.2023"
+last_verified: "2026-06-01"
+source_url: "https://www.balm.bund.de/EN/Topics/HGVTolls/hgvtolls.html"
+source_rate_document: "Toll rates 01.07.2024–31.12.2025 (BALM PDF)"
+inherits_from: EU
+
+system: "Toll Collect (LKW-Maut) — GNSS-based distance toll"
+authority: "BALM (Bundesamt für Logistik und Mobilität)"
+operator: "Toll Collect GmbH"
+currency: EUR
+
+applies_to:
+  vehicle_gvw_t_min: 3.5    # lowered from 7.5t on 1 December 2023
+  road_types: "Bundesautobahn (motorways) + Bundesstraßen (federal roads)"
+  note: "Applies whether laden or unladen; foreign vehicles included"
+
+# Rate table effective 01.07.2024 – 31.12.2025
+# Source: BALM official PDF (BGBl. I Nr. 315, 24.11.2023)
+# CO2-Emissionsklasse (EK) × Schadstoffklasse × weight/axle class = total rate in cent/km
+# All values in EUR/km (converted from cent/km shown in source)
+#
+# CO2 class EK 5 (zero emission): EXEMPT until 31.12.2025
+# EK 1 = highest CO2 emitters (no CO2 class subdivision for Euro V and below)
+# EK 2/3/4 = progressively cleaner Euro VI vehicles by specific CO2 g/tkm
+#
+# Weight/axle categories:
+#   A: >3.5t to <7.5t
+#   B: 7.5t to <12t
+#   C: 12t to 18t
+#   D: >18t with up to 3 axles
+#   E: >18t with 4 axles
+#   F: >18t with 5+ axles  (typical 5-axle artic)
+
+rates_eur_per_km:
+  # EK 1 (highest CO2 class — Euro VI and older)
+  EK1_Euro_VI:
+    gvw_3_5_to_7_5t:  0.151
+    gvw_7_5_to_12t:   0.177
+    gvw_12_to_18t:    0.238
+    gvw_over18_3ax:   0.303
+    gvw_over18_4ax:   0.324
+    gvw_over18_5ax:   0.348   # typical 5-axle artic
+
+  EK1_Euro_V_EEV:
+    gvw_3_5_to_7_5t:  0.189
+    gvw_7_5_to_12t:   0.205
+    gvw_12_to_18t:    0.275
+    gvw_over18_3ax:   0.353
+    gvw_over18_4ax:   0.363
+    gvw_over18_5ax:   0.389
+
+  EK1_Euro_IV:
+    gvw_3_5_to_7_5t:  0.201
+    gvw_7_5_to_12t:   0.221
+    gvw_12_to_18t:    0.286
+    gvw_over18_3ax:   0.371
+    gvw_over18_4ax:   0.388
+    gvw_over18_5ax:   0.414
+
+  EK1_Euro_III:
+    gvw_3_5_to_7_5t:  0.225
+    gvw_7_5_to_12t:   0.250
+    gvw_12_to_18t:    0.328
+    gvw_over18_3ax:   0.429
+    gvw_over18_4ax:   0.454
+    gvw_over18_5ax:   0.478
+
+  EK1_Euro_II:
+    gvw_3_5_to_7_5t:  0.244
+    gvw_7_5_to_12t:   0.275
+    gvw_12_to_18t:    0.348
+    gvw_over18_3ax:   0.459
+    gvw_over18_4ax:   0.487
+    gvw_over18_5ax:   0.511
+
+  EK1_Euro_I_Euro_0:
+    gvw_3_5_to_7_5t:  0.248
+    gvw_7_5_to_12t:   0.276
+    gvw_12_to_18t:    0.350
+    gvw_over18_3ax:   0.484
+    gvw_over18_4ax:   0.512
+    gvw_over18_5ax:   0.516
+
+  # EK 2/3/4 = Euro VI vehicles with progressively better CO2 class (lower specific CO2)
+  EK2_Euro_VI:
+    gvw_3_5_to_7_5t:  0.147
+    gvw_7_5_to_12t:   0.173
+    gvw_12_to_18t:    0.234
+    gvw_over18_3ax:   0.297
+    gvw_over18_4ax:   0.318
+    gvw_over18_5ax:   0.340
+
+  EK3_Euro_VI:
+    gvw_3_5_to_7_5t:  0.144
+    gvw_7_5_to_12t:   0.169
+    gvw_12_to_18t:    0.228
+    gvw_over18_3ax:   0.290
+    gvw_over18_4ax:   0.310
+    gvw_over18_5ax:   0.332
+
+  EK4_Euro_VI:
+    gvw_3_5_to_7_5t:  0.114
+    gvw_7_5_to_12t:   0.137
+    gvw_12_to_18t:    0.188
+    gvw_over18_3ax:   0.242
+    gvw_over18_4ax:   0.258
+    gvw_over18_5ax:   0.269
+
+  EK5_zero_emission:
+    exempt_until: "2025-12-31"
+    rate_from_2026: "to be confirmed — infrastructure + noise components apply; CO2 component 0"
+
+# Typical reference vehicle: Euro VI, EK1, 5-axle artic >18t = 0.348 EUR/km
+typical_reference:
+  vehicle: "5-axle articulated HGV >18t, Euro VI (EK1)"
+  rate_eur_per_km: 0.348
+  note: "EK4 Euro VI (best CO2 class): 0.269 EUR/km; same vehicle, older Euro I/0: 0.516 EUR/km"
+
+zero_emission_vehicles:
+  exempt_until: "2025-12-31"
+  status_from_2026: "Pay infrastructure + noise components only (CO2 component zero); EK5 rates TBC"
+
+obu_options:
+  - "Toll Collect OBU (GNSS/DSRC) — primary method"
+  - "Toll Collect app (pre-booking)"
+  - "Service terminals at fuel stations"
+  - "EETS-compatible OBUs"
+
+enforcement: "BALM mobile control units; automated DSRC gantries (Kontrollbrücken)"
+penalty_min_eur: 200
+
+notes: >
+  Rate table covers 01.07.2024–31.12.2025. The four toll components (infrastructure,
+  air pollution, noise, CO2) are combined into a single per-km rate in the official table.
+  Zero-emission vehicles (EK5) were fully exempt through 31 December 2025.
+  New rates for 2026 onwards are expected to be published by BALM; check
+  https://www.balm.bund.de for current rate documents.
+  GVW threshold lowered from 7.5t to 3.5t on 1 December 2023.

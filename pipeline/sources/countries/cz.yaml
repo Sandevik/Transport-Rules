@@ -1,0 +1,84 @@
+country: Czech Republic
+code: cz
+eu_member: true
+framework_tier: 1
+currency: CZK
+authorities:
+  primary: INSID (Inspekce Silniční Dopravy / Road Transport Inspection)
+  primary_url: https://insid.gov.cz/en/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://insid.gov.cz/en/
+      description: INSID — Road Transport Inspection (enforcement authority)
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://myto.gov.cz/en/
+      description: MYTO — Czech electronic toll system for HGVs
+      type: official
+    - url: https://myto.gov.cz/en/customer-services/toll-calculator
+      description: MYTO — Toll calculator
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Tahograf
+      description: MDCzR — Tachograph Czech Republic
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Stanicni-mereni-emisivitu-STK
+      description: MDCzR — STK vehicle inspection
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Ridicske-opravneni/Profesni-zpusobilost
+      description: MDCzR — CPC Czech Republic
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Nebezpecne-zbozi-ADR
+      description: MDCzR — ADR Czech Republic
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mzp.cz/cz/emise_mobily
+      description: MŽP — mobile emissions Czech Republic
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mpsv.cz/vysílání-pracovníků-v-rámci-poskytování-služeb
+      description: MPSV — posted workers Czech Republic
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Kombinovana-doprava
+      description: MDCzR — combined transport
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.svscr.cz/
+      description: SVS ČR — animal transport Czech Republic
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Hmotnosti-a-rozmery-vozidel
+      description: MDCzR — dimensions and weights
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mdcr.cz/Silnicni-doprava/Dopravci-Licence
+      description: MDCzR — transport licence Czech Republic
+      type: official

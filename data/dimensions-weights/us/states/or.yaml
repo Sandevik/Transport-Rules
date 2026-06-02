@@ -1,0 +1,8 @@
+jurisdiction: US-OR
+topic: dimensions-weights
+regulation: "Oregon state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Spring weight restrictions; Oregon allows 105,500 lbs on some routes with permit; no general tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

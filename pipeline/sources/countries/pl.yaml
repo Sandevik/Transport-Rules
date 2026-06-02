@@ -1,0 +1,120 @@
+country: Poland
+code: pl
+eu_member: true
+framework_tier: 1
+currency: PLN
+authorities:
+  primary: GITD (Główny Inspektorat Transportu Drogowego)
+  primary_url: https://gitd.gov.pl/
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://gitd.gov.pl/
+      description: GITD — Main road transport inspection authority
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://etoll.gov.pl/en/
+      description: e-TOLL — Polish electronic toll collection system
+      type: official
+    - url: https://etoll.gov.pl/en/e-toll-system/rates-and-payments/
+      description: e-TOLL — Rates and payment methods
+      type: official
+  penalties:
+    standalone: true
+    sources:
+    - url: https://ebok.canard.gitd.gov.pl/
+      description: GITD eBOK CANARD — administrative fines and penalty system
+      type: official
+  posting-declaration:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.biznes.gov.pl/en/portal/02176
+      description: Biznes.gov.pl — Posting of workers to Poland declaration portal
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl/
+      description: GITD — tachograf Poland
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl/
+      description: GITD — badania techniczne pojazdów Poland
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl/
+      description: GITD — kwalifikacja wstępna CPC Poland
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl/
+      description: GITD — przewóz ADR Poland
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gios.gov.pl/
+      description: GIOŚ — ochrony środowiska Poland
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.pip.gov.pl/
+      description: PIP — pracownicy delegowani Poland
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gov.pl/web/infrastruktura/
+      description: Ministerstwo Infrastruktury — transport kombinowany Poland
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.wetgiw.gov.pl/
+      description: GIW — transport zwierząt Poland
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl/
+      description: GITD — wymiary i masy pojazdów Poland
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl/
+      description: GITD — zezwolenia transport Poland
+      type: official
+  driving-bans:
+    standalone: true
+    sources:
+    - url: https://www.gov.pl/web/infrastruktura/zakaz-ruchu-ciezarowek
+      description: Ministry of Infrastructure — zakaz ruchu
+      type: official
+  atp-temperature:
+    eu_baseline_applies: true
+    sources:
+    - url: https://unece.org/transport/road-transport/atp-perishable-foodstuffs
+      description: UNECE — ATP Agreement
+      type: official
+  oversize-loads:
+    standalone: true
+    sources:
+    - url: https://www.gov.pl/web/infrastruktura
+      description: National oversize load permit authority
+      type: official
+  working-time:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.gitd.gov.pl
+      description: GITD — working time enforcement Poland
+      type: official

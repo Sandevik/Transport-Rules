@@ -1,0 +1,8 @@
+jurisdiction: CA-NU
+topic: dimensions-weights
+regulation: "Nunavut highway traffic and vehicle regulations"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+max_gvw_t: 63.5
+notes: "Most remote territory; almost no permanent roads (cargo by sea/air); ice roads in winter only; Arctic-specific HOS deviations; vehicle inspection where applicable; no toll roads"

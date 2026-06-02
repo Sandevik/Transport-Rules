@@ -1,0 +1,37 @@
+jurisdiction: AU
+topic: hours-of-service
+regulation: "Heavy Vehicle National Law (HVNL) 2013; Heavy Vehicle (Work Diary) Regulation"
+last_verified: "2026-05-31"
+source_url: "https://www.nhvr.gov.au/safety-accreditation-compliance/fatigue-management"
+inherits_from: null
+
+nhvl_reform_2026: "New HVNL effective 1 August 2026 introduces a new 'Unfit to Drive' duty and simplified fatigue rules"
+
+standard_hours:
+  max_work_hours_in_24h: 12
+  min_rest_in_24h: 7           # continuous hours
+  night_rest_min_h: 7
+
+bfm_basic_fatigue_management:
+  description: "Standard scheme for all drivers who must comply with HVNL fatigue laws"
+  applies_to: "All heavy vehicle drivers in HVNL jurisdictions (vehicles >4.5t GVW)"
+  work_limit_h_per_24h: 12
+  rest_min_h_per_24h: 7
+
+afm_advanced_fatigue_management:
+  description: "Operator-managed scheme allowing more flexible schedules for accredited operators"
+  accreditation: "NHVR BFM/AFM accreditation required"
+  allows: "Extended work windows with compensatory rest management"
+
+exemptions:
+  short_distance: "Drivers operating within 100km radius of home base may have simplified requirements"
+  agricultural: "Some agricultural vehicle exemptions apply"
+
+work_diary:
+  required: true
+  format: "Electronic work diary (EWD) mandatory from 2023 for applicable vehicles"
+  retention_years: 3
+
+states_with_hvnl: [QLD, NSW, VIC, SA, TAS, ACT]
+states_own_law: [WA, NT]
+note: "WA and NT have own fatigue management laws broadly similar to HVNL"

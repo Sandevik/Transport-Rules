@@ -1,0 +1,38 @@
+country: Albania
+code: al
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: ALL
+notes: >
+  AETR signatory and EU accession candidate. AETR governs driving/rest time and
+  tachographs. Southernmost Western Balkans country; relevant for freight to/from
+  Greece via alternative routes. CEMT/ITF multilateral permits required.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.infrastruktura.gov.al/
+        description: Albanian Ministry of Infrastructure and Energy
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://www.infrastruktura.gov.al/
+        description: Ministry of Infrastructure — international permits Albania
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

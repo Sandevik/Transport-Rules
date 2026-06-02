@@ -1,0 +1,8 @@
+jurisdiction: US-WY
+topic: dimensions-weights
+regulation: "Wyoming state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Allows triple trailers on I-25/I-80; spring restrictions on some roads; no tolls"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

@@ -1,0 +1,8 @@
+jurisdiction: US-AZ
+topic: dimensions-weights
+regulation: "Arizona state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "Allows triple trailers on designated Interstate routes"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

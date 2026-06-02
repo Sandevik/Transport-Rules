@@ -1,0 +1,8 @@
+jurisdiction: CA-BC
+topic: inspection
+regulation: "British Columbia Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "BC Forest Service Roads (FSR) — logging truck routes separate from public highways; spring weight restrictions Feb–April; CVSE (Commercial Vehicle Safety and Enforcement); no major toll roads (Port Mann/Golden Ears bridges free since 2023)"

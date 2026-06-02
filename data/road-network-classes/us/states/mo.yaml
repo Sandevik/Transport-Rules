@@ -1,0 +1,11 @@
+jurisdiction: US-MO
+topic: road-network-classes
+regulation: "Missouri state transportation code"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+spring_weight_restrictions: true
+spring_period: 'Typically March–June; check state DOT'
+
+notes: "Spring weight restrictions on county roads; no general toll system"
+state_dot_url: "https://www.transportation.gov/state-dot-links"

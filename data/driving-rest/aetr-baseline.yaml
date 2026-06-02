@@ -1,0 +1,45 @@
+jurisdiction: AETR
+topic: driving-rest
+regulation: "AETR Agreement (European Agreement concerning the Work of Crews of Vehicles Engaged in International Road Transport) — as amended 2010"
+last_verified: "2026-05-31"
+source_url: "https://unece.org/transport/road-transport/aetr"
+inherits_from: null
+note: "AETR applies to international road transport operations involving at least one AETR signatory country that is not an EU/EEA member. EU Regulation 561/2006 takes precedence within the EU for vehicles registered in EU/EEA states."
+
+driving:
+  daily_max_h: 9
+  daily_extended_h: 10
+  extended_days_per_week: 2
+  weekly_max_h: 56
+  fortnightly_max_h: 90
+  break_after_h: 4.5
+  break_duration_min: 45
+  split_break:
+    first_min: 15
+    second_min: 30
+
+rest:
+  daily_regular_h: 11
+  daily_reduced_h: 9
+  daily_reductions_per_week_max: 3
+  weekly_regular_h: 45
+  weekly_reduced_h: 24
+  weekly_reduced_compensation_within_weeks: 3
+  multi_manning_daily_rest_h: 9
+
+ferry_train_exception:
+  max_interruptions: 2
+  max_activity_before_after_h: 1
+  minimum_rest_period_h: 11
+
+key_difference_vs_eu_561:
+  cash_payment_prohibited: true    # AETR Art. 22ter — no cash penalties at roadside
+  return_to_base_rule: false       # no equivalent to EU 2020/1054 return-home rule
+  digital_tachograph: "AETR Annex 1B aligns with EU smart tachograph requirements"
+
+signatories_non_eu:
+  - "Albania, Andorra, Armenia, Azerbaijan, Belarus, Bosnia-Herzegovina"
+  - "Georgia, Kazakhstan, Kyrgyzstan, Liechtenstein, Moldova, Monaco"
+  - "Montenegro, Morocco, North Macedonia, Russia, San Marino"
+  - "Serbia, Switzerland, Tajikistan, Tunisia, Turkey, Turkmenistan"
+  - "Ukraine, United Kingdom, Uzbekistan, Vatican"

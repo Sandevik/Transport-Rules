@@ -1,0 +1,8 @@
+jurisdiction: US-NJ
+topic: dimensions-weights
+regulation: "New Jersey state transportation code — see state DOT"
+last_verified: "2026-05-31"
+inherits_from: us-federal
+
+state_notes: "NJ Turnpike; Garden State Parkway; GWB, Goethals; turnpike doubles on NJ Turnpike; state inspection equiv."
+state_dot_url: "https://www.transportation.gov/state-dot-links"

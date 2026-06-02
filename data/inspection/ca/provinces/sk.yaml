@@ -1,0 +1,8 @@
+jurisdiction: CA-SK
+topic: inspection
+regulation: "Saskatchewan Motor Vehicle Act / Commercial Vehicle Act"
+last_verified: "2026-05-31"
+inherits_from: ca-federal
+
+annual_inspection_required: true
+notes: "Spring weight restrictions April–May; agricultural exemptions for farm vehicles; SGI (Saskatchewan Government Insurance) vehicle inspection; no toll roads; vast agricultural road network"

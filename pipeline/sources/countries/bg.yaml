@@ -1,0 +1,82 @@
+country: Bulgaria
+code: bg
+eu_member: true
+framework_tier: 1
+currency: BGN
+authorities:
+  primary: RTA (Road Transport Administration / Изпълнителна агенция „Автомобилна
+    администрация")
+  primary_url: https://rta.government.bg/en
+topics:
+  driving-rest:
+    eu_baseline_applies: true
+    sources:
+    - url: https://rta.government.bg/en
+      description: RTA — Bulgarian Road Transport Administration
+      type: official
+  tolls:
+    standalone: true
+    sources:
+    - url: https://www.bgtoll.bg/en/
+      description: BGTOLL — Bulgarian e-vignette and distance toll system
+      type: official
+  tachograph:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — tachograph
+      type: official
+  vehicle-inspection:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — technical inspection
+      type: official
+  professional-driver:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — CPC
+      type: official
+  dangerous-goods:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — ADR
+      type: official
+  emissions:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.moew.government.bg/en
+      description: Ministry of Environment Bulgaria
+      type: official
+  posting-workers:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mlsp.government.bg/en
+      description: Ministry of Labour Bulgaria — posted workers
+      type: official
+  combined-transport:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — combined transport
+      type: official
+  live-animals:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.bfsa.bg/en
+      description: Bulgarian Food Safety Agency — animal transport
+      type: official
+  dimensions-weights:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — dimensions and weights
+      type: official
+  commercial-license:
+    eu_baseline_applies: true
+    sources:
+    - url: https://www.mtitc.government.bg/en
+      description: MTITC Bulgaria — road transport licensing
+      type: official

@@ -1,0 +1,10 @@
+jurisdiction: AU-NT
+topic: road-network-classes
+regulation: "Northern Territory heavy vehicle network access rules"
+last_verified: "2026-05-31"
+inherits_from: au-federal
+
+road_train_network: true
+notes: "Most remote territory; road trains extremely common including quad-trailer (4 trailers) combinations; own legislation (not HVNL); Darwin to Alice Springs corridor; seasonal road closures (wet season flooding)"
+state_network_map_url: "https://www.nhvr.gov.au/national-network-map"
+nhvl_reform_2026: "New HVNL effective 1 August 2026 — check updated network access rules"

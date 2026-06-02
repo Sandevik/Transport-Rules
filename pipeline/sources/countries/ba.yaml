@@ -1,0 +1,46 @@
+country: Bosnia-Herzegovina
+code: ba
+eu_member: false
+eea_member: false
+aetr_signatory: true
+eu_candidate: true
+framework_tier: 2
+currency: BAM
+notes: >
+  AETR signatory and EU accession candidate. AETR governs driving/rest time and tachographs.
+  Complex administrative structure (Federation of BiH + Republika Srpska entities).
+  Key transit country on the Western Balkans route. CEMT/ITF multilateral permits
+  or bilateral permits required. Road network quality varies; check route restrictions
+  for heavy vehicles.
+
+topics:
+  driving-rest:
+    aetr_baseline_applies: true
+    sources:
+      - url: https://www.mkt.gov.ba/
+        description: Ministry of Communications and Transport of BiH
+        type: official
+  tachograph:
+    aetr_baseline_applies: true
+  transit-permits:
+    standalone: true
+    sources:
+      - url: https://www.mkt.gov.ba/
+        description: Ministry of Communications and Transport BiH — permits
+        type: official
+  tolls:
+    standalone: true
+    sources:
+      - url: https://www.bihamk.ba/
+        description: BH Auto-Moto Club — road information BiH
+        type: official
+  vehicle-inspection:
+    standalone: true
+  professional-driver:
+    standalone: true
+  dangerous-goods:
+    standalone: true
+  dimensions-weights:
+    standalone: true
+  commercial-license:
+    standalone: true

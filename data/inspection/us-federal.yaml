@@ -1,0 +1,53 @@
+jurisdiction: US
+topic: inspection
+regulation: "49 CFR Part 396 (FMCSA Inspection, Repair, and Maintenance)"
+last_verified: "2026-05-31"
+source_url: "https://www.fmcsa.dot.gov/regulations/title49/section/396.17"
+inherits_from: null
+
+federal_annual_inspection:
+  regulation: "49 CFR §396.17"
+  required_for: "All commercial motor vehicles in interstate commerce"
+  interval_years: 1
+  items_checked: "49 CFR Part 396 Appendix A — 15 major component categories"
+  inspector_qualifications: "49 CFR §396.19 — must meet specific knowledge/training requirements"
+  record_retention_months: 14
+  report_must_be_in_vehicle: true
+
+cvsa_roadside_inspections:
+  program: "Commercial Vehicle Safety Alliance (CVSA) North American Standard Inspections"
+  levels:
+    Level_I:
+      name: "North American Standard Inspection"
+      description: "Comprehensive — all vehicle systems + driver documents; takes 30–60 min"
+    Level_II:
+      name: "Walk-around Driver/Vehicle Inspection"
+      description: "Less invasive than Level I; exterior check + driver credentials"
+    Level_III:
+      name: "Driver Only Inspection"
+      description: "Driver credentials, HOS, licensing — no vehicle check"
+    Level_IV:
+      name: "Special Inspections"
+      description: "Single item focus (e.g., tire check only, fuel level, etc.)"
+    Level_V:
+      name: "Vehicle Only Inspection"
+      description: "Full vehicle check without driver present"
+    Level_VI:
+      name: "Enhanced NAS Inspection for Radioactive Shipments"
+      description: "Special inspection for RAM/Highway Route Controlled Quantity shipments"
+
+out_of_service:
+  oos_criteria: "CVSA Out-of-Service Criteria (updated annually)"
+  vehicle_oos: "Vehicle placed out of service for critical safety defects — cannot move until repaired"
+  driver_oos: "Driver placed out-of-service for HOS, licensing, or fitness violations"
+
+state_equivalent_programs:
+  description: "24 states + DC have inspection programs FMCSA has determined equivalent to or more stringent than federal"
+  states: [AL, CA, CT, DC, HI, IL, LA, ME, MD, MA, MI, MN, NH, NJ, NY, OH, PA, RI, TX, UT, VT, VA, WV, WI]
+  note: "AL limited to LPG vehicles only. Vehicles with valid state inspection from these states may not need separate federal annual inspection if all Part 396 Appendix A items covered."
+
+edvir:
+  name: "Electronic Driver Vehicle Inspection Report (eDVIR)"
+  regulation: "FMCSA Final Rule — eDVIR"
+  effective_date: "2026-03-23"
+  requirement: "Electronic DVIRs replace paper for all carriers required to do pre/post-trip inspections"

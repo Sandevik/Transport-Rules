@@ -1,0 +1,10 @@
+jurisdiction: AU-TAS
+topic: penalties
+regulation: "Tasmania Heavy Vehicle enforcement"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+note: "Penalty amounts set by HVNL (nationally consistent in participating states) + state-specific rules"
+notes: "Island state — no road trains; lower mass limits due to bridge network; ferry connections to mainland; DIER vehicle inspection; no toll roads"
+nhvl_infringement_notices: "NHVR and state enforcement officers can issue infringement notices; see nhvr.gov.au/penalties"

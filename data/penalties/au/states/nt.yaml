@@ -1,0 +1,10 @@
+jurisdiction: AU-NT
+topic: penalties
+regulation: "Northern Territory Heavy Vehicle enforcement"
+last_verified: "2026-05-31"
+currency: AUD
+inherits_from: null
+
+note: "Penalty amounts set by HVNL (nationally consistent in participating states) + state-specific rules"
+notes: "Most remote territory; road trains extremely common including quad-trailer (4 trailers) combinations; own legislation (not HVNL); Darwin to Alice Springs corridor; seasonal road closures (wet season flooding)"
+nhvl_infringement_notices: "NHVR and state enforcement officers can issue infringement notices; see nhvr.gov.au/penalties"

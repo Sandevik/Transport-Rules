@@ -1,0 +1,27 @@
+country: Canada
+code: ca
+eu_member: false
+aetr_signatory: false
+framework_tier: 3
+currency: CAD
+notes: Federal framework (Transport Canada) + provincial variation. National Safety Code (NSC) is the backbone.
+
+topics:
+  hours-of-service:
+    standalone: true
+    sources:
+      - url: https://tc.canada.ca/en/road-transportation/motor-vehicle-safety/commercial-driver-hours-service-regulations
+        description: Transport Canada — Commercial Driver Hours of Service Regulations
+        type: official
+      - url: https://laws-lois.justice.gc.ca/eng/regulations/SOR-2005-313/fulltext.html
+        description: Justice Laws — SOR/2005-313 (HOS Regulations full text)
+        type: official
+  commercial-license:
+    standalone: true
+    sources:
+      - url: https://tc.canada.ca/en/road-transportation/motor-vehicle-safety/national-safety-code
+        description: Transport Canada — National Safety Code (NSC) standards
+        type: official
+      - url: https://cvsa.org/
+        description: CVSA — Commercial Vehicle Safety Alliance (roadside enforcement standards)
+        type: trusted-nongovernmental

@@ -1,0 +1,16 @@
+jurisdiction: FI
+topic: inspection
+regulation: "Ajoneuvolaki (1090/2002); Laki ajoneuvojen katsastustoiminnasta"
+last_verified: "2026-05-31"
+source_url: "https://www.traficom.fi/katsastus"
+inherits_from: EU
+
+authority: "Traficom (Finnish Transport and Communications Agency) (Traficom)"
+inspection_name: "Katsastus (periodic inspection)"
+approved_operators_type: "Katsastusasema (inspection station — competitive market like SE)"
+
+periodic_inspection:
+  intervals_per_eu_baseline: true
+  national_notes: "See references/countries/fi/vehicle-inspection.md for full national implementation details"
+
+fees_approx: "See references/countries/fi/vehicle-inspection.md"
