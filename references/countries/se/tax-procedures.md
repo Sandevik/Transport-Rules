@@ -99,9 +99,40 @@ Professional transport operators (yrkestrafik) may be eligible for:
 ## 3. Vägtrafikskattelagen — Vehicle Tax (SFS 2006:227)
 
 Annual road tax (vägtrafikskatt) levied on registered vehicles based on:
-- **Vehicle type and weight** (for trucks: chassis weight)
+- **Vehicle type and weight** (for heavy trucks and trailers: the **skattevikt**, see below)
 - **Fuel type** (diesel trucks pay higher base rate than petrol)
 - **Euro emission class** (lower tax for cleaner vehicles)
+
+### Skattevikt (tax weight), 1 kap. 6 § SFS 2006:227
+
+*Verified 2026-11-08 against the statute text on riksdagen.se.*
+
+- Definition: "Med skattevikt avses den vikt efter vilken fordonsskatten beräknas i vissa fall."
+- **Heavy truck (tung lastbil) and trailer other than a semitrailer:** the skattevikt is the
+  *totalvikt*, "dock högst den bruttovikt som fordonet får föras med på vägar som tillhör
+  bärighetsklass 1". So the skattevikt is never above the vehicle's permitted gross weight on
+  BK1 roads.
+- **Semitrailer (påhängsvagn):** the part of the totalvikt resting on its fixed axle(s), with the
+  same BK1 cap.
+- **More than one body:** the skattevikt follows the body that gives the highest totalvikt; a
+  truck that can take a fifth wheel follows its totalvikt with the fifth wheel fitted.
+- The weight terms and "bärighetsklass" have the meaning of lag (2001:559) om vägtrafikdefinitioner
+  (1 kap. 3 §).
+
+**What it limits, and what it does not:**
+- **BK:** because the skattevikt is the totalvikt capped at the BK1 bruttovikt, a skattevikt
+  **lower than the totalvikt** states the vehicle's permitted gross weight on BK1 roads. A
+  compliance check must treat it as a gross-weight cap in the BK check, never assume the full
+  totalvikt.
+- **Driving licence:** not affected. The licence category follows the **totalvikt** (B up to
+  3 500 kg, C1 up to 7 500 kg, C above; Directive 2006/126/EC art. 4, körkortslagen 1998:488).
+- The statute itself contains no provision letting an owner choose a lower skattevikt and no fee
+  for driving above it; the only use ban in the act (6 kap. 1 §) is for unpaid tax.
+
+**Implementation note (TMS):** read "Skattevikt" from the vehicle register beside "Totalvikt".
+Use `min(totalvikt, skattevikt)` as the vehicle's own gross cap in BK checks (warn, never
+block); keep licence and vehicle class on totalvikt. Source:
+https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagtrafikskattelag-2006227_sfs-2006-227/
 
 ### Truck tax bands (indicative — verify with Transportstyrelsen)
 
